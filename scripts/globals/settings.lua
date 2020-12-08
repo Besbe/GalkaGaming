@@ -116,7 +116,7 @@ NM_LOTTERY_CHANCE = 1.0
 NM_LOTTERY_COOLDOWN = 1.0
 
 -- DYNAMIS SETTINGS
-BETWEEN_2DYNA_WAIT_TIME  = 24       -- Hours before player can re-enter Dynamis. Default is 1 Earthday (24 hours).
+BETWEEN_2DYNA_WAIT_TIME  = 72       -- Hours before player can re-enter Dynamis. Default is 1 Earthday (24 hours).
 DYNA_MIDNIGHT_RESET      = true     -- If true, makes the wait time count by number of server midnights instead of full 24 hour intervals
 DYNA_LEVEL_MIN           = 65       -- Level min for entering in Dynamis
 TIMELESS_HOURGLASS_COST  = 500000   -- Refund for the timeless hourglass for Dynamis.
