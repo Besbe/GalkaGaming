@@ -41,7 +41,7 @@ local entryInfo =
         winVar = "DynaSandoria_Win",
         winKI = tpz.ki.HYDRA_CORPS_COMMAND_SCEPTER,
         enterPos = {161.838, -2.000, 161.673, 93, 185},
-        reqs = function(player) return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) end,
+        reqs = function(player) return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and player:hasKeyItem(tpz.ki.PRISMATIC_HOURGLASS) end,
     },
     [tpz.zone.BASTOK_MINES] =
     {
@@ -52,7 +52,7 @@ local entryInfo =
         winVar = "DynaBastok_Win",
         winKI = tpz.ki.HYDRA_CORPS_EYEGLASS,
         enterPos = {116.482, 0.994, -72.121, 128, 186},
-        reqs = function(player) return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) end,
+        reqs = function(player) return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and player:hasKeyItem(tpz.ki.PRISMATIC_HOURGLASS) end,
     },
     [tpz.zone.WINDURST_WALLS] =
     {
@@ -63,7 +63,7 @@ local entryInfo =
         winVar = "DynaWindurst_Win",
         winKI = tpz.ki.HYDRA_CORPS_LANTERN,
         enterPos = {-221.988, 1.000, -120.184, 0, 187},
-        reqs = function(player) return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) end,
+        reqs = function(player) return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and player:hasKeyItem(tpz.ki.PRISMATIC_HOURGLASS) end,
     },
     [tpz.zone.RULUDE_GARDENS] =
     {
@@ -74,7 +74,7 @@ local entryInfo =
         winVar = "DynaJeuno_Win",
         winKI = tpz.ki.HYDRA_CORPS_TACTICAL_MAP,
         enterPos = {48.930, 10.002, -71.032, 195, 188},
-        reqs = function(player) return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) end,
+        reqs = function(player) return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and player:hasKeyItem(tpz.ki.PRISMATIC_HOURGLASS) end,
     },
     [tpz.zone.BEAUCEDINE_GLACIER] =
     {
@@ -101,7 +101,7 @@ local entryInfo =
         winKI = tpz.ki.HYDRA_CORPS_BATTLE_STANDARD,
         enterPos = {569.312, -0.098, -270.158, 90, 135},
         reqs = function(player)
-            return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and
+            return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and player:hasKeyItem(tpz.ki.PRISMATIC_HOURGLASS) and
                    player:hasKeyItem(tpz.ki.HYDRA_CORPS_INSIGNIA)
         end,
     },
@@ -115,7 +115,7 @@ local entryInfo =
         winKI = tpz.ki.DYNAMIS_VALKURM_SLIVER,
         enterPos = {100, -8, 131, 47, 39},
         reqs = function(player)
-            return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and
+            return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and player:hasKeyItem(tpz.ki.PRISMATIC_HOURGLASS) and
                   (player:hasCompletedMission(COP, tpz.mission.id.cop.DARKNESS_NAMED) or FREE_COP_DYNAMIS == 1)
         end,
     },
@@ -129,7 +129,7 @@ local entryInfo =
         winKI = tpz.ki.DYNAMIS_BUBURIMU_SLIVER,
         enterPos = {155, -1, -169, 170, 40},
         reqs = function(player)
-            return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and
+            return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and player:hasKeyItem(tpz.ki.PRISMATIC_HOURGLASS) and
                   (player:hasCompletedMission(COP, tpz.mission.id.cop.DARKNESS_NAMED) or FREE_COP_DYNAMIS == 1)
         end,
     },
@@ -143,7 +143,7 @@ local entryInfo =
         winKI = tpz.ki.DYNAMIS_QUFIM_SLIVER,
         enterPos = {-19, -17, 104, 253, 41},
         reqs = function(player)
-            return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and
+            return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and player:hasKeyItem(tpz.ki.PRISMATIC_HOURGLASS) and
                   (player:hasCompletedMission(COP, tpz.mission.id.cop.DARKNESS_NAMED) or FREE_COP_DYNAMIS == 1)
         end,
     },
@@ -157,7 +157,7 @@ local entryInfo =
         winKI = tpz.ki.DYNAMIS_TAVNAZIA_SLIVER,
         enterPos = {0.1, -7, -21, 190, 42},
         reqs = function(player)
-            return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and
+            return player:hasKeyItem(tpz.ki.VIAL_OF_SHROUDED_SAND) and player:hasKeyItem(tpz.ki.PRISMATIC_HOURGLASS) and 
                    player:hasKeyItem(tpz.ki.DYNAMIS_BUBURIMU_SLIVER) and
                    player:hasKeyItem(tpz.ki.DYNAMIS_QUFIM_SLIVER) and
                    player:hasKeyItem(tpz.ki.DYNAMIS_VALKURM_SLIVER) and
@@ -346,6 +346,7 @@ dynamis.entryNpcOnEventFinish = function(player, csid, option)
     -- dynamis entry
     elseif csid == info.csDyna then
         player:setCharVar("Dynamis_Status", utils.mask.setBit(mask, info.csBit, true))
+		player:delKeyItem(tpz.ki.PRISMATIC_HOURGLASS)
 
         if option == 0 or option == 1 then
             player:setCharVar("Dynamis_subjob", option)
