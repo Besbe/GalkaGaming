@@ -3150,7 +3150,7 @@ namespace charutils
     {
         uint32 baseExp = GetRealExp(charlvl, moblvl);
 
-        if (baseExp >= 400) return EMobDifficulty::IncrediblyTough;
+        if (baseExp >= 450) return EMobDifficulty::IncrediblyTough;
         if (baseExp >= 350) return EMobDifficulty::VeryTough;
         if (baseExp >= 120) return EMobDifficulty::Tough;
         if (baseExp >= 100) return EMobDifficulty::EvenMatch;
@@ -3447,7 +3447,7 @@ namespace charutils
                             else if (PMember->GetMLevel() <= 40) PMember->expChain.chainTime = gettick() + 200000;
                             else if (PMember->GetMLevel() <= 50) PMember->expChain.chainTime = gettick() + 250000;
                             else if (PMember->GetMLevel() <= 60) PMember->expChain.chainTime = gettick() + 300000;
-                            else PMember->expChain.chainTime = gettick() + 360000;
+                            else PMember->expChain.chainTime = gettick() + 350000;
                             PMember->expChain.chainNumber = 1;
                         }
 
@@ -3524,7 +3524,7 @@ namespace charutils
                                 case 1: PMember->expChain.chainTime = gettick() + 240000; break;
                                 case 2: PMember->expChain.chainTime = gettick() + 180000; break;
                                 case 3: PMember->expChain.chainTime = gettick() + 120000; break;
-                                case 4: PMember->expChain.chainTime = gettick() + 90000; break;
+                                case 4: PMember->expChain.chainTime = gettick() + 60000; break;
                                 case 5: PMember->expChain.chainTime = gettick() + 60000; break;
                                 default: PMember->expChain.chainTime = gettick() + 60000; break;
                             }
@@ -3533,11 +3533,11 @@ namespace charutils
                         {
                             switch (PMember->expChain.chainNumber)
                             {
-                                case 0: PMember->expChain.chainTime = gettick() + 360000; break;
-                                case 1: PMember->expChain.chainTime = gettick() + 300000; break;
-                                case 2: PMember->expChain.chainTime = gettick() + 240000; break;
-                                case 3: PMember->expChain.chainTime = gettick() + 165000; break;
-                                case 4: PMember->expChain.chainTime = gettick() + 105000; break;
+                                case 0: PMember->expChain.chainTime = gettick() + 350000; break;
+                                case 1: PMember->expChain.chainTime = gettick() + 280000; break;
+                                case 2: PMember->expChain.chainTime = gettick() + 210000; break;
+                                case 3: PMember->expChain.chainTime = gettick() + 140000; break;
+                                case 4: PMember->expChain.chainTime = gettick() + 70000; break;
                                 case 5: PMember->expChain.chainTime = gettick() + 60000; break;
                                 default: PMember->expChain.chainTime = gettick() + 60000; break;
                             }
@@ -3576,7 +3576,8 @@ namespace charutils
         }
 
         uint8 mLevel = (PChar->m_LevelRestriction != 0 && PChar->m_LevelRestriction < PChar->GetMLevel()) ? PChar->m_LevelRestriction : PChar->GetMLevel();
-        uint16 exploss = mLevel <= 67 ? (GetExpNEXTLevel(mLevel) * 8) / 100 : 2400;
+        uint16 exploss = mLevel <= 24 ? (GetExpNEXTLevel(mLevel) * 10) / 100 : (GetExpNEXTLevel(mLevel) * 8) / 100;
+        //uint16 exploss = mLevel <= 67 ? (GetExpNEXTLevel(mLevel) * 8) / 100 : 2400;
 
         if (forcedXpLoss > 0)
         {
