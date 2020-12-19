@@ -603,6 +603,70 @@ local loot =
             {itemid =  4175, droprate =   99}, -- vile_elixir_+1
         },
     },
+	 -- KSNM Moa Constrictors
+    [113] =
+    {
+        {
+            {itemid = 854, droprate = 1000}, -- Cockatrice Skin
+        },
+		{
+            {itemid = 854, droprate = 1000}, -- Cockatrice Skin
+        },
+        {
+            {itemid = 1014, droprate = 150}, -- Dodo Skin
+			{itemid = 0,    droprate = 850}, -- nothing
+		},
+		{
+            {itemid = 17207, droprate = 216}, -- Expunger
+            {itemid = 18005, droprate = 295}, -- Heart Snatcher
+            {itemid = 17451, droprate = 174}, -- Morgenstern
+            {itemid = 18053, droprate = 174}, -- Gravedigger
+        },
+		{
+            {itemid = 15325, droprate = 159}, -- Evokers Boots
+            {itemid = 14872, droprate = 217}, -- Ostreger Mitts
+            {itemid = 15181, droprate = 145}, -- Pineal Hat
+            {itemid = 15387, droprate = 159}, -- Trackers Kecks
+        },
+		{
+            {itemid = 12408, droprate = 406}, -- Absorbing Shield
+			{itemid = 655, droprate = 159},   -- Adaman Ingot
+            {itemid = 747, droprate = 290},   -- Orichalcum Ingot
+
+        },
+		{
+            {itemid = 19025, droprate = 200}, -- Pole Grip
+			{itemid = 0,    droprate = 800}, -- nothing			
+		  --{itemid = 19027, droprate = 144}, -- Claymore Grip (OOE?)
+          --{itemid = 19026, droprate = 116}, -- Spear Strap (OOE)
+        },
+        {
+            {itemid = 737, droprate = 56},    -- Chunk of Gold Ore
+			{itemid = 738, droprate = 14},    -- Chunk Of Platinum Ore
+			{itemid = 645, droprate = 29},    -- Chunk Of Darksteel Ore
+            {itemid = 830, droprate = 58},    -- Square Of Rainbow Cloth
+            {itemid = 895, droprate = 14},    -- Ram Horn
+            {itemid = 902, droprate = 29},    -- Demon Horn
+            {itemid = 702, droprate = 29},    -- Ebony Log
+            {itemid = 703, droprate = 58},    -- Petrified Log			
+            {itemid = 4174, droprate = 29},   -- Vile Elixir
+			{itemid = 887, droprate = 101},   -- Coral Fragment
+            {itemid = 823, droprate = 29},    -- Spool Of Gold Thread
+            {itemid = 745, droprate = 101},   -- Gold Ingot
+            {itemid = 700, droprate = 11},    -- Mahogany Log
+            {itemid = 644, droprate = 29},    -- Chunk Of Mythril Ore
+            {itemid = 4173, droprate = 100},  -- Hi-Reraiser
+            {itemid = 866, droprate = 11},    -- Handful Of Wyvern Scales
+        },
+        {
+            {itemid = 658, droprate = 14},    -- Damascus Ingot
+		    {itemid = 836, droprate = 29},    -- Square Of Damascene Cloth
+            {itemid = 1110, droprate = 58},   -- Vial Of Black Beetle Blood
+			{itemid = 942, droprate = 174},   -- Philosophers Stone
+			{itemid = 1132, droprate = 159},  -- Square Of Raxa
+			{itemid = 844, droprate = 246},   -- Phoenix Feather
+        },
+    },
 }
 function onTrade(player, npc, trade)
 end
