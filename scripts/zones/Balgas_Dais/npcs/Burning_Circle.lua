@@ -24,7 +24,7 @@ require("scripts/globals/bcnm")
     ---- 14: Wild Wild Whiskers (BCNM 60, Moon Orb)
     ---- 15: Season's Greetings (KSNM 30, Clotho Orb)
     ---- 16: Royale Ramble (KSNM 30, Lachesis Orb)
-    ---- 17: Moa Constrictors (KSNM 30, Atropos Orb
+    ---- 17: Moa Constrictors (KSNM 30, Atropos Orb)
 
 function onTrade(player, npc, trade)
 
