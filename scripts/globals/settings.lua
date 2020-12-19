@@ -61,8 +61,8 @@ START_INVENTORY = 30 -- Starting inventory and satchel size.  Ignores values < 3
 NEW_CHARACTER_CUTSCENE = 0 -- Set to 1 to enable opening cutscenes, 0 to disable.
 SUBJOB_QUEST_LEVEL = 18 -- Minimum level to accept either subjob quest.  Set to 0 to start the game with subjobs unlocked.
 ADVANCED_JOB_LEVEL = 30 -- Minimum level to accept advanced job quests.  Set to 0 to start the game with advanced jobs.
-ALL_MAPS = 1 -- Set to 1 to give starting characters all the maps.
-UNLOCK_OUTPOST_WARPS = 1 -- Set to 1 to give starting characters all outpost warps.  2 to add Tu'Lia and Tavnazia.
+ALL_MAPS = 0 -- Set to 1 to give starting characters all the maps.
+UNLOCK_OUTPOST_WARPS = 0 -- Set to 1 to give starting characters all outpost warps.  2 to add Tu'Lia and Tavnazia.
 
 SHOP_PRICE      = 1.000 -- Multiplies prices in NPC shops.
 GIL_RATE        = 1.000 -- Multiplies gil earned from quests.  Won't always display in game.
@@ -118,7 +118,7 @@ NM_LOTTERY_COOLDOWN = 1.0
 -- DYNAMIS SETTINGS
 BETWEEN_2DYNA_WAIT_TIME  = 72       -- Hours before player can re-enter Dynamis. Default is 1 Earthday (24 hours).
 DYNA_MIDNIGHT_RESET      = true     -- If true, makes the wait time count by number of server midnights instead of full 24 hour intervals
-DYNA_LEVEL_MIN           = 65       -- Level min for entering in Dynamis
+DYNA_LEVEL_MIN           = 75       -- Level min for entering in Dynamis
 TIMELESS_HOURGLASS_COST  = 500000   -- Refund for the timeless hourglass for Dynamis.
 PRISMATIC_HOURGLASS_COST = 50000    -- Cost of the prismatic hourglass for Dynamis.
 CURRENCY_EXCHANGE_RATE   = 100      -- X Tier 1 ancient currency -> 1 Tier 2, and so on. Certain values may conflict with shop items. Not designed to exceed 198.
@@ -130,8 +130,8 @@ FREE_COP_DYNAMIS = 0 -- Authorize player to entering inside COP Dynamis without 
 AF1_QUEST_LEVEL = 40    -- Minimum level to start AF1 quest
 AF2_QUEST_LEVEL = 50    -- Minimum level to start AF2 quest
 AF3_QUEST_LEVEL = 50    -- Minimum level to start AF3 quest
-OLDSCHOOL_G1    = false -- Set to true to require farming Exoray Mold, Bombd Coal, and Ancient Papyrus drops instead of allowing key item method.
-OLDSCHOOL_G2    = false -- Set true to require the NMs for "Atop the Highest Mountains" be dead to get KI like before SE changed it.
+OLDSCHOOL_G1    = true -- Set to true to require farming Exoray Mold, Bombd Coal, and Ancient Papyrus drops instead of allowing key item method.
+OLDSCHOOL_G2    = true -- Set true to require the NMs for "Atop the Highest Mountains" be dead to get KI like before SE changed it.
 FRIGICITE_TIME  = 30    -- When OLDSCHOOL_G2 is enabled, this is the time (in seconds) you have from killing Boreal NMs to click the "???" target.
 
 -- SPELL SPECIFIC SETTINGS
@@ -145,8 +145,8 @@ AQUAVEIL_COUNTER = 1  -- Base amount of hits Aquaveil absorbs to prevent spell i
 ABSORB_SPELL_AMOUNT = 8 -- how much of a stat gets absorbed by DRK absorb spells - expected to be a multiple of 8.
 ABSORB_SPELL_TICK = 9 -- duration of 1 absorb spell tick
 SNEAK_INVIS_DURATION_MULTIPLIER = 0.5 -- multiplies duration of sneak, invis, deodorize to reduce player torture. 1 = retail behavior.
-USE_OLD_CURE_FORMULA = false -- true/false. if true, uses older cure formula (3*MND + VIT + 3*(healing skill/5)) // cure 6 will use the newer formula
-USE_OLD_MAGIC_DAMAGE = false -- true/false. if true, uses older magic damage formulas
+USE_OLD_CURE_FORMULA = true -- true/false. if true, uses older cure formula (3*MND + VIT + 3*(healing skill/5)) // cure 6 will use the newer formula
+USE_OLD_MAGIC_DAMAGE = true -- true/false. if true, uses older magic damage formulas
 
 -- CELEBRATIONS
 EXPLORER_MOOGLE_LV = 0 -- Enables Explorer Moogle teleports and sets required level. Zero to disable.
