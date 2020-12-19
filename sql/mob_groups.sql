@@ -8204,7 +8204,7 @@ INSERT INTO `mob_groups` VALUES (2,413,123,'Bigclaw',0,128,274,0,0,41,42,0);
 INSERT INTO `mob_groups` VALUES (3,461,123,'Bloodsucker',0,128,174,0,0,53,55,0);
 INSERT INTO `mob_groups` VALUES (4,3925,123,'Tipha',0,128,0,6000,0,65,65,0);
 INSERT INTO `mob_groups` VALUES (5,657,123,'Carthi',0,128,0,6000,0,65,65,0);
-INSERT INTO `mob_groups` VALUES (6,4482,123,'Yuhtunga_Mandragora',330,0,2793,0,0,29,33,0);
+INSERT INTO `mob_groups` VALUES (6,4482,123,'Yuhtunga_Mandragora',330,0,2793,0,0,31,33,0);
 INSERT INTO `mob_groups` VALUES (7,1715,123,'Goblin_Smithy',330,0,1160,0,0,32,37,0);
 INSERT INTO `mob_groups` VALUES (8,2110,123,'Ivory_Lizard',330,0,1382,0,0,32,35,0);
 INSERT INTO `mob_groups` VALUES (9,5736,123,'Koropokkur',3600,0,2999,2500,0,36,38,0);
