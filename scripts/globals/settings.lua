@@ -56,7 +56,7 @@ INITIAL_LEVEL_CAP = 50 -- The initial level cap for new players.  There seems to
 MAX_LEVEL = 75 -- Level max of the server, lowers the attainable cap by disabling Limit Break quests.
 NORMAL_MOB_MAX_LEVEL_RANGE_MIN = 0 -- Lower Bound of Max Level Range for Normal Mobs (0 = Uncapped)
 NORMAL_MOB_MAX_LEVEL_RANGE_MAX = 0 -- Upper Bound of Max Level Range for Normal Mobs (0 = Uncapped)
-START_GIL = 100000 -- Amount of gil given to newly created characters.
+START_GIL = 10 -- Amount of gil given to newly created characters.
 START_INVENTORY = 30 -- Starting inventory and satchel size.  Ignores values < 30.  Do not set above 80!
 NEW_CHARACTER_CUTSCENE = 0 -- Set to 1 to enable opening cutscenes, 0 to disable.
 SUBJOB_QUEST_LEVEL = 18 -- Minimum level to accept either subjob quest.  Set to 0 to start the game with subjobs unlocked.
