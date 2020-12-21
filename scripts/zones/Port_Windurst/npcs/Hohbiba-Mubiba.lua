@@ -19,12 +19,13 @@ function onTrigger(player, npc)
         17096,  4669, 2,    -- Holly Pole
         17049,    47, 3,    -- Maple Wand
         17050,   340, 3,    -- Willow Wand
-        17059,    91, 3,    -- Bronze Rod
+        17059,    92, 1,    -- Bronze Rod
         17024,    66, 3,    -- Ash Club
         17025,  1600, 3,    -- Chestnut Club
         17088,    58, 3,    -- Ash Staff
         17089,   584, 3,    -- Holly Staff
         17095,   386, 3,    -- Ash Pole
+		16448,   143, 3,    -- Bronze Dagger 		
     }
 
     player:showText(npc, ID.text.HOHBIBAMUBIBA_SHOP_DIALOG)

@@ -20,7 +20,7 @@ function onTrigger(player, npc)
         12736,  596,    -- Mitts
         12840,  666,    -- Sitabaki
         12968,  424,    -- Kyahan
-        12992,  544,    -- Solea
+        12992,  550,    -- Solea
     }
 
     player:showText(npc, ID.text.HERMINIA_SHOP_DIALOG)
