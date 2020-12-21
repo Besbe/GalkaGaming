@@ -21,12 +21,12 @@ function onTrigger(player, npc)
     else
         local stock =
         {
-            4442, 360, 1,    -- Pineapple Juice
+            4442, 368, 1,    -- Pineapple Juice
             4391,  21, 2,    -- Bretzel
-            4490, 432, 2,    -- Pickled Herring
-            4424, 990, 2,    -- Melon Juice
-            4499,  90, 3,    -- Iron Bread
-            4376, 108, 3,    -- Meat Jerky
+            4490, 441, 2,    -- Pickled Herring
+            4424, 1012, 2,    -- Melon Juice
+            4499,  92, 3,    -- Iron Bread
+            4376, 110, 3,    -- Meat Jerky
             4509,  10, 3,    -- Distilled Water
         }
 
