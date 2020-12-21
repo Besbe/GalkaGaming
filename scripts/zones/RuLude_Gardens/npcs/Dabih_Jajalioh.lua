@@ -13,14 +13,14 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        948,      60,    -- Carnation
+        957,     120,    -- Amaryllis
+		948,      60,    -- Carnation
         636,     119,    -- Chamomile
         958,     120,    -- Marguerite
         949,      96,    -- Rain Lily
         941,      80,    -- Red Rose
         951,     110,    -- Wijnruit
         --[[
-        957,     120,    -- Amaryllis (Occasionally)
         574,     900,    -- Fruit Seeds (Occasionally)
         1239,    490,    -- Goblin Doll (Occasionally)
         1240,    165,    -- Koma (Occasionally)

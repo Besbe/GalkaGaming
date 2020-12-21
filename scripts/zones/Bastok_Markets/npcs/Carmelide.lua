@@ -10,14 +10,14 @@ require("scripts/globals/shop")
 function onTrigger(player, npc)
     local stock =
     {
-        806, 1713, 2,    -- Tourmaline
-        807, 1713, 2,    -- Sardonyx
-        800, 1713, 2,    -- Amethyst
-        814, 1713, 2,    -- Amber
-        795, 1713, 2,    -- Lapis Lazuli
-        809, 1713, 2,    -- Clear Topaz
-        799, 1713, 2,    -- Onyx
-        796, 1713, 2,    -- Light Opal
+        806, 1937, 2,    -- Tourmaline
+        807, 1937, 2,    -- Sardonyx
+        800, 1937, 2,    -- Amethyst
+        814, 1937, 2,    -- Amber
+        795, 1937, 2,    -- Lapis Lazuli
+        809, 1937, 2,    -- Clear Topaz
+        799, 1937, 2,    -- Onyx
+        796, 1937, 2,    -- Light Opal
         13454, 69, 3,    -- Copper Ring
     }
 

@@ -27,8 +27,6 @@ function onTrigger(player, npc)
         5485,  26600,    -- Beastmaster Die
         5486,  12780,    -- Bard Die
         5487,   1300,    -- Ranger Die
-        5495,  63375,    -- Dancer Die
-        5496,  68250     -- Scholar Die
     }
 
     player:showText(npc, ID.text.CHAYAYA_SHOP_DIALOG)

@@ -13,20 +13,20 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        845,   1125, 1,    -- Black Chocobo Feather
+        845,   1150, 1,    -- Black Chocobo Feather
         17307,    9, 2,    -- Dart
-        17862,  680, 3,    -- Bug Broth
-        17866,  680, 3,    -- Carrion Broth
-        17860,   81, 3,    -- Carrot Broth
-        17864,  124, 3,    -- Herbal Broth
+        17862,  695, 3,    -- Bug Broth
+        17866,  695, 3,    -- Carrion Broth
+        17860,   82, 3,    -- Carrot Broth
+        17864,  126, 3,    -- Herbal Broth
         840,      7, 3,    -- Chocobo Feather
-        4545,    61, 3,    -- Gysahl Greens
-        17016,   10, 3,    -- Pet Food Alpha Biscuit
-        17017,   81, 3,    -- Pet Food Beta Biscuit
-        5073, 49680, 3,    -- Scroll of Chocobo Mazurka
+        4545,    62, 3,    -- Gysahl Greens
+        17016,   11, 3,    -- Pet Food Alpha Biscuit
+        17017,   82, 3,    -- Pet Food Beta Biscuit
+        5073, 50784, 3,    -- Scroll of Chocobo Mazurka
         4997,    16, 3,    -- Scroll of Knight's Minne
-        4998,   864, 3,    -- Scroll of Knight's Minne II
-        4999,  5148, 3,    -- Scroll of Knight's Minne III
+        4998,   883, 3,    -- Scroll of Knight's Minne II
+        4999,  5262, 3,    -- Scroll of Knight's Minne III
         2343,  1984, 3,    -- La Theine Millet
     }
 

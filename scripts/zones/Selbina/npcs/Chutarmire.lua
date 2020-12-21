@@ -13,22 +13,22 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        4768,  5751,    -- Scroll of Stone II
-        4778,  8100,    -- Scroll of Water II
-        4763, 11970,    -- Scroll of Aero II
-        4753, 16560,    -- Scroll of Fire II
-        4758, 21870,    -- Scroll of Blizzard II
-        4773, 27900,    -- Scroll of Thunder II
-        4797,  1165,    -- Scroll of Stonega
-        4807,  2097,    -- Scroll of Waterga
-        4792,  4147,    -- Scroll of Aeroga
-        4782,  7025,    -- Scroll of Firaga
-        4787, 10710,    -- Scroll of Blizzaga
-        4802, 15120,    -- Scroll of Thundaga
-        4829, 22680,    -- Scroll of Poison II
-        4839, 12600,    -- Scroll of Bio II
-        4833,  4644,    -- Scroll of Poisonga
-        4859,  8100,    -- Scroll of Shock Spikes
+        4768,  5814,    -- Scroll of Stone II
+        4778,  8190,    -- Scroll of Water II
+        4763, 12103,    -- Scroll of Aero II
+        4753, 16744,    -- Scroll of Fire II
+        4758, 22113,    -- Scroll of Blizzard II
+        4773, 28210,    -- Scroll of Thunder II
+        4797,  1178,    -- Scroll of Stonega
+        4807,  2120,    -- Scroll of Waterga
+        4792,  4193,    -- Scroll of Aeroga
+        4782,  7103,    -- Scroll of Firaga
+        4787, 10829,    -- Scroll of Blizzaga
+        4802, 15288,    -- Scroll of Thundaga
+        4829, 22932,    -- Scroll of Poison II
+        4839, 12740,    -- Scroll of Bio II
+        4833,  4695,    -- Scroll of Poisonga
+        4859,  8190,    -- Scroll of Shock Spikes
     }
 
     player:showText(npc, ID.text.CHUTARMIRE_SHOP_DIALOG)

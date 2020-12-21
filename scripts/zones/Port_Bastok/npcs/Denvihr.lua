@@ -12,9 +12,9 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        699, 5688, 1,    -- Oak Log
+        699, 5814, 1,    -- Oak Log
         644, 1800, 1,    -- Mythril Ore
-        835,  225, 1,    -- Flax Flower
+        835,  230, 1,    -- Flax Flower
         698,   86, 2,    -- Ash Log
         694, 2543, 2,    -- Chestnut Log
         643,  810, 2,    -- Iron Ore
