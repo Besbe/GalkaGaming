@@ -5,12 +5,21 @@
 require("scripts/globals/titles")
 require("scripts/globals/world")
 require("scripts/globals/mobs")
+require("scripts/globals/status")
 -----------------------------------
 
 function onMobInitialize(mob)
     mob:setMobMod(tpz.mobMod.ADD_EFFECT, 1)
 end
 
+function onMobFight(mob, target)
+	if VanadielHour() >= 18 or VanadielHour() <= 6 then
+	mob:setMod(tpz.mod.REGEN, 250)
+	else
+	mob:setMod(tpz.mod.REGEN, 125)
+	end
+end
+	
 function onMobDrawIn(mob, target)
     -- todo make him use AoE tp move
     mob:addTP(3000)
