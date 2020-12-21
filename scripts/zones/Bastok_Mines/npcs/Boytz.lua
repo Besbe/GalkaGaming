@@ -17,7 +17,7 @@ function onTrigger(player, npc)
         4151,  736, 2,    --Echo Drops
         4112,  837, 2,    --Potion
         17318,   3, 2,    --Wooden Arrow
-        217,   900, 3,    --Brass Flowerpot
+        217,   920, 3,    --Brass Flowerpot
         605,   180, 3,    --Pickaxe
         4150, 2387, 3,    --Eye Drops
         4148,   290, 3,    --Antidote

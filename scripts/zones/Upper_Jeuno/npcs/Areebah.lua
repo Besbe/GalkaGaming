@@ -20,7 +20,7 @@ function onTrigger(player, npc)
         956,  120,    -- Lilac
         957,  120,    -- Amaryllis
         958,  120,    -- Marguerite
-        2370, 520,    -- Flower Seeds
+        
     }
 
     player:showText(npc, ID.text.MP_SHOP_DIALOG)

@@ -14,14 +14,12 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        628,   234, 1,    -- Cinnamon
-        629,    43, 1,    -- Millioncorn
-        622,    43, 2,    -- Dried Marjoram
-        610,    54, 2,    -- San d'Orian Flour
+        628,   239, 1,    -- Cinnamon
+        629,    44, 1,    -- Millioncorn
+        622,    44, 2,    -- Dried Marjoram
+        610,    55, 2,    -- San d'Orian Flour
         627,    36, 2,    -- Maple Sugar
         1840, 1800, 2,    -- Semolina
-        5726,  442, 2,    -- Zucchini
-        5740,  511, 2,    -- Paprika
         621,    25, 3,    -- Crying Mustard
         611,    36, 3,    -- Rye Flour
         936,    14, 3,    -- Rock Salt

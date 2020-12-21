@@ -15,7 +15,7 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        4441, 837, 1,    --Grape Juice
+        4441, 855, 1,    --Grape Juice
         4356, 180, 2,    --White Bread
         4380, 198, 2,    --Smoked Salmon
         4423, 270, 2,    --Apple Juice

@@ -14,7 +14,7 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        625,  79, 1,    -- Apple Vinegar
+        625,  91, 1,    -- Apple Vinegar
         623, 117, 1,    -- Bay Leaves
         4382, 28, 1,    -- Frost Turnip
         4392, 28, 1,    -- Saruta Orange
