@@ -12,22 +12,22 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        13198, 19602, 1,    --Swordbelt
-        17389,   486, 1,    --Bamboo Fishing Rod
-        17396,     3, 2,    --Little Worm
-        17390,   212, 2,    --Yew Fishing Rod
-        13196, 10054, 3,    --Silver Belt
-        17395,    10, 3,    --Lugworm
-        17391,    64, 3,    --Willow Fishing Rod
-        12600,   216, 3,    --Robe
-        12728,   118, 3,    --Cuffs
-        12856,   172, 3,    --Slops
-        12984,   111, 3,    --Ash Clogs
-        12464,  1742, 3,    --Headgear
-        12592,  2470, 3,    --Doublet
-        12720,  1363, 3,    --Gloves
-        12848,  1899, 3,    --Brais
-        12976,  1269, 3,    --Gaiters
+        13198, 21997, 1,    --Swordbelt
+        17389,   545, 1,    --Bamboo Fishing Rod
+        17396,     4, 2,    --Little Worm
+        17390,   238, 2,    --Yew Fishing Rod
+        13196, 10278, 3,    --Silver Belt
+        17395,    11, 3,    --Lugworm
+        17391,    66, 3,    --Willow Fishing Rod
+        12600,   220, 3,    --Robe
+        12728,   121, 3,    --Cuffs
+        12856,   176, 3,    --Slops
+        12984,   114, 3,    --Ash Clogs
+        12464,  1781, 3,    --Headgear
+        12592,  2525, 3,    --Doublet
+        12720,  1393, 3,    --Gloves
+        12848,  1941, 3,    --Brais
+        12976,  1297, 3,    --Gaiters
     }
 
     player:showText(npc, ID.text.GELZERIO_SHOP_DIALOG)
