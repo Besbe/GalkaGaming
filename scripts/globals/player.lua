@@ -123,6 +123,7 @@ local function CharCreate(player)
     end
 
     player:addItem(536) -- adventurer coupon
+	player:addLSpearl("Eureka") -- server LS
     player:addTitle(tpz.title.NEW_ADVENTURER)
     player:setCharVar("MoghouseExplication", 1) -- needs Moghouse intro
     player:setCharVar("spokeKindlix", 1) -- Kindlix introduction
