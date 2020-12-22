@@ -27,11 +27,10 @@ function onTrigger(player, npc)
 		4754,  33306,  -- Fire III
 		4759,  39368,  -- Blizzard III
 		4774,  45930,  -- Thunder III
-		
 	}
 	
     player:showText(npc, ID.text.TAZA_SHOP_DIALOG)
-	
+	tpz.shop.general(player, stock)
 end
 
 function onEventUpdate(player, csid, option)
