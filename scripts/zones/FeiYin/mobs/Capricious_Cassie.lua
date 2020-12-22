@@ -15,6 +15,10 @@ function onMobDeath(mob, player, isKiller)
     player:addTitle(tpz.title.CASSIENOVA)
 end
 
+function onMobSpawn(mob)
+	mob:setLocalVar("[rage]timer", 1200) -- 20 minutes
+end
+
 function onMobDespawn(mob)
     UpdateNMSpawnPoint(mob:getID())
     mob:setRespawnTime(math.random(75600, 86400)) -- 21-24 hours
