@@ -18,12 +18,13 @@ function onTrigger(player, npc)
         4151,  720,    -- Echo Drops
         4112,  819,    -- Potion
         4509,   10,    -- Distilled Water
-        917,  1821,    -- Parchment
         17395,   9,    -- Lugworm
         1021,  450,    -- Hatchet
         4376,  108,    -- Meat Jerky
         5299,  133,    -- Salsa
-        2867, 9000,    -- Mhaura Waystone
+        4881,  10080,  -- Sleepga
+		4716,  3888,   -- Regen
+		4718,  7047,   -- Regen II
     }
 
     player:showText(npc, ID.text.PIKINIMIKINI_SHOP_DIALOG)

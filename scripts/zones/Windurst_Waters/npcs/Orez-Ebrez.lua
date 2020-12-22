@@ -19,20 +19,20 @@ function onTrigger(player, npc)
         12458,  8972, 1,     --Soil Hachimaki
         12455,  7026, 1,     --Beetle Mask
 
-        12472,   144, 2,     --Circlet
+        12472,   147, 2,     --Circlet
         12465,  8024, 2,     --Cotton Headgear
-        12440,   396, 2,     --Leather Bandana
-        12473,  1863, 2,     --Poet's Circlet
-        12499, 14400, 2,     --Flax Headband
+        12440,   404, 2,     --Leather Bandana
+        12473,  1904, 2,     --Poet's Circlet
+        12499, 14720, 2,     --Flax Headband
         12457,  3272, 2,     --Cotton Hachimaki
-        12454,  3520, 2,     --Bone Mask
-        12474, 10924, 2,     --Wool Hat
+        12454,  3599, 2,     --Bone Mask
+        12474, 11166, 2,     --Wool Hat
 
-        12464,  1742, 3,     --Headgear
+        12464,  1781, 3,     --Headgear
         12456,   552, 3,     --Hachimaki
-        12498,  1800, 3,     --Cotton Headband
-        12448,   151, 3,     --Bronze Cap
-        12449,  1471, 3      --Brass Cap
+        12498,  1840, 3,     --Cotton Headband
+        12448,   174, 3,     --Bronze Cap
+        12449,  1504, 3      --Brass Cap
     }
     tpz.shop.nation(player, stock, tpz.nation.WINDURST)
 

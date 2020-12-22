@@ -13,13 +13,13 @@ end
 
 function onTrigger(player, npc)
     local stock = {
-        5032,  3112,       --Sinewy Etude
-        5033,  2784,       --Dextrous Etude
-        5034,  2184,       --Vivacious Etude
-        5035,  1892,       --Quick Etude
-        5036,  1550,       --Learned Etude
-        5037,  1252,       --Spirited Etude
-        5038,   990        --Enchanting Etude
+        5032,  3556,       --Sinewy Etude
+        5033,  3182,       --Dextrous Etude
+        5034,  2496,       --Vivacious Etude
+        5035,  2163,       --Quick Etude
+        5036,  1772,       --Learned Etude
+        5037,  1431,       --Spirited Etude
+        5038,  1131,        --Enchanting Etude
     }
     player:showText(npc, ID.text.MANYNY_SHOP_DIALOG)
     tpz.shop.general(player, stock)

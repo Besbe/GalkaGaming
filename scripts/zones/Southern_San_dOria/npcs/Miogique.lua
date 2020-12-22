@@ -13,7 +13,7 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        12552, 14256, 1,    -- Chainmail
+        12552, 14572, 1,    -- Chainmail
         12680,  7783, 1,    -- Chain Mittens
         12672, 23846, 1,    -- Gauntlets
         12424,  9439, 1,    -- Iron Mask

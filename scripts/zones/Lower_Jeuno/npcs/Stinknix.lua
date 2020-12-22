@@ -18,7 +18,6 @@ function onTrigger(player, npc)
         17320,    7,    -- Iron Arrow
         17336,    5,    -- Crossbow Bolt
         17313, 1107,    -- Grenade
-        2865, 10000,    -- Dutchy Waystone
     }
 
     player:showText(npc, ID.text.STINKNIX_SHOP_DIALOG)

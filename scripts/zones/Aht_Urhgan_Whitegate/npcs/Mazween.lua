@@ -26,8 +26,6 @@ function onTrigger(player, npc)
         4883, 27000,    -- Absorb-TP
         4854, 30780,    -- Drain II
         4885, 70560,    -- Dread Spikes
-        4886, 44000,    -- Absorb-ACC
-        4856, 79800     -- Aspir II
     }
 
     player:showText(npc, ID.text.MAZWEEN_SHOP_DIALOG)

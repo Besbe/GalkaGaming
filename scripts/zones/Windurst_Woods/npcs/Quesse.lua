@@ -14,7 +14,7 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        845,   1150,  1, -- Black Chocobo Feather
+        845,   1125,  1, -- Black Chocobo Feather
         17307, 9,     2, -- Dart
         4545,  62,    3, -- Gysahl Greens
         840,   7,     3, -- Chocobo Feather
