@@ -154,7 +154,7 @@ int32 lobbydata_parse(int32 fd)
                 memcpy(ReservePacket + 60, login_config.servername.c_str(), std::clamp<size_t>(login_config.servername.length(), 0, 15));
 
                 // Prepare the character list data..
-                for (int j = 0; j < 16; ++j)
+                for (int j = 0; j < 3; ++j)
                 {
                     memcpy(CharList + 32 + 140 * j, ReservePacket + 32, 140);
                     memset(CharList + 32 + 140 * j, 0x00, 4);
