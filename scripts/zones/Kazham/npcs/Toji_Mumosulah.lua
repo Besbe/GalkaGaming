@@ -23,9 +23,8 @@ function onTrigger(player, npc)
         17880,  695,    -- Seedbed Soil
         1021,   450,    -- Hatchet
         4987,   328,    -- Scroll of Army's Paeon II
-        5079, 64528,    -- Scroll of Foe Lullaby II
         4988,  3312,    -- Scroll of Army's Paeon III
-        4964,  8726,    -- Scroll of Monomi: Ichi
+        
     }
 
     player:showText(npc, ID.text.TOJIMUMOSULAH_SHOP_DIALOG)

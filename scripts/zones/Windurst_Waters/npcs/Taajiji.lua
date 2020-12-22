@@ -15,7 +15,7 @@ function onTrigger(player, npc)
     player:showText(npc, ID.text.TAAJIJI_SHOP_DIALOG)
 
     stock = {
-        4411,   756, 1,     --Dhalmel Pie
+        4411,   764, 1,     --Dhalmel Pie
         4434,  5050, 1,     --Mushroom Risotto
         4554, 12762, 1,     --Shallops Tropicale
         4393,   984, 1,     --Orange Kuchen

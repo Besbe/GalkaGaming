@@ -13,15 +13,15 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        16411, 11491,    -- Claws
-        16451,  7727,    -- Mythril Dagger
-        16513, 11588,    -- Tuck
-        16584, 37800,    -- Mythril Claymore
-        16643, 11040,    -- Battleaxe
-        16705,  4095,    -- Greataxe
-        17050,   333,    -- Willow Wand
-        17051,  1409,    -- Yew Wand
-        17089,   571,    -- Holly Staff
+        16411, 11618,    -- Claws
+        16451,  7813,    -- Mythril Dagger
+        16513, 11717,    -- Tuck
+        16584, 38220,    -- Mythril Claymore
+        16643, 11162,    -- Battleaxe
+        16705,  4140,    -- Greataxe
+        17050,   336,    -- Willow Wand
+        17051,  1425,    -- Yew Wand
+        17089,   577,    -- Holly Staff
         17307,     9,    -- Dart
         17336,     5,    -- Crossbow Bolt
         17318,     3,    -- Wooden Arrow

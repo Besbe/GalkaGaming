@@ -20,7 +20,7 @@ function onTrigger(player, npc)
     stock = {
         17313,  1107, 1,     --Grenade
         4112,   837, 1,     --Potion
-        951,   108, 1,     --Wijnruit
+        951,   110, 1,     --Wijnruit
 
         636,   119, 2,     --Chamomile
         4151,   736, 2,     --Echo Drops

@@ -23,10 +23,9 @@ function onTrigger(player, npc)
         12952,   309, 2,    --Leather Highboots
         12300, 11076, 2,    --Targe
         12832,   191, 3,    --Bronze Subligar
-        12808, 11592, 3,    --Chain Gose
+        12808, 11592, 3,    --Chain Hose
         12960,   117, 3,    --Bronze Leggins
         12936,  7120, 3,    --Greaves
-        12290,   556, 3,    --Maple Shield
         12289,   110, 3,    --Lauan Shield
     }
 

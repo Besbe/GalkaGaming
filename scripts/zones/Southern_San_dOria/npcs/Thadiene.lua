@@ -13,18 +13,18 @@ end
 function onTrigger(player, npc)
     local stock =
     {
-        17280,  1575, 1,    -- Boomerang
-        17162, 19630, 1,    -- Great Bow
+        17280,  1610, 1,    -- Boomerang
+        17162, 22684, 1,    -- Great Bow
         17321,    16, 1,    -- Silver Arrow
-        17154,  7128, 1,    -- Wrapped Bow
+        17154,  7999, 1,    -- Wrapped Bow
         17336,     5, 2,    -- Crossbow Bolt
-        17322,   126, 2,    -- Fire Arrow
+        17322,   128, 2,    -- Fire Arrow
         17320,     7, 2,    -- Iron Arrow
-        17153,   482, 2,    -- Self Bow
-        17160,   442, 3,    -- Longbow
-        17152,    38, 3,    -- Shortbow
+        17153,   493, 2,    -- Self Bow
+        17160,   452, 3,    -- Longbow
+        17152,    40, 3,    -- Shortbow
         17318,     3, 3,    -- Wooden Arrow
-        5029,   4320, 3,    -- Scroll of Battlefield Elegy
+        5029,   4416, 3,    -- Scroll of Battlefield Elegy
     }
 
     player:showText(npc, ID.text.ASH_THADI_ENE_SHOP_DIALOG)

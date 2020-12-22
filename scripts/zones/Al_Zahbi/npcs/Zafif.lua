@@ -27,7 +27,6 @@ function onTrigger(player, npc)
         4868, 77600,    -- Scroll of Dispell
         4720, 27000,    -- Scroll of Flash
         4750, 99375,    -- Scroll of Reraise III
-        4715, 28500     -- Scroll of Reprisal
     }
 
     player:showText(npc, ID.text.ZAFIF_SHOP_DIALOG)
