@@ -119,10 +119,13 @@
 #include "../packets/guild_menu_buy.h"
 #include "../packets/independant_animation.h"
 #include "../packets/instance_entry.h"
+#include "../packets/inventory_assign.h"
 #include "../packets/inventory_finish.h"
+#include "../packets/inventory_item.h"
 #include "../packets/inventory_modify.h"
 #include "../packets/inventory_size.h"
 #include "../packets/key_items.h"
+#include "../packets/linkshell_equip.h"
 #include "../packets/menu_mog.h"
 #include "../packets/menu_merit.h"
 #include "../packets/menu_raisetractor.h"
@@ -3992,6 +3995,49 @@ inline int32 CLuaBaseEntity::getCurrentGPItem(lua_State* L)
     lua_pushinteger(L, GPItem.second);
 
     return 2;
+}
+
+/************************************************************************
+ *  Function: addLSpearl()
+ *  Purpose : Creates a Linkshell pearl and adds to player
+ *  Example : player:addLSPearl(LSname)
+ *  Notes   : Used by GMs to add a linkshell to a player
+ ************************************************************************/
+
+inline int32 CLuaBaseEntity::addLSpearl(lua_State* L)
+{
+    TPZ_DEBUG_BREAK_IF(m_PBaseEntity == nullptr);
+    TPZ_DEBUG_BREAK_IF(m_PBaseEntity->objtype != TYPE_PC);
+    CCharEntity* PChar = (CCharEntity*)m_PBaseEntity;
+    CItemLinkshell* PItemLinkPearl = (CItemLinkshell*)itemutils::GetItem(515);
+    if (PItemLinkPearl != NULL)
+    {
+        const char* Query = "SELECT linkshellid,color FROM linkshells WHERE name='Eureka' AND broken = 0";
+        int32 ret = Sql_Query(SqlHandle, Query);
+        if (ret != SQL_ERROR && Sql_NumRows(SqlHandle) != 0 && Sql_NextRow(SqlHandle) == SQL_SUCCESS)
+        {
+            // build linkpearl //
+            int8 EncodedString[16];
+            EncodeStringLinkshell((int8*)"Eureka", EncodedString);
+            ((CItem*)PItemLinkPearl)->setSignature(EncodedString);
+            PItemLinkPearl->SetLSID(Sql_GetUIntData(SqlHandle, 0));
+            PItemLinkPearl->SetLSColor(Sql_GetIntData(SqlHandle, 1));
+            PItemLinkPearl->SetLSType(LSTYPE_LINKPEARL);
+            charutils::AddItem(PChar, LOC_INVENTORY, PItemLinkPearl);
+            // equip linkpearl
+            linkshell::AddOnlineMember(PChar, PItemLinkPearl, 1);
+            PItemLinkPearl->setSubType(ITEM_LOCKED);
+            PChar->equip[SLOT_LINK1] = PItemLinkPearl->getSlotID();
+            PChar->equipLoc[SLOT_LINK1] = LOC_INVENTORY;
+            PChar->pushPacket(new CInventoryAssignPacket(PItemLinkPearl, INV_LINKSHELL));
+            charutils::SaveCharEquip(PChar);
+            PChar->pushPacket(new CLinkshellEquipPacket(PChar, PItemLinkPearl->GetLSID()));
+            PChar->pushPacket(new CInventoryItemPacket(PItemLinkPearl, LOC_INVENTORY, PItemLinkPearl->getSlotID()));
+            PChar->pushPacket(new CInventoryFinishPacket());
+            charutils::LoadInventory(PChar);
+        }
+    }
+    return 0;
 }
 
 /************************************************************************
@@ -15193,6 +15239,7 @@ Lunar<CLuaBaseEntity>::Register_t CLuaBaseEntity::methods[] =
     LUNAR_DECLARE_METHOD(CLuaBaseEntity,createShop),
     LUNAR_DECLARE_METHOD(CLuaBaseEntity,addShopItem),
     LUNAR_DECLARE_METHOD(CLuaBaseEntity,getCurrentGPItem),
+    LUNAR_DECLARE_METHOD(CLuaBaseEntity,addLSpearl),
     LUNAR_DECLARE_METHOD(CLuaBaseEntity,breakLinkshell),
 
     // Trading
