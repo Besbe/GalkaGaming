@@ -18,7 +18,7 @@ function onTrigger(player, npc)
         {
             4372,   44,    -- Giant Sheep Meat
             622,    44,    -- Dried Marjoram
-            610,    55,    -- San d'Orian Flour
+            610,    54,    -- San d'Orian Flour
             611,    36,    -- Rye Flour
             1840, 1840,    -- Semolina
             4366,   22,    -- La Theine Cabbage

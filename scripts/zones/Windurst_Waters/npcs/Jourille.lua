@@ -21,10 +21,10 @@ function onTrigger(player, npc)
 
         local stock =
         {
-            639,   110,  -- Chestnut
-            4389,   29,  -- San d'Orian Carrot
-            610,    55,  -- San d'Orian Flour
-            4431,   69,  -- San d'Orian Grape
+            639, 110,    -- Chestnut
+            4389, 29,    -- San d'Orian Carrot
+            610,  55,    -- San d'Orian Flour
+            4431, 69,     -- San d'Orian Grape
         }
         tpz.shop.general(player, stock, WINDURST)
     end

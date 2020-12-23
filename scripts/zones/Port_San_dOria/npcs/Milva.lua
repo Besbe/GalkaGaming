@@ -16,11 +16,11 @@ function onTrigger(player, npc)
     else
         local stock =
         {
-            4444, 22,    -- Rarab Tail
-            689,  33,    -- Lauan Log
-            619,  43,    -- Popoto
-            4392, 29,    -- Saruta Orange
-            635,  18,    -- Windurstian Tea Leaves
+            689,  33,    --Lauan Log
+            619,  43,    --Popoto
+            4444, 22,    --Rarab Tail
+            4392, 29,    --Saruta Orange
+            635,  18,     --Windurstian Tea Leaves
         }
 
         player:showText(npc, ID.text.MILVA_OPEN_DIALOG)

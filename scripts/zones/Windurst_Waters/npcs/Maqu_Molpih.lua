@@ -23,11 +23,11 @@ function onTrigger(player, npc)
 
         local stock =
         {
-            631,    36,  -- Horo Flour
-            629,    44,  -- Millioncorn
-            4415,  114,  -- Roasted Corn
-            4505,   92,  -- Sunflower Seeds
-            841,    36   -- Yagudo Feather
+            631,    36,    -- Horo Flour
+            629,    43,    -- Millioncorn
+            4415,  114,    -- Roasted Corn
+            4505,   92,    -- Sunflower Seeds
+            841,    36,     -- Yagudo Feather
         }
         tpz.shop.general(player, stock, WINDURST)
 

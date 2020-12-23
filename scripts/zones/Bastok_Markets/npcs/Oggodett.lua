@@ -18,8 +18,8 @@ function onTrigger(player, npc)
         {
             631,    36,    -- Horo Flour
             629,    43,    -- Millioncorn
-            4415,  111,    -- Roasted Corn
-            4505,   90,    -- Sunflower Seeds
+            4415,  114,    -- Roasted Corn
+            4505,   92,    -- Sunflower Seeds
             841,    36,     -- Yagudo Feather
         }
 
