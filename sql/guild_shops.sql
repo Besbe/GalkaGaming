@@ -537,27 +537,76 @@ INSERT INTO `guild_shops` VALUES (525,17400,691,691,20,6,12);
 INSERT INTO `guild_shops` VALUES (525,17407,270,270,20,6,12);
 
 -- Maymunah (Bastok Mines) Alchemist Guild (S)
-INSERT INTO `guild_shops` VALUES (5262,621,21,40,255,0,100);         -- crying_mustard
-INSERT INTO `guild_shops` VALUES (5262,622,36,155,255,48,100);       -- dried_marjoram
+INSERT INTO `guild_shops` VALUES (5262,16430,13392,93744,20,0,10);		-- acid_claws
+INSERT INTO `guild_shops` VALUES (5262,17605,7725,54075,20,0,10);		-- acid_dagger
+INSERT INTO `guild_shops` VALUES (5262,16501,84716,84716,20,0,10);		-- acid_knife
+INSERT INTO `guild_shops` VALUES (5262,937,135,945,165,0,65);      		-- animal_glue
+INSERT INTO `guild_shops` VALUES (5262,4148,486,1124,165,0,65);      	-- anitdote
+INSERT INTO `guild_shops` VALUES (5262,1109,930,4563,255,0,100);     	-- artificial_lens
+INSERT INTO `guild_shops` VALUES (5262,922,300,300,255,0,100);       	-- bat_wing
+INSERT INTO `guild_shops` VALUES (5262,18228,114,114,2970,594,1188);	-- battery
+INSERT INTO `guild_shops` VALUES (5262,16572,5781,5781,20,0,10);		-- bee_spartha
+INSERT INTO `guild_shops` VALUES (5262,912,192,360,255,0,100);       	-- beehive_chip
+INSERT INTO `guild_shops` VALUES (5262,913,135,945,165,0,65);      		-- lump_of_beeswax
+INSERT INTO `guild_shops` VALUES (5262,929,1875,6900,80,0,32);       	-- black_ink
+INSERT INTO `guild_shops` VALUES (5262,16454,1904,1904,20,0,15);		-- blind_dagger
+INSERT INTO `guild_shops` VALUES (5262,16471,519,3024,20,0,10);			-- blind_knife
+INSERT INTO `guild_shops` VALUES (5262,928,1004,2513,165,0,65);     	-- bomb_ash
+INSERT INTO `guild_shops` VALUES (5262,17343,12,84,8910,0,3564);		-- bronze_bullet
+INSERT INTO `guild_shops` VALUES (5262,17340,392,392,8910,0,3564);		-- bullet
+INSERT INTO `guild_shops` VALUES (5262,932,1020,1080,165,0,65);      	-- carbon_fiber
+INSERT INTO `guild_shops` VALUES (5262,931,19520,19520,15,3,6);      	-- cermet_chunk
 INSERT INTO `guild_shops` VALUES (5262,636,97,369,255,48,100);       -- chamomile
-INSERT INTO `guild_shops` VALUES (5262,637,1640,4880,165,0,65);      -- slime_oil
-INSERT INTO `guild_shops` VALUES (5262,638,138,851,255,48,100);      -- sage
-INSERT INTO `guild_shops` VALUES (5262,912,192,360,255,0,100);       -- beehive_chip
-INSERT INTO `guild_shops` VALUES (5262,914,1125,6300,165,33,65);     -- mercury
+INSERT INTO `guild_shops` VALUES (5262,4443,114,153,255,48,100);	 -- cobalt_jellyfish
+INSERT INTO `guild_shops` VALUES (5262,621,21,40,255,0,100);         	-- crying_mustard
+INSERT INTO `guild_shops` VALUES (5262,4166,750,4200,165,33,65);     	-- flask_of_deodorizer
+INSERT INTO `guild_shops` VALUES (5262,4509,9,58,375,0,150);			-- flask_of_distilled_water
+INSERT INTO `guild_shops` VALUES (5262,622,36,51,255,48,100);       -- dried_marjoram
+INSERT INTO `guild_shops` VALUES (5262,17322,63,441,8910,0,3564);		-- fire_arrow
+INSERT INTO `guild_shops` VALUES (5262,16543,5940,41580,20,0,3);		-- fire_sword
+INSERT INTO `guild_shops` VALUES (5262,947,3449,19532,55,0,22);      	-- firesand
+INSERT INTO `guild_shops` VALUES (5262,16564,34875,244125,20,0,3);		-- flame_blade
+INSERT INTO `guild_shops` VALUES (5262,16588,4374,30618,20,0,3);		-- flame_claymore
+INSERT INTO `guild_shops` VALUES (5262,16522,25200,176400,20,0,3);		-- flame_degen
+INSERT INTO `guild_shops` VALUES (5262,925,1012,4017,55,0,22);      	-- giant_stinger
+INSERT INTO `guild_shops` VALUES (5262,933,600,3040,165,33,65);      	-- glass_fiber
+INSERT INTO `guild_shops` VALUES (5262,17313,774,5418,8910,0,3564);		-- grenade
+INSERT INTO `guild_shops` VALUES (5262,16523,25200,176400,20,0,3);		-- holy_degen
+INSERT INTO `guild_shops` VALUES (5262,17041,60178,60178,20,0,3);		-- holy_mace
+INSERT INTO `guild_shops` VALUES (5262,16581,33368,167872,20,0,3);		-- holy_sword
+INSERT INTO `guild_shops` VALUES (5262,4154,5250,5250,55,0,22);     	-- holy_water
+INSERT INTO `guild_shops` VALUES (5262,18232,114,114,2970,594,1188);	-- hydro_pump
+INSERT INTO `guild_shops` VALUES (5262,17323,242,242,8910,0,3564);		-- ice_arrow
+INSERT INTO `guild_shops` VALUES (5262,16709,1569,10983,20,0,3);		-- inferno_axe
+INSERT INTO `guild_shops` VALUES (5262,16594,15696,109872,20,0,3);		-- inferno_sword
+INSERT INTO `guild_shops` VALUES (5262,17324,63,441,8910,0,3564);		-- lightning_arrow
 INSERT INTO `guild_shops` VALUES (5262,920,1084,5899,165,0,65);      -- malboro_vine
-INSERT INTO `guild_shops` VALUES (5262,922,300,300,255,0,100);       -- bat_wing
-INSERT INTO `guild_shops` VALUES (5262,925,1312,3952,55,0,22);       -- giant_stinger
-INSERT INTO `guild_shops` VALUES (5262,928,1014,2307,165,0,65);      -- bomb_ash
-INSERT INTO `guild_shops` VALUES (5262,929,1875,6900,80,0,32);       -- black_ink
-INSERT INTO `guild_shops` VALUES (5262,931,19520,19520,15,3,6);      -- cermet_chunk
-INSERT INTO `guild_shops` VALUES (5262,932,1020,1080,165,0,65);      -- carbon_fiber
-INSERT INTO `guild_shops` VALUES (5262,933,664,3168,165,33,65);      -- glass_fiber
-INSERT INTO `guild_shops` VALUES (5262,943,534,1177,255,0,100);      -- poison_dust
-INSERT INTO `guild_shops` VALUES (5262,947,3360,21862,55,0,22);      -- firesand
-INSERT INTO `guild_shops` VALUES (5262,951,90,350,255,48,100);       -- wijnruit
-INSERT INTO `guild_shops` VALUES (5262,1108,573,3213,255,48,100);    -- sulfur
-INSERT INTO `guild_shops` VALUES (5262,1109,930,4563,255,0,100);     -- artificial_lens
+INSERT INTO `guild_shops` VALUES (5262,914,1125,4320,165,33,65);     -- mercury
+INSERT INTO `guild_shops` VALUES (5262,16410,9504,66528,20,0,5);		-- psn._baghnakhs
+INSERT INTO `guild_shops` VALUES (5262,16458,4980,34860,20,0,5);		-- poison_baselard
+INSERT INTO `guild_shops` VALUES (5262,16387,13471,33886,20,0,10);		-- poison_cesti
+INSERT INTO `guild_shops` VALUES (5262,16417,10800,75600,20,0,10);		-- poison_claws
+INSERT INTO `guild_shops` VALUES (5262,16496,4464,31248,20,0,10);		-- poison_dagger
+INSERT INTO `guild_shops` VALUES (5262,943,246,1305,255,0,100);      	-- poison_dust
+INSERT INTO `guild_shops` VALUES (5262,16403,108218,108218,20,0,3);		-- poison_katars
+INSERT INTO `guild_shops` VALUES (5262,16472,13020,13020,20,0,3);		-- poison_knife
+INSERT INTO `guild_shops` VALUES (5262,16478,19148,19148,20,0,5);		-- poison_kukri
+INSERT INTO `guild_shops` VALUES (5262,4157,800,2240,80,0,32);     		-- flask_of_poison_potion
+INSERT INTO `guild_shops` VALUES (5262,4164,1050,3304,165,0,65);     	-- prism_powder
+INSERT INTO `guild_shops` VALUES (5262,17315,2970,20790,8910,0,3564);	-- riot_grenade
+INSERT INTO `guild_shops` VALUES (5262,638,138,777,255,48,100);    	 -- sage
+INSERT INTO `guild_shops` VALUES (5262,16429,3711,25977,20,0,5);		-- slc._baghnakhs
+INSERT INTO `guild_shops` VALUES (5262,16495,9906,9906,20,0,10);		-- silence_dagger
+INSERT INTO `guild_shops` VALUES (5262,4162,675,4725,80,0,32);     		-- silencing_potion
+INSERT INTO `guild_shops` VALUES (5262,4165,1870,1870,165,0,65);      	-- silent_oil
+INSERT INTO `guild_shops` VALUES (5262,17341,392,392,2970,0,1188);		-- silver_bullet
+INSERT INTO `guild_shops` VALUES (5262,637,1870,1870,165,0,65);      	-- slime_oil
+INSERT INTO `guild_shops` VALUES (5262,1108,573,765,255,48,100);   	 -- sulfur
 INSERT INTO `guild_shops` VALUES (5262,2131,75,242,255,48,100);      -- triturator
+INSERT INTO `guild_shops` VALUES (5262,4171,360,2284,255,0,100);		-- flask_of_vitriol
+INSERT INTO `guild_shops` VALUES (5262,16600,300,2100,20,0,3);			-- wax_sword
+INSERT INTO `guild_shops` VALUES (5262,951,90,95,255,48,100);       -- wijnruit
+INSERT INTO `guild_shops` VALUES (5262,18236,21,21,2970,594,1188);	-- wind_fan
 -- TODO: All items purchasable from Curio Moogle commented out pending research on price changes
 -- INSERT INTO `guild_shops` VALUES (5262,4112,682,728,80,16,32);       -- potion
 -- INSERT INTO `guild_shops` VALUES (5262,4116,3375,7560,55,0,22);      -- hi-potion
@@ -565,26 +614,7 @@ INSERT INTO `guild_shops` VALUES (5262,2131,75,242,255,48,100);      -- triturat
 -- INSERT INTO `guild_shops` VALUES (5262,4148,1200,1377,80,0,32);      -- antidote
 -- INSERT INTO `guild_shops` VALUES (5262,4150,1945,9549,80,0,32);      -- eye_drops
 -- INSERT INTO `guild_shops` VALUES (5262,4151,880,2944,80,0,32);       -- echo_drops
--- INSERT INTO `guild_shops` VALUES (5262,4154,5250,13300,55,0,22);     -- holy_water
-INSERT INTO `guild_shops` VALUES (5262,4162,5250,13300,80,0,32);     -- silencing_potion
--- INSERT INTO `guild_shops` VALUES (5262,4164,1050,6832,165,0,65);     -- prism_powder
--- INSERT INTO `guild_shops` VALUES (5262,4165,900,5712,165,0,65);
--- INSERT INTO `guild_shops` VALUES (5262,4166,750,2080,165,0,65);
-INSERT INTO `guild_shops` VALUES (5262,4171,750,2080,255,0,100);
-INSERT INTO `guild_shops` VALUES (5262,4443,750,2080,255,48,100);
-INSERT INTO `guild_shops` VALUES (5262,4509,9,58,375,0,150);
-INSERT INTO `guild_shops` VALUES (5262,16387,10902,33886,20,0,10);
-INSERT INTO `guild_shops` VALUES (5262,16403,102009,102009,20,0,3);
-INSERT INTO `guild_shops` VALUES (5262,16454,1904,1904,20,0,15);
-INSERT INTO `guild_shops` VALUES (5262,16471,519,3024,20,0,10);
-INSERT INTO `guild_shops` VALUES (5262,16478,19148,19148,20,0,5);
-INSERT INTO `guild_shops` VALUES (5262,16495,9906,9906,20,0,10);
-INSERT INTO `guild_shops` VALUES (5262,16581,33368,167872,20,0,3);
-INSERT INTO `guild_shops` VALUES (5262,17340,392,392,8910,0,3564);
-INSERT INTO `guild_shops` VALUES (5262,17341,392,392,2970,0,1188);
-INSERT INTO `guild_shops` VALUES (5262,18228,114,114,2970,594,1188);
-INSERT INTO `guild_shops` VALUES (5262,18232,114,114,2970,594,1188);
-INSERT INTO `guild_shops` VALUES (5262,18236,21,21,2970,594,1188);
+
 
 -- Visala (Goldsmith Guild) Bastok Markets (S)
 INSERT INTO `guild_shops` VALUES (5272,640,9,36,255,48,100);         -- copper_ore
