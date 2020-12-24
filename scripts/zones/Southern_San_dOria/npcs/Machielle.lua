@@ -21,7 +21,7 @@ function onTrigger(player, npc)
             688, 18,    -- Arrowwood Log
             621, 25,    -- Crying Mustard
             618, 25,    -- Blue Peas
-            698, 88,    -- Ash Log
+            698, 87,    -- Ash Log
         }
 
         player:showText(npc, ID.text.MACHIELLE_OPEN_DIALOG)

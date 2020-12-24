@@ -17,7 +17,7 @@ function onTrigger(player, npc)
         local stock =
         {
             4571,    90,    -- Beaugreens
-            4363,    39,    -- Faerie Apple
+            4363,    40,    -- Faerie Apple
             691,     54,     -- Maple Log
         }
 

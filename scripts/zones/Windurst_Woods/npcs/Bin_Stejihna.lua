@@ -27,13 +27,13 @@ function onTrigger(player, npc)
 
         local stock =
         {
-            1840,  1840,  -- Semolina
-            4372,    44,  -- Giant Sheep Meat
-            622,     44,  -- Dried Marjoram
-            610,     55,  -- San d'Orian Flour
-            611,     36,  -- Rye Flour
-            4366,    22,  -- La Theine Cabbage
-            4378,    55   -- Selbina Milk
+            4372,   44,    -- Giant Sheep Meat
+            622,    44,    -- Dried Marjoram
+            610,    54,    -- San d'Orian Flour
+            611,    36,    -- Rye Flour
+            1840, 1840,    -- Semolina
+            4366,   22,    -- La Theine Cabbage
+            4378,   55,    -- Selbina Milk
         }
 
         tpz.shop.general(player, stock, WINDURST)
