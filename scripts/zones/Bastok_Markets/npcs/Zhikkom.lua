@@ -10,7 +10,7 @@ require("scripts/globals/shop")
 function onTrigger(player, npc)
     local stock =
     {
-        16473,  5713, 1  -- Kukri
+        16473,  5713, 1, -- Kukri
 		16537, 31648, 1, -- Mythril Sword
         16545, 21535, 1, -- Broadsword
         16513, 11845, 1, -- Tuck
