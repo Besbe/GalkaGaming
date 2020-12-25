@@ -6,18 +6,15 @@
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Woods/IDs")
 require("scripts/globals/shop")
-require("scripts/globals/settings")
-require("scripts/globals/status")
 -----------------------------------
 
 function onTrade(player, npc, trade)
 end
 
 function onTrigger(player, npc)
-    local guildSkillId = tpz.skill.CLOTHCRAFT
-    local stock = tpz.shop.generalGuildStock[guildSkillId]
-    tpz.shop.generalGuild(player, stock, guildSkillId)
-    player:showText(npc, ID.text.MERIRI_DIALOG)
+    if (player:sendGuild(5152, 6, 21, 0)) then
+        player:showText(npc, ID.text.MERIRI_DIALOG)
+    end
 end
 
 function onEventUpdate(player, csid, option)
