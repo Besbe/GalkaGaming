@@ -776,7 +776,7 @@ INSERT INTO `guild_shops` VALUES (5272,787,48336,284544,15,0,3);    	-- diamond
 INSERT INTO `guild_shops` VALUES (5272,785,48336,284544,15,0,3);    	-- emerald
 INSERT INTO `guild_shops` VALUES (5272,810,23400,49608,15,0,3);			-- fluorite
 INSERT INTO `guild_shops` VALUES (5272,790,9000,15000,15,0,6);        	-- garnet
-INSERT INTO `guild_shops` VALUES (5272,13983,17415,121905,20,3,10);   	-- gold_bangles
+INSERT INTO `guild_shops` VALUES (5272,13983,17415,121905,20,0,10);   	-- gold_bangles
 INSERT INTO `guild_shops` VALUES (5272,761,15525,108675,55,0,22);     	-- gold_chain
 INSERT INTO `guild_shops` VALUES (5272,13315,7875,55125,20,0,10);     	-- gold_earring
 INSERT INTO `guild_shops` VALUES (5272,745,9450,66150,55,0,22);     	-- gold_ingot
@@ -878,7 +878,6 @@ INSERT INTO `guild_shops` VALUES (528,2144,75,75,255,48,100);       -- workshop_
 INSERT INTO `guild_shops` VALUES (528,771,1288,6440,165,33,65);     -- yellow_rock
 INSERT INTO `guild_shops` VALUES (528,642,595,620,165,0,65);       		-- zinc_ore
 INSERT INTO `guild_shops` VALUES (528,2143,75,75,165,33,65);     	-- mandrel
-
 
 -- Kueh Igunahmori (Leathercraft Guild) Southern San d'Oria (S)
 INSERT INTO `guild_shops` VALUES (529,505,62,349,255,48,100);
@@ -1550,7 +1549,7 @@ INSERT INTO `guild_shops` VALUES (60429,787,48336,284544,15,0,3);    	-- diamond
 INSERT INTO `guild_shops` VALUES (60429,785,48336,284544,15,0,3);    	-- emerald
 INSERT INTO `guild_shops` VALUES (60429,810,23400,49608,15,0,3);			-- fluorite
 INSERT INTO `guild_shops` VALUES (60429,790,9000,15000,15,0,6);        	-- garnet
-INSERT INTO `guild_shops` VALUES (60429,13983,17415,121905,20,3,10);   	-- gold_bangles
+INSERT INTO `guild_shops` VALUES (60429,13983,17415,121905,20,0,10);   	-- gold_bangles
 INSERT INTO `guild_shops` VALUES (60429,761,15525,108675,55,0,22);     	-- gold_chain
 INSERT INTO `guild_shops` VALUES (60429,13315,7875,55125,20,0,10);     	-- gold_earring
 INSERT INTO `guild_shops` VALUES (60429,745,9450,66150,55,0,22);     	-- gold_ingot
