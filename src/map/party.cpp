@@ -1306,9 +1306,10 @@ void CParty::RefreshFlags(std::vector<partyInfo_t>& info)
                                     found = true;
                                 }
 							}
-							if (member->getZone() != m_PSyncTarget->getZone())
+							else 
 							{
-									m_PSyncTarget = nullptr;\
+									m_PSyncTarget = nullptr;
+									SetSyncTarget(nullptr, 550);
 							}
                         }
                     }
