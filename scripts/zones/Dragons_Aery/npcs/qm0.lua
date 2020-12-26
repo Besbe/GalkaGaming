@@ -2,7 +2,7 @@
 -- Area: Dragons Aery
 --  NPC: qm0 (???)
 -- Spawns Fafnir or Nidhogg
--- !pos -81 32 2 178
+-- !pos 82.7241 6.8362 41.6689 174
 -----------------------------------
 local ID = require("scripts/zones/Dragons_Aery/IDs")
 require("scripts/globals/npc_util")
@@ -11,7 +11,7 @@ require("scripts/globals/status")
 -----------------------------------
 
 function onSpawn(npc)
-    if LandKingSystem_NQ < 1 and LandKingSystem_HQ < 1 then
+    if LandKingSystem_NQ == 0 and LandKingSystem_HQ == 0 then
         npc:setStatus(tpz.status.DISAPPEAR)
     end
 end
