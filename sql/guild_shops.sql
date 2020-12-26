@@ -196,62 +196,167 @@ INSERT INTO `guild_shops` VALUES (514,885,25584,74256,30,0,12);			-- turtle_shel
 INSERT INTO `guild_shops` VALUES (514,12414,11377,37771,20,0,5);		-- turtle_shield
 
 -- Kuzah Hpirohpon (Windurst Woods) Clothcraft Guild (S)
-INSERT INTO `guild_shops` VALUES (5152,816,592,3865,255,48,100);     -- silk_thread
-INSERT INTO `guild_shops` VALUES (5152,817,45,240,255,48,100);       -- grass_thread
-INSERT INTO `guild_shops` VALUES (5152,818,144,768,255,48,100);      -- cotton_thread
-INSERT INTO `guild_shops` VALUES (5152,819,750,4200,255,48,100);     -- linen_thread
-INSERT INTO `guild_shops` VALUES (5152,820,2700,12528,165,33,65);    -- wool_thread
-INSERT INTO `guild_shops` VALUES (5152,822,585,4760,255,48,100);     -- silver_thread
-INSERT INTO `guild_shops` VALUES (5152,823,13338,109440,165,33,65);  -- gold_thread
-INSERT INTO `guild_shops` VALUES (5152,824,240,1344,80,16,32);       -- grass_cloth
-INSERT INTO `guild_shops` VALUES (5152,825,480,2944,80,16,32);       -- cotton_cloth
-INSERT INTO `guild_shops` VALUES (5152,826,12840,12840,80,16,32);    -- linen_cloth
-INSERT INTO `guild_shops` VALUES (5152,827,9180,48384,55,0,22);      -- wool_cloth
-INSERT INTO `guild_shops` VALUES (5152,828,21851,31710,32,0,12);     -- velvet_cloth
-INSERT INTO `guild_shops` VALUES (5152,832,675,4500,255,48,100);     -- sheep_wool
-INSERT INTO `guild_shops` VALUES (5152,833,15,18,375,75,150);        -- moko_grass
-INSERT INTO `guild_shops` VALUES (5152,834,79,200,255,48,100);       -- saruta_cotton
-INSERT INTO `guild_shops` VALUES (5152,835,187,1000,375,75,100);     -- flax_flower
-INSERT INTO `guild_shops` VALUES (5152,838,9438,34557,55,0,22);      -- spider_web
-INSERT INTO `guild_shops` VALUES (5152,839,137,870,255,48,100);      -- crawler_cocoon
-INSERT INTO `guild_shops` VALUES (5152,841,26,192,375,0,150);        -- yagudo_feather
-INSERT INTO `guild_shops` VALUES (5152,2128,75,86,375,75,150);       -- spindle
-INSERT INTO `guild_shops` VALUES (5152,2145,75,180,165,0,65);        -- zephyr_thread
-INSERT INTO `guild_shops` VALUES (5152,12464,2710,7898,20,0,20);     -- headgear
-INSERT INTO `guild_shops` VALUES (5152,12465,35315,38882,20,0,15);   -- cotton_headgear
-INSERT INTO `guild_shops` VALUES (5152,12466,23200,39400,20,0,10);   -- red_cap
-INSERT INTO `guild_shops` VALUES (5152,12499,14160,78080,20,0,5);    -- flax_headband
-INSERT INTO `guild_shops` VALUES (5152,12593,66992,66992,20,0,10);   -- cotton_doublet
-INSERT INTO `guild_shops` VALUES (5152,12600,424,1171,20,0,20);      -- robe
-INSERT INTO `guild_shops` VALUES (5152,12601,14684,14684,20,0,15);   -- linen_robe
-INSERT INTO `guild_shops` VALUES (5152,12720,2787,7393,20,0,15);     -- gloves
-INSERT INTO `guild_shops` VALUES (5152,12736,1290,3196,20,0,15);     -- mitts
-INSERT INTO `guild_shops` VALUES (5152,12739,37862,172339,20,0,5);
-INSERT INTO `guild_shops` VALUES (5152,12851,135936,228096,20,0,10);
-INSERT INTO `guild_shops` VALUES (5152,12856,372,936,20,0,20);
-INSERT INTO `guild_shops` VALUES (5152,12976,1339,6486,20,0,15);
-INSERT INTO `guild_shops` VALUES (5152,12979,171776,171776,20,0,10);
-INSERT INTO `guild_shops` VALUES (5152,13577,15190,42134,20,0,10);
-INSERT INTO `guild_shops` VALUES (5152,13583,318,1683,20,0,20);
-INSERT INTO `guild_shops` VALUES (5152,13584,10321,40322,20,0,15);
-INSERT INTO `guild_shops` VALUES (5152,13750,87178,87178,20,0,10);
+INSERT INTO `guild_shops` VALUES (5152,847,14,40,375,0,150);        	-- bird_feather
+INSERT INTO `guild_shops` VALUES (5152,13577,15190,42134,20,0,10);		-- black_cape
+INSERT INTO `guild_shops` VALUES (5152,12739,37862,172339,20,0,5);		-- black_mitts
+INSERT INTO `guild_shops` VALUES (5152,18865,5175,36225,20,0,5);		-- black_slacks
+INSERT INTO `guild_shops` VALUES (5152,12609,7767,54369,20,0,5);		-- black_tunic
+INSERT INTO `guild_shops` VALUES (5152,12722,29406,29406,20,0,5);		-- bracers
+INSERT INTO `guild_shops` VALUES (5152,12848,4093,5486,20,0,5);			-- bias
+INSERT INTO `guild_shops` VALUES (5152,13583,318,1683,20,0,20);			-- cape
+INSERT INTO `guild_shops` VALUES (5152,12610,7866,55062,20,0,20);		-- cloak
+INSERT INTO `guild_shops` VALUES (5152,12849,1800,12600,20,0,20);		-- cotton_brais
+INSERT INTO `guild_shops` VALUES (5152,13584,12386,12386,20,0,20);		-- cotton_cape
+INSERT INTO `guild_shops` VALUES (5152,825,480,2432,80,16,32);      -- cotton_cloth
+INSERT INTO `guild_shops` VALUES (5152,12593,66992,66992,20,0,10);   	-- cotton_doublet
+INSERT INTO `guild_shops` VALUES (5152,12977,2316,16212,20,0,10);   	-- cotton_giaters
+INSERT INTO `guild_shops` VALUES (5152,12721,1674,11718,20,0,10);   	-- cotton_gloves
+INSERT INTO `guild_shops` VALUES (5152,12498,1800,12600,20,0,10);   	-- cotton_headband
+INSERT INTO `guild_shops` VALUES (5152,12465,35315,35135,20,0,10);   	-- cotton_doublet
+INSERT INTO `guild_shops` VALUES (5152,818,312,582,255,48,100);     -- cotton_thread
+INSERT INTO `guild_shops` VALUES (5152,839,280,624,255,48,100);    	-- crawler_cocoon
+INSERT INTO `guild_shops` VALUES (5152,12728,246,644,20,0,10);   	 	-- cuffs
+INSERT INTO `guild_shops` VALUES (5152,12592,5325,13066,20,0,10);   	-- doublet
+INSERT INTO `guild_shops` VALUES (5152,13075,372,2604,20,0,10);   		-- feather_collar
+INSERT INTO `guild_shops` VALUES (5152,835,187,430,375,75,100);     -- flax_flower
+INSERT INTO `guild_shops` VALUES (5152,12499,14160,78080,20,0,5);    	-- flax_headband
+INSERT INTO `guild_shops` VALUES (5152,12976,2538,5188,20,0,15);		-- gaiters
+INSERT INTO `guild_shops` VALUES (5152,12594,11250,78750,20,0,15);		-- gambison
+INSERT INTO `guild_shops` VALUES (5152,842,687,4809,55,0,22);      		-- giant_bird_feather
+INSERT INTO `guild_shops` VALUES (5152,12720,2787,7391,20,0,15);    	-- gloves
+INSERT INTO `guild_shops` VALUES (5152,823,18240,95760,165,33,65);  -- gold_thread
+INSERT INTO `guild_shops` VALUES (5152,824,240,588,80,16,32);       -- grass_cloth
+INSERT INTO `guild_shops` VALUES (5152,817,58,146,255,48,100);      -- grass_thread
+INSERT INTO `guild_shops` VALUES (5152,12464,1452,5468,20,0,20);     	-- headgear
+INSERT INTO `guild_shops` VALUES (5152,13085,972,4838,20,0,20);     	-- hemp_gorget
+INSERT INTO `guild_shops` VALUES (5152,12850,7875,55125,20,0,20);     	-- hose
+INSERT INTO `guild_shops` VALUES (5152,826,5970,14400,80,0,32);    		-- linen_cloth
+INSERT INTO `guild_shops` VALUES (5152,12729,1569,10983,20,0,15);   	-- linen_cuffs
+INSERT INTO `guild_shops` VALUES (5152,13750,87178,87178,20,0,10);		-- linen_doublet
+INSERT INTO `guild_shops` VALUES (5152,12738,3726,26082,20,0,15);   	-- linen_mitts
+INSERT INTO `guild_shops` VALUES (5152,12601,14684,14684,20,0,15);   	-- linen_robe
+INSERT INTO `guild_shops` VALUES (5152,12866,8487,59409,20,0,15);   	-- linen_slacks
+INSERT INTO `guild_shops` VALUES (5152,12857,336,2352,20,0,15);   		-- linen_slops
+INSERT INTO `guild_shops` VALUES (5152,819,750,750,255,0,100);     		-- linen_thread
+INSERT INTO `guild_shops` VALUES (5152,12736,1290,3196,20,0,15);     	-- mitts
+INSERT INTO `guild_shops` VALUES (5152,833,15,90,375,75,150);       -- moko_grass
+INSERT INTO `guild_shops` VALUES (5152,830,17616,123312,32,0,12);     	-- rainbow_cloth
+INSERT INTO `guild_shops` VALUES (5152,821,5940,41580,32,0,12);     	-- rainbow_thread
+INSERT INTO `guild_shops` VALUES (5152,12466,23200,39400,20,0,10);   	-- red_cap
+INSERT INTO `guild_shops` VALUES (5152,13586,94960,94960,20,0,10);   	-- red_cape
+INSERT INTO `guild_shops` VALUES (5152,12600,424,1046,20,0,20);      	-- robe
+INSERT INTO `guild_shops` VALUES (5152,834,80,200,255,48,100);      -- saruta_cotton
+INSERT INTO `guild_shops` VALUES (5152,13568,5100,5100,20,0,10);   		-- scarelet_ribbon
+INSERT INTO `guild_shops` VALUES (5152,832,675,855,255,48,100);    -- sheep_wool
+INSERT INTO `guild_shops` VALUES (5152,829,4725,33075,32,0,12);     	-- silk_cloth
+INSERT INTO `guild_shops` VALUES (5152,816,710,3856,255,48,100);    -- silk_thread
+INSERT INTO `guild_shops` VALUES (5152,822,685,3000,255,48,100);     -- silver_thread
+INSERT INTO `guild_shops` VALUES (5152,12864,4562,4562,20,0,10);   		-- slacks
+INSERT INTO `guild_shops` VALUES (5152,12856,372,936,20,0,20);			-- slops
+INSERT INTO `guild_shops` VALUES (5152,12978,21000,147000,20,0,20);		-- socks
+INSERT INTO `guild_shops` VALUES (5152,838,9438,34557,55,0,22);      	-- spider_web
+INSERT INTO `guild_shops` VALUES (5152,2128,75,80,375,75,150);      -- spindle
+INSERT INTO `guild_shops` VALUES (5152,12608,1260,8820,20,0,20);      	-- tunic
+INSERT INTO `guild_shops` VALUES (5152,828,25520,25520,32,0,12);     	-- velvet_cloth
+INSERT INTO `guild_shops` VALUES (5152,12731,36192,36192,20,0,20);      -- velvet_cuffs
+INSERT INTO `guild_shops` VALUES (5152,12475,12852,89964,20,0,20);      -- velvet_hat
+INSERT INTO `guild_shops` VALUES (5152,12603,19152,134064,20,0,20);     -- velvet_robe
+INSERT INTO `guild_shops` VALUES (5152,12859,15624,109368,20,0,20);     -- velvet_slops
+INSERT INTO `guild_shops` VALUES (5152,13322,1728,12096,20,0,20);      	-- wing_earring
+INSERT INTO `guild_shops` VALUES (5152,12723,15480,108360,20,0,20);     -- wool_bracers
+INSERT INTO `guild_shops` VALUES (5152,12467,18720,131040,20,0,20);     -- wool_cap
+INSERT INTO `guild_shops` VALUES (5152,827,21492,52704,55,0,22);      	-- wool_cloth
+INSERT INTO `guild_shops` VALUES (5152,12730,6579,46053,20,0,20);     	-- wool_cuffs
+INSERT INTO `guild_shops` VALUES (5152,12595,28080,196560,20,0,20);     -- wool_gambison
+INSERT INTO `guild_shops` VALUES (5152,12474,7803,54621,20,0,20);    	-- wool_hat
+INSERT INTO `guild_shops` VALUES (5152,12851,21600,151200,20,0,10);   	-- wool_hose
+INSERT INTO `guild_shops` VALUES (5152,12602,11628,81396,20,0,10);		-- wool_robe
+INSERT INTO `guild_shops` VALUES (5152,12858,9486,66402,20,0,10);		-- wool_slops
+INSERT INTO `guild_shops` VALUES (5152,12979,14400,100800,20,0,10);		-- wool_socks
+INSERT INTO `guild_shops` VALUES (5152,820,2700,12528,165,0,65);    	-- wool_thread
+INSERT INTO `guild_shops` VALUES (5152,841,28,35,375,0,150);        	-- yagudo_feather
+INSERT INTO `guild_shops` VALUES (5152,2145,75,80,255,48,100);       -- zephyr_thread
 
 -- Tilala (Clothcraft Guild) Selbina (S)
-INSERT INTO `guild_shops` VALUES (516,816,592,3865,255,48,100);
-INSERT INTO `guild_shops` VALUES (516,817,45,240,255,48,100);
-INSERT INTO `guild_shops` VALUES (516,818,144,768,255,48,100);
-INSERT INTO `guild_shops` VALUES (516,819,750,4200,255,48,100);
-INSERT INTO `guild_shops` VALUES (516,820,2700,12528,165,33,65);
-INSERT INTO `guild_shops` VALUES (516,822,585,4760,255,48,100);
-INSERT INTO `guild_shops` VALUES (516,823,18240,62350,165,33,65);
-INSERT INTO `guild_shops` VALUES (516,824,240,1344,80,16,32);
-INSERT INTO `guild_shops` VALUES (516,825,480,2944,80,16,32);
-INSERT INTO `guild_shops` VALUES (516,827,9180,48384,55,0,22);
-INSERT INTO `guild_shops` VALUES (516,832,675,4500,255,48,100);
-INSERT INTO `guild_shops` VALUES (516,833,15,18,375,75,150);
-INSERT INTO `guild_shops` VALUES (516,835,187,1000,375,75,100);
-INSERT INTO `guild_shops` VALUES (516,838,9438,34557,55,0,22);
-INSERT INTO `guild_shops` VALUES (516,841,26,192,375,0,150);
+INSERT INTO `guild_shops` VALUES (516,847,14,40,375,0,150);        	-- bird_feather
+--INSERT INTO `guild_shops` VALUES (516,13577,15190,42134,20,0,10);		-- black_cape
+--INSERT INTO `guild_shops` VALUES (516,12739,37862,172339,20,0,5);		-- black_mitts
+--INSERT INTO `guild_shops` VALUES (516,18865,5175,36225,20,0,5);		-- black_slacks
+--INSERT INTO `guild_shops` VALUES (516,12609,7767,54369,20,0,5);		-- black_tunic
+--INSERT INTO `guild_shops` VALUES (516,12722,29406,29406,20,0,5);		-- bracers
+--INSERT INTO `guild_shops` VALUES (516,12848,4093,5486,20,0,5);		-- bias
+--INSERT INTO `guild_shops` VALUES (516,13583,318,1683,20,0,20);		-- cape
+--INSERT INTO `guild_shops` VALUES (516,12610,7866,55062,20,0,20);		-- cloak
+--INSERT INTO `guild_shops` VALUES (516,12849,1800,12600,20,0,20);		-- cotton_brais
+--INSERT INTO `guild_shops` VALUES (516,13584,12386,12386,20,0,20);		-- cotton_cape
+INSERT INTO `guild_shops` VALUES (516,825,480,2432,80,16,32);      -- cotton_cloth
+--INSERT INTO `guild_shops` VALUES (516,12593,66992,66992,20,0,10);   	-- cotton_doublet
+--INSERT INTO `guild_shops` VALUES (516,12977,2316,16212,20,0,10);   	-- cotton_giaters
+--INSERT INTO `guild_shops` VALUES (516,12721,1674,11718,20,0,10);   	-- cotton_gloves
+--INSERT INTO `guild_shops` VALUES (516,12498,1800,12600,20,0,10);   	-- cotton_headband
+--INSERT INTO `guild_shops` VALUES (516,12465,35315,35135,20,0,10);   	-- cotton_doublet
+INSERT INTO `guild_shops` VALUES (516,818,312,582,255,48,100);     -- cotton_thread
+INSERT INTO `guild_shops` VALUES (516,839,280,624,255,48,100);    	-- crawler_cocoon
+--INSERT INTO `guild_shops` VALUES (516,12728,246,644,20,0,10);   	 	-- cuffs
+--INSERT INTO `guild_shops` VALUES (516,12592,5325,13066,20,0,10);   	-- doublet
+INSERT INTO `guild_shops` VALUES (516,13075,372,2604,20,0,10);   		-- feather_collar
+INSERT INTO `guild_shops` VALUES (516,835,187,430,375,75,100);     -- flax_flower
+--INSERT INTO `guild_shops` VALUES (516,12499,14160,78080,20,0,5);    	-- flax_headband
+--INSERT INTO `guild_shops` VALUES (516,12976,2538,5188,20,0,15);		-- gaiters
+--INSERT INTO `guild_shops` VALUES (516,12594,11250,78750,20,0,15);		-- gambison
+INSERT INTO `guild_shops` VALUES (516,842,687,4809,55,0,22);      	-- giant_bird_feather
+--INSERT INTO `guild_shops` VALUES (516,12720,2787,7391,20,0,15);    	-- gloves
+INSERT INTO `guild_shops` VALUES (516,823,18240,95760,165,33,65);  -- gold_thread
+INSERT INTO `guild_shops` VALUES (516,824,240,588,80,16,32);       -- grass_cloth
+INSERT INTO `guild_shops` VALUES (516,817,58,146,255,48,100);      -- grass_thread
+--INSERT INTO `guild_shops` VALUES (516,12464,1452,5468,20,0,20);     	-- headgear
+--INSERT INTO `guild_shops` VALUES (516,13085,972,4838,20,0,20);     	-- hemp_gorget
+--INSERT INTO `guild_shops` VALUES (516,12850,7875,55125,20,0,20);     	-- hose
+INSERT INTO `guild_shops` VALUES (516,826,5970,14400,80,0,32);    	-- linen_cloth
+--INSERT INTO `guild_shops` VALUES (516,12729,1569,10983,20,0,15);   	-- linen_cuffs
+--INSERT INTO `guild_shops` VALUES (516,13750,87178,87178,20,0,10);		-- linen_doublet
+--INSERT INTO `guild_shops` VALUES (516,12738,3726,26082,20,0,15);   	-- linen_mitts
+--INSERT INTO `guild_shops` VALUES (516,12601,14684,14684,20,0,15);   	-- linen_robe
+--INSERT INTO `guild_shops` VALUES (516,12866,8487,59409,20,0,15);   	-- linen_slacks
+--INSERT INTO `guild_shops` VALUES (516,12857,336,2352,20,0,15);   		-- linen_slops
+INSERT INTO `guild_shops` VALUES (516,819,750,750,255,0,100);     	-- linen_thread
+--INSERT INTO `guild_shops` VALUES (516,12736,1290,3196,20,0,15);     	-- mitts
+INSERT INTO `guild_shops` VALUES (516,833,15,90,375,75,150);       -- moko_grass
+INSERT INTO `guild_shops` VALUES (516,821,5940,41580,32,0,12);     	-- rainbow_thread
+--INSERT INTO `guild_shops` VALUES (516,12466,23200,39400,20,0,10);   	-- red_cap
+--INSERT INTO `guild_shops` VALUES (516,13586,94960,94960,20,0,10);   	-- red_cape
+--INSERT INTO `guild_shops` VALUES (516,12600,424,1046,20,0,20);      	-- robe
+INSERT INTO `guild_shops` VALUES (516,834,80,200,255,48,100);      -- saruta_cotton
+--INSERT INTO `guild_shops` VALUES (516,13568,5100,5100,20,0,10);   	-- scarelet_ribbon
+INSERT INTO `guild_shops` VALUES (516,832,675,855,255,48,100);    -- sheep_wool
+INSERT INTO `guild_shops` VALUES (516,829,4725,33075,32,0,12);     	-- silk_cloth
+INSERT INTO `guild_shops` VALUES (516,816,710,3865,255,48,100);    -- silk_thread
+INSERT INTO `guild_shops` VALUES (516,822,685,3000,255,48,100);     -- silver_thread
+--INSERT INTO `guild_shops` VALUES (516,12864,4562,4562,20,0,10);   	-- slacks
+--INSERT INTO `guild_shops` VALUES (516,12856,372,936,20,0,20);			-- slops
+--INSERT INTO `guild_shops` VALUES (516,12978,21000,147000,20,0,20);	-- socks
+INSERT INTO `guild_shops` VALUES (516,838,9438,34557,55,0,22);      	-- spider_web
+INSERT INTO `guild_shops` VALUES (516,2128,75,80,375,75,150);      -- spindle
+--INSERT INTO `guild_shops` VALUES (516,12608,1260,8820,20,0,20);      	-- tunic
+--INSERT INTO `guild_shops` VALUES (516,828,25520,25520,32,0,12);     	-- velvet_cloth
+--INSERT INTO `guild_shops` VALUES (516,12731,36192,36192,20,0,20);     -- velvet_cuffs
+--INSERT INTO `guild_shops` VALUES (516,12475,12852,89964,20,0,20);     -- velvet_hat
+--INSERT INTO `guild_shops` VALUES (516,12603,19152,134064,20,0,20);    -- velvet_robe
+--INSERT INTO `guild_shops` VALUES (516,12859,15624,109368,20,0,20);    -- velvet_slops
+--INSERT INTO `guild_shops` VALUES (516,13322,1728,12096,20,0,20);      -- wing_earring
+--INSERT INTO `guild_shops` VALUES (516,12723,15480,108360,20,0,20);    -- wool_bracers
+--INSERT INTO `guild_shops` VALUES (516,12467,18720,131040,20,0,20);    -- wool_cap
+INSERT INTO `guild_shops` VALUES (516,827,21492,52704,55,0,22);      	-- wool_cloth
+--INSERT INTO `guild_shops` VALUES (516,12730,6579,46053,20,0,20);     	-- wool_cuffs
+--INSERT INTO `guild_shops` VALUES (516,12595,28080,196560,20,0,20);    -- wool_gambison
+--INSERT INTO `guild_shops` VALUES (516,12474,7803,54621,20,0,20);    	-- wool_hat
+--INSERT INTO `guild_shops` VALUES (516,12851,21600,151200,20,0,10);   	-- wool_hose
+--INSERT INTO `guild_shops` VALUES (516,12602,11628,81396,20,0,10);		-- wool_robe
+--INSERT INTO `guild_shops` VALUES (516,12858,9486,66402,20,0,10);		-- wool_slops
+--INSERT INTO `guild_shops` VALUES (516,12979,14400,100800,20,0,10);	-- wool_socks
+INSERT INTO `guild_shops` VALUES (516,820,2700,12528,165,0,65);    	-- wool_thread
+INSERT INTO `guild_shops` VALUES (516,841,28,35,375,0,150);        	-- yagudo_feather
+--INSERT INTO `guild_shops` VALUES (516,2145,75,80,255,48,100);       -- zephyr_thread
 
 -- Babubu (Port Windurst) Fishing Guild
 INSERT INTO `guild_shops` VALUES (517,624,24,136,255,0,100);
@@ -794,98 +899,113 @@ INSERT INTO `guild_shops` VALUES (529,16386,945,5997,20,0,15);       -- lizard_c
 INSERT INTO `guild_shops` VALUES (529,16388,11970,27700,20,0,5);     -- himantes
 
 -- Kopopo (Windurst Waters) Cooking Guild (S)
-INSERT INTO `guild_shops` VALUES (530,610,45,144,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,611,30,60,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,612,45,114,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,614,60,152,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,615,45,119,255,0,100);
-INSERT INTO `guild_shops` VALUES (530,616,60,368,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,618,21,42,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,620,45,276,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,621,21,40,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,622,36,94,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,625,66,221,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,627,40,80,255,0,100);
-INSERT INTO `guild_shops` VALUES (530,628,195,494,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,629,36,144,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,636,30,57,255,0,100);
-INSERT INTO `guild_shops` VALUES (530,1111,450,2832,255,0,100);
-INSERT INTO `guild_shops` VALUES (530,1554,431,754,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,1555,1061,1854,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,1590,536,992,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,1840,1500,2800,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,2110,457,530,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,2111,525,530,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,2112,530,540,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,4156,3872,3936,55,0,22);
-INSERT INTO `guild_shops` VALUES (530,4356,154,992,165,0,65);
-INSERT INTO `guild_shops` VALUES (530,4358,61,64,255,0,100);
-INSERT INTO `guild_shops` VALUES (530,4359,180,475,255,0,100);
-INSERT INTO `guild_shops` VALUES (530,4360,114,160,255,0,100);
-INSERT INTO `guild_shops` VALUES (530,4362,117,120,255,0,100);
-INSERT INTO `guild_shops` VALUES (530,4363,33,183,255,48,100);
-INSERT INTO `guild_shops` VALUES (530,4364,102,427,255,0,100);       -- black_bread
-INSERT INTO `guild_shops` VALUES (530,4365,192,600,255,0,100);       -- rolanberry
-INSERT INTO `guild_shops` VALUES (530,4366,18,100,255,48,100);       -- la_theine_cbg.
-INSERT INTO `guild_shops` VALUES (530,4367,36,124,255,48,100);       -- batagreens
-INSERT INTO `guild_shops` VALUES (530,4370,163,590,255,0,100);       -- honey
-INSERT INTO `guild_shops` VALUES (530,4371,252,743,55,11,22);        -- grilled_hare
-INSERT INTO `guild_shops` VALUES (530,4372,83,230,255,48,100);       -- g._sheep_meat
-INSERT INTO `guild_shops` VALUES (530,4376,90,288,255,48,100);       -- meat_jerky
-INSERT INTO `guild_shops` VALUES (530,4378,45,268,255,48,100);       -- selbina_milk
-INSERT INTO `guild_shops` VALUES (530,4380,437,1091,165,33,65);      -- smoked_salmon
-INSERT INTO `guild_shops` VALUES (530,4381,1382,3600,165,33,65);     -- meat_mithkabob
-INSERT INTO `guild_shops` VALUES (530,4382,58,64,165,0,65);          -- frost_turnip
-INSERT INTO `guild_shops` VALUES (530,4383,3906,5760,165,0,65);      -- gold_lobster
-INSERT INTO `guild_shops` VALUES (530,4387,709,1934,255,0,100);      -- wild_onion
-INSERT INTO `guild_shops` VALUES (530,4389,43,153,255,0,100);        -- san_dor._carrot
-INSERT INTO `guild_shops` VALUES (530,4390,51,198,255,48,100);       -- mithran_tomato
-INSERT INTO `guild_shops` VALUES (530,4392,45,149,255,48,100);       -- saruta_orange
-INSERT INTO `guild_shops` VALUES (530,4394,9,55,255,0,100);          -- ginger_cookie
-INSERT INTO `guild_shops` VALUES (530,4398,2149,3256,165,33,65);     -- fish_mithkabob
-INSERT INTO `guild_shops` VALUES (530,4399,2592,2700,165,33,65);     -- bluetail
-INSERT INTO `guild_shops` VALUES (530,4406,734,1988,165,33,65);      -- baked_apple
-INSERT INTO `guild_shops` VALUES (530,4408,105,250,165,33,65);       -- tortilla
-INSERT INTO `guild_shops` VALUES (530,4409,132,211,165,33,65);       -- hard-boiled_egg
-INSERT INTO `guild_shops` VALUES (530,4410,626,1962,165,33,65);      -- roast_mushroom
-INSERT INTO `guild_shops` VALUES (530,4412,412,1118,165,33,65);      -- thundermelon
-INSERT INTO `guild_shops` VALUES (530,4413,240,1420,165,33,65);      -- apple_pie
-INSERT INTO `guild_shops` VALUES (530,4415,93,565,165,0,65);         -- roasted_corn
-INSERT INTO `guild_shops` VALUES (530,4416,2716,6944,165,0,65);      -- pea_soup
-INSERT INTO `guild_shops` VALUES (530,4417,2475,15972,165,0,65);     -- egg_soup
-INSERT INTO `guild_shops` VALUES (530,4419,12390,14000,165,0,65);    -- mushroom_soup
-INSERT INTO `guild_shops` VALUES (530,4420,13124,13230,165,0,65);    -- tomato_soup
-INSERT INTO `guild_shops` VALUES (530,4422,150,328,55,11,22);        -- orange_juice
-INSERT INTO `guild_shops` VALUES (530,4423,225,720,55,11,22);        -- apple_juice
-INSERT INTO `guild_shops` VALUES (530,4424,825,4488,55,11,22);       -- melon_juice
-INSERT INTO `guild_shops` VALUES (530,4425,240,1113,55,11,22);       -- tomato_juice
-INSERT INTO `guild_shops` VALUES (530,4431,72,376,255,48,100);       -- san_dor._grape
-INSERT INTO `guild_shops` VALUES (530,4432,87,192,255,0,100);        -- kazham_pineapl.
-INSERT INTO `guild_shops` VALUES (530,4435,3520,3968,165,0,65);      -- cockatrice_meat
-INSERT INTO `guild_shops` VALUES (530,4436,240,1113,165,0,65);       -- baked_popoto
-INSERT INTO `guild_shops` VALUES (530,4437,240,1113,55,11,22);       -- roast_mutton
-INSERT INTO `guild_shops` VALUES (530,4438,2750,7084,55,11,22);      -- dhalmel_steak
-INSERT INTO `guild_shops` VALUES (530,4441,753,3720,55,11,22);       -- grape_juice
-INSERT INTO `guild_shops` VALUES (530,4442,300,1504,55,11,22);       -- pineapple_juice
-INSERT INTO `guild_shops` VALUES (530,4444,18,45,165,33,65);         -- rarab_tail
-INSERT INTO `guild_shops` VALUES (530,4445,41,88,165,33,65);         -- yagudo_cherry
-INSERT INTO `guild_shops` VALUES (530,4455,968,984,165,33,65);       -- pebble_soup
-INSERT INTO `guild_shops` VALUES (530,4456,2452,10620,165,33,65);    -- boiled_crab
-INSERT INTO `guild_shops` VALUES (530,4457,4800,13920,165,0,65);     -- eel_kabob
-INSERT INTO `guild_shops` VALUES (530,4468,60,208,165,33,65);        -- pamamas
-INSERT INTO `guild_shops` VALUES (530,4482,1408,1984,255,0,100);     -- nosteau_herring
-INSERT INTO `guild_shops` VALUES (530,4490,955,2284,165,0,65);       -- pickled_herring
-INSERT INTO `guild_shops` VALUES (530,4491,150,696,165,33,65);       -- watermelon
-INSERT INTO `guild_shops` VALUES (530,4492,1182,2845,55,11,22);      -- puls
-INSERT INTO `guild_shops` VALUES (530,4499,75,320,165,0,65);         -- iron_bread
-INSERT INTO `guild_shops` VALUES (530,4537,967,2600,165,33,65);      -- roast_carp
-INSERT INTO `guild_shops` VALUES (530,4538,1628,4232,165,33,65);     -- roast_pipira
-INSERT INTO `guild_shops` VALUES (530,4556,10644,10644,55,11,22);    -- icecap_rolanberry
-INSERT INTO `guild_shops` VALUES (530,4560,2861,2861,55,11,22);      -- vegetable_soup
-INSERT INTO `guild_shops` VALUES (530,4563,6113,15360,15,0,6);       -- pamama_tart
-INSERT INTO `guild_shops` VALUES (530,4570,47,245,255,48,100);       -- bird_egg
-INSERT INTO `guild_shops` VALUES (530,4571,75,460,255,48,100);       -- beaugreens
-INSERT INTO `guild_shops` VALUES (530,4572,1360,7260,55,11,22);      -- beaugr._saute
+INSERT INTO `guild_shops` VALUES (530,4510,27,189,255,0,100);			-- acorn_cookie
+INSERT INTO `guild_shops` VALUES (530,4423,225,876,55,0,22);        	-- apple_juice
+INSERT INTO `guild_shops` VALUES (530,4413,225,876,165,0,65);     		-- apple_pie
+INSERT INTO `guild_shops` VALUES (530,625,66,334,255,48,100);		-- apple_vinegar
+INSERT INTO `guild_shops` VALUES (530,4406,638,2200,165,0,65);     		-- baked_apple
+INSERT INTO `guild_shops` VALUES (530,4436,240,1600,165,0,65);       	-- baked_popoto
+INSERT INTO `guild_shops` VALUES (530,4360,114,160,255,0,100);			-- bastore_sardine
+INSERT INTO `guild_shops` VALUES (530,4367,36,238,255,48,100);      -- batagreens
+INSERT INTO `guild_shops` VALUES (530,4572,1360,7260,55,0,22);      	-- beaugr._saute
+INSERT INTO `guild_shops` VALUES (530,4571,75,460,255,48,100);      -- beaugreens
+INSERT INTO `guild_shops` VALUES (530,4570,48,188,255,48,100);      -- bird_egg
+INSERT INTO `guild_shops` VALUES (530,4364,90,576,255,0,100);       	-- black_bread
+INSERT INTO `guild_shops` VALUES (530,618,21,50,255,48,100);		-- blue_peas			
+INSERT INTO `guild_shops` VALUES (530,4399,2700,2700,165,0,65);     	-- bluetail
+INSERT INTO `guild_shops` VALUES (530,4456,1856,10980,165,0,65);    	-- boiled_crab
+INSERT INTO `guild_shops` VALUES (530,4391,41,274,165,0,65);    		-- bretzel
+INSERT INTO `guild_shops` VALUES (530,4397,12,12,165,0,65);    			-- cinna_cookie
+INSERT INTO `guild_shops` VALUES (530,628,195,572,255,48,100);		-- cinnamon
+INSERT INTO `guild_shops` VALUES (530,4435,3520,3968,165,0,65);      	-- cockatrice_meat
+INSERT INTO `guild_shops` VALUES (530,1555,1061,1188,255,48,100);	-- coriander
+INSERT INTO `guild_shops` VALUES (530,4472,147,198,255,0,100);			-- crayfish			
+INSERT INTO `guild_shops` VALUES (530,621,21,40,255,48,100);		--crying_mustard
+INSERT INTO `guild_shops` VALUES (530,1475,741,5187,255,0,100);			-- curry_powder
+INSERT INTO `guild_shops` VALUES (530,4359,424,1017,255,0,100);			-- dhalmel_meat
+INSERT INTO `guild_shops` VALUES (530,4438,2736,7084,55,0,22);      	-- dhalmel_steak
+INSERT INTO `guild_shops` VALUES (530,622,36,220,255,48,100);		-- dried_marjoram
+INSERT INTO `guild_shops` VALUES (530,4457,4800,13920,165,0,65);     	-- eel_kabob
+INSERT INTO `guild_shops` VALUES (530,4417,3960,16236,165,0,65);     	-- egg_soup
+INSERT INTO `guild_shops` VALUES (530,4363,39,220,255,48,100);		-- faerie_apple
+INSERT INTO `guild_shops` VALUES (530,4398,2127,3256,165,0,65);     	-- fish_mithkabob
+INSERT INTO `guild_shops` VALUES (530,2110,457,530,255,48,100);		-- fish_stock
+INSERT INTO `guild_shops` VALUES (530,4382,158,160,165,0,65);          	-- frost_turnip
+INSERT INTO `guild_shops` VALUES (530,1111,450,2760,255,0,100);			-- gelatin
+INSERT INTO `guild_shops` VALUES (530,4372,93,236,255,0,100);			-- g._sheep_meat
+INSERT INTO `guild_shops` VALUES (530,4394,9,55,255,0,100);          	-- ginger_cookie
+INSERT INTO `guild_shops` VALUES (530,4383,3906,5760,165,0,65);			-- gold_lobster
+INSERT INTO `guild_shops` VALUES (530,4441,720,4650,165,0,65);      	-- grape_juice
+INSERT INTO `guild_shops` VALUES (530,4371,266,853,55,0,22);       		-- grilled_hare
+INSERT INTO `guild_shops` VALUES (530,4409,72,371,165,0,65);      	 	-- hard-boiled_egg
+INSERT INTO `guild_shops` VALUES (530,4358,139,136,255,0,100);			-- hare_meat
+INSERT INTO `guild_shops` VALUES (530,1590,536,680,255,48,100);		-- holy_basil
+INSERT INTO `guild_shops` VALUES (530,4370,240,590,255,0,100);       	-- honey
+INSERT INTO `guild_shops` VALUES (530,631,200,200,255,0,100);       	-- horo_flour
+INSERT INTO `guild_shops` VALUES (530,4556,10644,10644,55,0,22);    	-- icecap_rolanberry
+INSERT INTO `guild_shops` VALUES (530,4499,77,320,165,0,65);         	-- iron_bread
+INSERT INTO `guild_shops` VALUES (530,612,45,194,255,48,100);		-- kazham_peppers
+INSERT INTO `guild_shops` VALUES (530,4432,115,261,255,48,100);     -- kazham_pineapl.
+INSERT INTO `guild_shops` VALUES (530,4366,18,43,255,48,100);      	-- la_theine_cbg.
+INSERT INTO `guild_shops` VALUES (530,4362,300,300,255,0,100);			-- lizard_egg	
+INSERT INTO `guild_shops` VALUES (530,627,200,200,255,0,100);			-- maple_sugar
+INSERT INTO `guild_shops` VALUES (530,4376,90,364,255,0,100);       	-- meat_jerky
+INSERT INTO `guild_shops` VALUES (530,4381,1382,3872,165,0,65);     	-- meat_mithkabob
+INSERT INTO `guild_shops` VALUES (530,4424,1573,3872,55,0,22);       	-- melon_juice
+INSERT INTO `guild_shops` VALUES (530,614,60,631,255,48,100);		-- mhaura_garlic
+INSERT INTO `guild_shops` VALUES (530,629,36,182,255,48,100);		-- 	millioncorn
+INSERT INTO `guild_shops` VALUES (530,4390,78,195,255,48,100);      -- mithran_tomato
+INSERT INTO `guild_shops` VALUES (530,4401,45,315,165,0,65);			-- moat_carp
+INSERT INTO `guild_shops` VALUES (530,4156,3872,3936,55,0,22);			-- mulsum
+INSERT INTO `guild_shops` VALUES (530,4419,34720,34720,165,0,65);    	-- mushroom_soup
+INSERT INTO `guild_shops` VALUES (530,4459,8568,8568,165,0,65);    		-- nebimonite_bake
+INSERT INTO `guild_shops` VALUES (530,4482,1408,1984,255,0,100);     	-- nosteau_herring
+INSERT INTO `guild_shops` VALUES (530,4422,150,888,55,0,22);        	-- orange_juice
+INSERT INTO `guild_shops` VALUES (530,4563,15360,15360,15,0,6);       	-- pamama_tart
+INSERT INTO `guild_shops` VALUES (530,4468,148,384,165,33,65);      -- pamamas
+INSERT INTO `guild_shops` VALUES (530,4416,2716,6944,165,0,65);      	-- pea_soup
+INSERT INTO `guild_shops` VALUES (530,4455,968,984,165,0,65);       	-- pebble_soup
+INSERT INTO `guild_shops` VALUES (530,4490,955,2284,165,0,65);       	-- pickled_herring
+INSERT INTO `guild_shops` VALUES (530,616,60,368,255,48,100);		-- pie_dough	
+INSERT INTO `guild_shops` VALUES (530,4442,300,1600,55,0,22);       	-- pineapple_juice
+INSERT INTO `guild_shops` VALUES (530,619,36,40,255,48,100);       	-- popoto
+INSERT INTO `guild_shops` VALUES (530,4492,1182,2845,55,0,22);      	-- puls
+INSERT INTO `guild_shops` VALUES (530,4444,44,117,165,0,65);         	-- rarab_tail
+INSERT INTO `guild_shops` VALUES (530,4537,1040,1768,165,0,65);      	-- roast_carp
+INSERT INTO `guild_shops` VALUES (530,4410,670,1706,165,0,65);      	-- roast_mushroom
+INSERT INTO `guild_shops` VALUES (530,4437,1288,3024,55,0,22);       	-- roast_mutton
+INSERT INTO `guild_shops` VALUES (530,4538,1628,4232,165,0,65);    		-- roast_pipira
+INSERT INTO `guild_shops` VALUES (530,4404,918,918,165,0,65);     		-- roast_trout
+INSERT INTO `guild_shops` VALUES (530,4415,124,620,165,0,65);         	-- roasted_corn
+INSERT INTO `guild_shops` VALUES (530,936,25,73,255,48,65);     	-- rock_salt
+INSERT INTO `guild_shops` VALUES (530,4365,585,590,255,0,100);       	-- rolanberry
+INSERT INTO `guild_shops` VALUES (530,611,30,60,255,48,100);		-- rye_flour
+INSERT INTO `guild_shops` VALUES (530,4355,1946,4973,165,0,65);     	-- salmon_sub
+INSERT INTO `guild_shops` VALUES (530,4389,60,157,255,48,100);      -- san_dor._carrot
+INSERT INTO `guild_shops` VALUES (530,610,52,252,255,48,100);		-- san_dor._flour
+INSERT INTO `guild_shops` VALUES (530,4431,63,367,255,48,100);      -- san_dor._grape
+INSERT INTO `guild_shops` VALUES (530,4392,58,152,255,48,100);      -- saruta_orange
+INSERT INTO `guild_shops` VALUES (530,615,45,292,255,0,100);			-- selbina_butter
+INSERT INTO `guild_shops` VALUES (530,4378,57,264,255,48,100);       -- selbina_milk
+INSERT INTO `guild_shops` VALUES (530,1840,1500,2800,255,48,100);	 -- semolina	
+INSERT INTO `guild_shops` VALUES (530,4354,117,819,255,0,100);			-- shining_trout
+INSERT INTO `guild_shops` VALUES (530,4380,165,924,165,33,65);      -- smoked_salmon
+INSERT INTO `guild_shops` VALUES (530,2111,525,530,255,48,100);		-- soy_stock
+INSERT INTO `guild_shops` VALUES (530,620,45,276,255,48,100);		-- tarutaru_rice
+INSERT INTO `guild_shops` VALUES (530,4412,287,1235,165,33,65);     -- thundermelon
+INSERT INTO `guild_shops` VALUES (530,4483,937,1289,165,0,65);     		-- tiger_cod
+INSERT INTO `guild_shops` VALUES (530,4425,559,1446,55,0,22);       	-- tomato_juice
+INSERT INTO `guild_shops` VALUES (530,4420,13124,13230,165,0,65);    	-- tomato_soup
+INSERT INTO `guild_shops` VALUES (530,4408,105,560,165,0,65);       	-- tortilla
+INSERT INTO `guild_shops` VALUES (530,1554,431,438,255,48,100);		-- turmeric	
+INSERT INTO `guild_shops` VALUES (530,2112,530,540,255,48,100);		-- vanilla
+INSERT INTO `guild_shops` VALUES (530,4489,1950,1950,255,0,100);      	-- vegetable_gruel
+INSERT INTO `guild_shops` VALUES (530,4560,2861,2861,55,0,22);      	-- vegetable_soup
+INSERT INTO `guild_shops` VALUES (530,4491,158,760,165,33,65);       -- watermelon
+INSERT INTO `guild_shops` VALUES (530,4356,210,992,165,0,65);			-- white_bread
+INSERT INTO `guild_shops` VALUES (530,4387,1794,1950,255,0,100);      	-- wild_onion
+INSERT INTO `guild_shops` VALUES (530,4555,3701,3701,255,0,100);		-- windurst_salad
+INSERT INTO `guild_shops` VALUES (530,4445,114,114,165,0,65);         	-- yagudo_cherry
 
 -- Doggomehr (Northern San d'Oria) Smithing Guild (S)
 INSERT INTO `guild_shops` VALUES (531,640,9,36,255,48,100);
@@ -1347,24 +1467,94 @@ INSERT INTO `guild_shops` VALUES (60429,2144,75,75,255,48,100);
 INSERT INTO `guild_shops` VALUES (60429,13446,21060,21060,20,0,10);
 
 -- Taten-Bilten (Clothcraft Guild) Al Zahbi
-INSERT INTO `guild_shops` VALUES (60430,2149,815,989,80,0,32);
-INSERT INTO `guild_shops` VALUES (60430,825,480,640,80,16,32);
-INSERT INTO `guild_shops` VALUES (60430,818,159,768,255,48,100);
-INSERT INTO `guild_shops` VALUES (60430,839,173,870,255,48,100);
-INSERT INTO `guild_shops` VALUES (60430,835,187,1000,375,75,100);
-INSERT INTO `guild_shops` VALUES (60430,823,18240,62350,165,33,65);
-INSERT INTO `guild_shops` VALUES (60430,824,240,1344,80,16,32);
-INSERT INTO `guild_shops` VALUES (60430,817,45,240,255,48,100);
-INSERT INTO `guild_shops` VALUES (60430,2287,2700,17280,165,33,65);
-INSERT INTO `guild_shops` VALUES (60430,819,750,790,255,48,100);
-INSERT INTO `guild_shops` VALUES (60430,833,15,18,375,75,150);
-INSERT INTO `guild_shops` VALUES (60430,2148,815,989,80,0,32);
-INSERT INTO `guild_shops` VALUES (60430,834,79,200,255,48,100);
-INSERT INTO `guild_shops` VALUES (60430,832,675,4500,255,48,100);
-INSERT INTO `guild_shops` VALUES (60430,822,1800,3400,255,48,100);
-INSERT INTO `guild_shops` VALUES (60430,2128,75,86,375,75,150);
-INSERT INTO `guild_shops` VALUES (60430,2173,405,748,255,48,100);
-INSERT INTO `guild_shops` VALUES (60430,2145,75,180,165,33,65);
+INSERT INTO `guild_shops` VALUES (60430,847,14,40,375,0,150);        	-- bird_feather
+INSERT INTO `guild_shops` VALUES (60430,13577,15190,42134,20,0,10);		-- black_cape
+INSERT INTO `guild_shops` VALUES (60430,12739,37862,172339,20,0,5);		-- black_mitts
+INSERT INTO `guild_shops` VALUES (60430,18865,5175,36225,20,0,5);		-- black_slacks
+INSERT INTO `guild_shops` VALUES (60430,12609,7767,54369,20,0,5);		-- black_tunic
+INSERT INTO `guild_shops` VALUES (60430,12722,29406,29406,20,0,5);		-- bracers
+INSERT INTO `guild_shops` VALUES (60430,12848,4093,5486,20,0,5);		-- bias
+INSERT INTO `guild_shops` VALUES (60430,13583,318,1683,20,0,20);		-- cape
+INSERT INTO `guild_shops` VALUES (60430,12610,7866,55062,20,0,20);		-- cloak
+INSERT INTO `guild_shops` VALUES (60430,12849,1800,12600,20,0,20);		-- cotton_brais
+INSERT INTO `guild_shops` VALUES (60430,13584,12386,12386,20,0,20);		-- cotton_cape
+INSERT INTO `guild_shops` VALUES (60430,825,480,2432,80,16,32);      -- cotton_cloth
+INSERT INTO `guild_shops` VALUES (60430,12593,66992,66992,20,0,10);   	-- cotton_doublet
+INSERT INTO `guild_shops` VALUES (60430,12977,2316,16212,20,0,10);   	-- cotton_giaters
+INSERT INTO `guild_shops` VALUES (60430,12721,1674,11718,20,0,10);   	-- cotton_gloves
+INSERT INTO `guild_shops` VALUES (60430,12498,1800,12600,20,0,10);   	-- cotton_headband
+INSERT INTO `guild_shops` VALUES (60430,12465,35315,35135,20,0,10);   	-- cotton_doublet
+INSERT INTO `guild_shops` VALUES (60430,818,312,582,255,48,100);     -- cotton_thread
+INSERT INTO `guild_shops` VALUES (60430,839,280,624,255,48,100);    	-- crawler_cocoon
+INSERT INTO `guild_shops` VALUES (60430,12728,246,644,20,0,10);   	 	-- cuffs
+INSERT INTO `guild_shops` VALUES (60430,12592,5325,13066,20,0,10);   	-- doublet
+INSERT INTO `guild_shops` VALUES (60430,13075,372,2604,20,0,10);   		-- feather_collar
+INSERT INTO `guild_shops` VALUES (60430,835,187,430,375,75,100);     -- flax_flower
+INSERT INTO `guild_shops` VALUES (60430,12499,14160,78080,20,0,5);    	-- flax_headband
+INSERT INTO `guild_shops` VALUES (60430,12976,2538,5188,20,0,15);		-- gaiters
+INSERT INTO `guild_shops` VALUES (60430,12594,11250,78750,20,0,15);		-- gambison
+INSERT INTO `guild_shops` VALUES (60430,842,687,4809,55,0,22);      	-- giant_bird_feather
+INSERT INTO `guild_shops` VALUES (60430,12720,2787,7391,20,0,15);    	-- gloves
+INSERT INTO `guild_shops` VALUES (60430,823,18240,95760,165,33,65);  -- gold_thread
+INSERT INTO `guild_shops` VALUES (60430,824,240,588,80,16,32);       -- grass_cloth
+INSERT INTO `guild_shops` VALUES (60430,817,58,146,255,48,100);      -- grass_thread
+INSERT INTO `guild_shops` VALUES (60430,12464,1452,5468,20,0,20);     	-- headgear
+INSERT INTO `guild_shops` VALUES (60430,13085,972,4838,20,0,20);     	-- hemp_gorget
+INSERT INTO `guild_shops` VALUES (60430,12850,7875,55125,20,0,20);     	-- hose
+INSERT INTO `guild_shops` VALUES (60430,826,5970,14400,80,0,32);    	-- linen_cloth
+INSERT INTO `guild_shops` VALUES (60430,12729,1569,10983,20,0,15);   	-- linen_cuffs
+INSERT INTO `guild_shops` VALUES (60430,13750,87178,87178,20,0,10);		-- linen_doublet
+INSERT INTO `guild_shops` VALUES (60430,12738,3726,26082,20,0,15);   	-- linen_mitts
+INSERT INTO `guild_shops` VALUES (60430,12601,14684,14684,20,0,15);   	-- linen_robe
+INSERT INTO `guild_shops` VALUES (60430,12866,8487,59409,20,0,15);   	-- linen_slacks
+INSERT INTO `guild_shops` VALUES (60430,12857,336,2352,20,0,15);   		-- linen_slops
+INSERT INTO `guild_shops` VALUES (60430,819,750,750,255,0,100);     	-- linen_thread
+INSERT INTO `guild_shops` VALUES (60430,12736,1290,3196,20,0,15);     	-- mitts
+INSERT INTO `guild_shops` VALUES (60430,833,15,90,375,75,150);       -- moko_grass
+INSERT INTO `guild_shops` VALUES (60430,821,5940,41580,32,0,12);     	-- rainbow_thread
+INSERT INTO `guild_shops` VALUES (60430,12466,23200,39400,20,0,10);   	-- red_cap
+INSERT INTO `guild_shops` VALUES (60430,13586,94960,94960,20,0,10);   	-- red_cape
+INSERT INTO `guild_shops` VALUES (60430,12600,424,1046,20,0,20);      	-- robe
+INSERT INTO `guild_shops` VALUES (60430,834,80,200,255,48,100);      -- saruta_cotton
+INSERT INTO `guild_shops` VALUES (60430,13568,5100,5100,20,0,10);   	-- scarelet_ribbon
+INSERT INTO `guild_shops` VALUES (60430,832,675,855,255,48,100);    -- sheep_wool
+INSERT INTO `guild_shops` VALUES (60430,829,4725,33075,32,0,12);     	-- silk_cloth
+INSERT INTO `guild_shops` VALUES (60430,816,710,3865,255,48,100);    -- silk_thread
+INSERT INTO `guild_shops` VALUES (60430,822,685,3000,255,48,100);     -- silver_thread
+INSERT INTO `guild_shops` VALUES (60430,12864,4562,4562,20,0,10);   	-- slacks
+INSERT INTO `guild_shops` VALUES (60430,12856,372,936,20,0,20);			-- slops
+INSERT INTO `guild_shops` VALUES (60430,12978,21000,147000,20,0,20);	-- socks
+INSERT INTO `guild_shops` VALUES (60430,838,9438,34557,55,0,22);      	-- spider_web
+INSERT INTO `guild_shops` VALUES (60430,2128,75,80,375,75,150);      -- spindle
+INSERT INTO `guild_shops` VALUES (60430,12608,1260,8820,20,0,20);      	-- tunic
+INSERT INTO `guild_shops` VALUES (60430,828,25520,25520,32,0,12);     	-- velvet_cloth
+INSERT INTO `guild_shops` VALUES (60430,12731,36192,36192,20,0,20);     -- velvet_cuffs
+INSERT INTO `guild_shops` VALUES (60430,12475,12852,89964,20,0,20);     -- velvet_hat
+INSERT INTO `guild_shops` VALUES (60430,12603,19152,134064,20,0,20);    -- velvet_robe
+INSERT INTO `guild_shops` VALUES (60430,12859,15624,109368,20,0,20);    -- velvet_slops
+INSERT INTO `guild_shops` VALUES (60430,13322,1728,12096,20,0,20);      -- wing_earring
+INSERT INTO `guild_shops` VALUES (60430,12723,15480,108360,20,0,20);    -- wool_bracers
+INSERT INTO `guild_shops` VALUES (60430,12467,18720,131040,20,0,20);    -- wool_cap
+INSERT INTO `guild_shops` VALUES (60430,827,21492,52704,55,0,22);      	-- wool_cloth
+INSERT INTO `guild_shops` VALUES (60430,12730,6579,46053,20,0,20);     	-- wool_cuffs
+INSERT INTO `guild_shops` VALUES (60430,12595,28080,196560,20,0,20);    -- wool_gambison
+INSERT INTO `guild_shops` VALUES (60430,12474,7803,54621,20,0,20);    	-- wool_hat
+INSERT INTO `guild_shops` VALUES (60430,12851,21600,151200,20,0,10);   	-- wool_hose
+INSERT INTO `guild_shops` VALUES (60430,12602,11628,81396,20,0,10);		-- wool_robe
+INSERT INTO `guild_shops` VALUES (60430,12858,9486,66402,20,0,10);		-- wool_slops
+INSERT INTO `guild_shops` VALUES (60430,12979,14400,100800,20,0,10);	-- wool_socks
+INSERT INTO `guild_shops` VALUES (60430,820,2700,12528,165,0,65);    	-- wool_thread
+INSERT INTO `guild_shops` VALUES (60430,841,28,35,375,0,150);        	-- yagudo_feather
+INSERT INTO `guild_shops` VALUES (60430,2145,75,80,255,48,100);       -- zephyr_thread
+INSERT INTO `guild_shops` VALUES (60430,2149,687,4809,375,0,150);       -- apkallu_feather
+INSERT INTO `guild_shops` VALUES (60430,2150,687,4809,375,0,150);       -- colibri_feather
+INSERT INTO `guild_shops` VALUES (60430,2288,8235,57645,375,0,150);     -- karakul_cloth
+INSERT INTO `guild_shops` VALUES (60430,2287,14400,17280,375,0,150);    -- karakul_thread
+INSERT INTO `guild_shops` VALUES (60430,2148,687,4809,375,0,150);       -- puk_wing
+INSERT INTO `guild_shops` VALUES (60430,2289,4890,34230,375,0,150);     -- wamoura_cloth
+INSERT INTO `guild_shops` VALUES (60430,2173,748,748,375,0,150);      	-- wamoura_cocoon
+
+
 
 -- Tsutsuroon (Tenshodo Merchant) Nashmau
 INSERT INTO `guild_shops` VALUES (60431,16896,517,592,20,10,20);	-- Kunai    
