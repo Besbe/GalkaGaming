@@ -1308,9 +1308,8 @@ void CParty::RefreshFlags(std::vector<partyInfo_t>& info)
 							}
 							if (member->getZone() != m_PSyncTarget->getZone())
 							{
-									m_PSyncTarget = nullptr;
+									m_PSyncTarget = nullptr;\
 							}
-                            
                         }
                     }
                 }
@@ -1318,7 +1317,7 @@ void CParty::RefreshFlags(std::vector<partyInfo_t>& info)
                     {
                         m_PSyncTarget = nullptr;
                     }
-                }
+            }
                 if (memberinfo.flags & ALLIANCE_LEADER && m_PAlliance)
                 {
                     bool found = false;
