@@ -36,9 +36,11 @@ function onTrigger(player, npc)
     if player:getCharVar("theSandCharmVar") == 3 then
         player:startEvent(126, 13095) -- During quest "The Sand Charm" - 3rd dialog
     else
-        local guildSkillId = tpz.skill.GOLDSMITHING
-        local stock = tpz.shop.generalGuildStock[guildSkillId]
-        tpz.shop.generalGuild(player, stock, guildSkillId)
+        --local guildSkillId = tpz.skill.GOLDSMITHING
+        --local stock = tpz.shop.generalGuildStock[guildSkillId]
+        --tpz.shop.generalGuild(player, stock, guildSkillId)
+		(player:sendGuild(528, 8, 23, 4)) then
+        player:showText(npc, ID.text.GOLDSMITHING_GUILD)
     end
 end
 
