@@ -1186,8 +1186,7 @@ void CParty::RefreshSync()
 
         uint8 NewMLevel = 0;
 
-        if (syncLevel < member->jobs.job[member->GetMJob()] & (0 > (syncLevel - member->jobs.job[member->GetMJob()])) &&
-            (syncLevel - member->jobs.job[member->GetMJob()]) <= SyncGapAllowance)
+        if (syncLevel < member->jobs.job[member->GetMJob()] & (member->jobs.job[member->GetMJob()] - syncLevel) <= SyncGapAllowance)
         {
             NewMLevel = syncLevel;
         }
@@ -1283,6 +1282,7 @@ void CParty::RefreshFlags(std::vector<partyInfo_t>& info)
                     m_PQuaterMaster = nullptr;
                 }
             }
+
             if (memberinfo.flags & PARTY_SYNC)
             {
                 bool found = false;
@@ -1290,35 +1290,39 @@ void CParty::RefreshFlags(std::vector<partyInfo_t>& info)
                 {
                     if (member->id == memberinfo.id)
                     {
-                        for (uint8 i = 0; i < members.size(); ++i)
+                        m_PSyncTarget = member;
+                        found = true;
+						
+						for (uint8 i = 0; i < members.size(); ++i)
                         {
                             CCharEntity* member = (CCharEntity*)members.at(i);
-                            if (member->getZone() == m_PSyncTarget->getZone())
-                            {
-                                if (member->jobs.job[member->GetMJob()] - m_PSyncTarget->GetMLevel() > SyncGapAllowance)
-                                {
-                                    SetSyncTarget(nullptr, 550);
-                                    return;
-                                }
-                                if (member->jobs.job[member->GetMJob()] - m_PSyncTarget->GetMLevel() < SyncGapAllowance)
-                                {
-                                    m_PSyncTarget = member;
-                                    found = true;
-                                }
-							}
-							else 
-							{
-									m_PSyncTarget = nullptr;
-									SetSyncTarget(nullptr, 550);
-							}
+							
+							
+								if (member->getZone() == m_PSyncTarget->getZone())
+								{
+									if (member->jobs.job[member->GetMJob()] - m_PSyncTarget->GetMLevel() > SyncGapAllowance)
+										{
+											SetSyncTarget(nullptr, 550);
+										
+										}
+																	
+								}
+							
+
+							
                         }
                     }
                 }
-                    if (!found)
-                    {
-                        m_PSyncTarget = nullptr;
-                    }
+                if (!found)
+                {
+                    m_PSyncTarget = nullptr;
+                }
             }
+
+
+
+
+
                 if (memberinfo.flags & ALLIANCE_LEADER && m_PAlliance)
                 {
                     bool found = false;

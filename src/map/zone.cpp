@@ -955,21 +955,21 @@ void CZone::CharZoneOut(CCharEntity* PChar)
             {
                 PChar->PParty->SetSyncTarget(nullptr, 551);
             }
-            if (PChar->PParty->GetSyncTarget() != nullptr)
-            {
-                uint8 count = 0;
-                for (uint32 i = 0; i < PChar->PParty->members.size(); ++i)
-                {
-                    if (PChar->PParty->members.at(i) != PChar && PChar->PParty->members.at(i)->getZone() == PChar->PParty->GetSyncTarget()->getZone())
-                    {
-                        count++;
-                    }
-                }
-                if (count < 2) //3, because one is zoning out - thus at least 2 will be left
-                {
-                    PChar->PParty->SetSyncTarget(nullptr, 552);
-                }
-            }
+//            if (PChar->PParty->GetSyncTarget() != nullptr)
+//            {
+//                uint8 count = 0;
+//                for (uint32 i = 0; i < PChar->PParty->members.size(); ++i)
+//                {
+//                    if (PChar->PParty->members.at(i) != PChar && PChar->PParty->members.at(i)->getZone() == PChar->PParty->GetSyncTarget()->getZone())
+//                    {
+//                        count++;
+//                    }
+//                }
+//                if (count < 2) //3, because one is zoning out - thus at least 2 will be left
+//                {
+//                    PChar->PParty->SetSyncTarget(nullptr, 552);
+//                }
+//        }
         }
         PChar->StatusEffectContainer->DelStatusEffectSilent(EFFECT_LEVEL_SYNC);
         PChar->StatusEffectContainer->DelStatusEffectSilent(EFFECT_LEVEL_RESTRICTION);
