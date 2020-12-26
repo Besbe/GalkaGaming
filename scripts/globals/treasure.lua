@@ -1328,12 +1328,12 @@ tpz.treasure.onTrade = function(player, npc, trade, chestType)
     local zoneId = player:getZoneID()
     local ID = zones[zoneId]
     local msgBase = ID.text.CHEST_UNLOCKED
-    local info = treasureInfo[chestType].zone[zoneId]
+	local info = treasureInfo[chestType].zone[zoneId]
     local mJob = player:getMainJob()
     local mLvl = player:getMainLvl()
     local activeHands = player:getCharVar("BorghertzAlreadyActiveWithJob")
     local illusionCooldown  = npc:getLocalVar("illusionCooldown")
-
+	
     -- determine type of key traded
     local keyTraded = nil
     local isThief = player:getMainJob() == tpz.job.THF
@@ -1352,15 +1352,24 @@ tpz.treasure.onTrade = function(player, npc, trade, chestType)
         player:messageSpecial(msgBase + 7, info.key)
         return
     end
-
+	
+	-- can't open while Invisible and will drop Sneak/Deodorize when opening
+	if keyTraded == keyType.ZONE_KEY then
+	
+	   if player:hasStatusEffectByFlag(tpz.effectFlag.INVISIBLE, true) then
+		  return
+		  else player:delStatusEffectsByFlag(tpz.effectFlag.DETECTABLE, true)
+       end
+	end
+	
     -- lockpick
     if keyTraded ~= keyType.ZONE_KEY then
-
-        -- can't lockpick while weakened
-        if player:hasStatusEffect(tpz.effect.WEAKNESS) then
-            player:messageSpecial(msgBase + 3)
-            return
-        end
+	
+		-- can't lockpick while weakened
+		if player:hasStatusEffect(tpz.effect.WEAKNESS) then
+		   player:messageSpecial(msgBase + 3)
+		   return
+		end
 
         -- determine chance of success
         if mJob ~= tpz.job.THF or mLvl < (info.treasureLvl - 10) then
