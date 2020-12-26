@@ -928,7 +928,7 @@ INSERT INTO `guild_shops` VALUES (530,622,36,220,255,48,100);		-- dried_marjoram
 INSERT INTO `guild_shops` VALUES (530,4457,4800,13920,165,0,65);     	-- eel_kabob
 INSERT INTO `guild_shops` VALUES (530,4417,3960,16236,165,0,65);     	-- egg_soup
 INSERT INTO `guild_shops` VALUES (530,4363,39,220,255,48,100);		-- faerie_apple
-INSERT INTO `guild_shops` VALUES (530,4398,2127,3256,165,33,65);     	-- fish_mithkabob
+INSERT INTO `guild_shops` VALUES (530,4398,2127,3256,165,0,65);     	-- fish_mithkabob
 INSERT INTO `guild_shops` VALUES (530,2110,457,530,255,48,100);		-- fish_stock
 INSERT INTO `guild_shops` VALUES (530,4382,158,160,165,0,65);          	-- frost_turnip
 INSERT INTO `guild_shops` VALUES (530,1111,450,2760,255,0,100);			-- gelatin
@@ -952,7 +952,7 @@ INSERT INTO `guild_shops` VALUES (530,627,200,200,255,0,100);			-- maple_sugar
 INSERT INTO `guild_shops` VALUES (530,4376,90,364,255,0,100);       	-- meat_jerky
 INSERT INTO `guild_shops` VALUES (530,4381,1382,3872,165,0,65);     	-- meat_mithkabob
 INSERT INTO `guild_shops` VALUES (530,4424,1573,3872,55,0,22);       	-- melon_juice
-INSERT INTO `guild_shops` VALUES (530,614,60,631,255,48,100);			-- mhaura_garlic
+INSERT INTO `guild_shops` VALUES (530,614,60,631,255,48,100);		-- mhaura_garlic
 INSERT INTO `guild_shops` VALUES (530,629,36,182,255,48,100);		-- 	millioncorn
 INSERT INTO `guild_shops` VALUES (530,4390,78,195,255,48,100);      -- mithran_tomato
 INSERT INTO `guild_shops` VALUES (530,4401,45,315,165,0,65);			-- moat_carp
