@@ -1181,9 +1181,17 @@ void SmallPacket0x032(map_session_data_t* const PSession, CCharEntity* const PCh
     if ((PTarget != nullptr) && (PTarget->id == charid))
     {
         ShowDebug(CL_CYAN"%s initiated trade request with %s\n" CL_RESET, PChar->GetName(), PTarget->GetName());
-        if (jailutils::InPrison(PChar) || jailutils::InPrison(PTarget))
+        
+       // If player is invisible don't allow the trade.
+         if (PChar->StatusEffectContainer->HasStatusEffectByFlag(EFFECTFLAG_INVISIBLE) || PTarget->StatusEffectContainer->HasStatusEffectByFlag(EFFECTFLAG_INVISIBLE))
         {
-            // If either player is in prison don't allow the trade.
+            PChar->pushPacket(new CMessageBasicPacket(PChar, PChar, 0, 0, 155));
+            return;
+        }
+
+        // If either player is in prison don't allow the trade.
+         if (jailutils::InPrison(PChar) || jailutils::InPrison(PTarget))
+        {            
             PChar->pushPacket(new CMessageBasicPacket(PChar, PChar, 0, 0, 316));
             return;
         }
