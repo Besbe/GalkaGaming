@@ -39,7 +39,7 @@ function onTrigger(player, npc)
         --local guildSkillId = tpz.skill.GOLDSMITHING
         --local stock = tpz.shop.generalGuildStock[guildSkillId]
         --tpz.shop.generalGuild(player, stock, guildSkillId)
-		(player:sendGuild(528, 8, 23, 4)) then
+		(player:sendGuild(528, 8, 23, 4))
         player:showText(npc, ID.text.GOLDSMITHING_GUILD)
     end
 end
