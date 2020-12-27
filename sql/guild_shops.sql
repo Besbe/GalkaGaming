@@ -1595,13 +1595,8 @@ INSERT INTO `guild_shops` VALUES (60429,807,1396,1434,80,0,32);			--sardonyx
 INSERT INTO `guild_shops` VALUES (60429,13331,2812,2812,20,0,10);     	-- sardonyx_earring
 INSERT INTO `guild_shops` VALUES (60429,13444,3350,3350,20,0,15);     	-- sardonyx_ring
 INSERT INTO `guild_shops` VALUES (60429,13979,20088,20088,20,0,10);   	-- silver_bangles
-INSERT INTO `guild_shops` VALUES (60429,13196,52284,52284,20,0,10);   	-- silver_belt
-INSERT INTO `guild_shops` VALUES (60429,760,68640,74880,55,0,22);     	-- silver_chain
-INSERT INTO `guild_shops` VALUES (60429,13327,5850,5850,20,0,15);    	-- silver_earring
-INSERT INTO `guild_shops` VALUES (60429,12495,4398,4398,20,0,10);		-- silver_hairpin
-INSERT INTO `guild_shops` VALUES (60429,744,8820,10416,80,0,32);       	-- silver_ingot
-INSERT INTO `guild_shops` VALUES (60429,12425,12825,89775,20,0,20);		-- silver_mask
-INSERT INTO `guild_shops` VALUES (60429,12681,10575,74025,20,0,20);		-- silver_mittens
+INSERT INTO `guild_shops` VALUES (60429,806,1396,1434,80,0,32);			-- tourmaline
+INSERT INTO `guild_shops` VALUES (60429,13330,2812,2812,20,0,10);     	-- tml._earring
 INSERT INTO `guild_shops` VALUES (60429,736,315,1260,255,48,100);     -- silver_ore
 INSERT INTO `guild_shops` VALUES (60429,13456,5850,5850,20,0,20);		-- silver_ring
 INSERT INTO `guild_shops` VALUES (60429,815,56160,56160,15,0,6);			-- sphene
@@ -1609,8 +1604,6 @@ INSERT INTO `guild_shops` VALUES (60429,13342,12250,12250,20,0,10);   	-- sphene
 INSERT INTO `guild_shops` VALUES (60429,804,143488,265088,15,0,3);		-- spinel
 INSERT INTO `guild_shops` VALUES (60429,803,42432,163032,15,0,3);		-- sunstone
 INSERT INTO `guild_shops` VALUES (60429,789,143488,260088,15,0,3);    	-- topaz
-INSERT INTO `guild_shops` VALUES (60429,806,1396,1434,80,0,32);			-- tourmaline
-INSERT INTO `guild_shops` VALUES (60429,13330,2812,2812,20,0,10);     	-- tml._earring
 INSERT INTO `guild_shops` VALUES (60429,13468,3350,3350,20,0,15);     	-- tourmaline_ring
 INSERT INTO `guild_shops` VALUES (60429,773,1288,6440,165,33,65);     -- translucent_rock
 INSERT INTO `guild_shops` VALUES (60429,789,56160,56160,165,0,65);       -- turquoise
