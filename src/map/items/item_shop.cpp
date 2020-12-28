@@ -108,7 +108,7 @@ uint16 CItemShop::getSellPrice()
 
     if (getID() >= 0x2800 && getID() <= 0x6FFF)
     {
-        temp_price = (int32)(((getQuantity() / getStackSize()) * (getMinPrice() * 0.10f)) / 12);
+        temp_price = (int32)((getMinPrice() + (getQuantity() / getStackSize()) * (getMinPrice() * 0.10f)) / 12);
     }
     else
     {
