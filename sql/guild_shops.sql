@@ -942,7 +942,7 @@ INSERT INTO `guild_shops` VALUES (529,12698,23580,23580,20,0,10);    	-- studded
 INSERT INTO `guild_shops` VALUES (529,12826,32002,36232,20,0,10);    	-- studded_trousers
 INSERT INTO `guild_shops` VALUES (529,12570,44232,44916,20,0,10);    	-- studded_vest
 INSERT INTO `guild_shops` VALUES (529,2129,75,75,255,48,100);		-- tanning_vat	
-INSERT INTO `guild_shops` VALUES (529,861,1312,1653,55,48,22);		--tiger_hide
+INSERT INTO `guild_shops` VALUES (529,861,1312,1653,55,5,10);		--tiger_hide
 INSERT INTO `guild_shops` VALUES (529,855,3087,3087,30,0,12);			-- tiger_leather
 INSERT INTO `guild_shops` VALUES (529,13200,13860,80572,20,0,10);    	-- waistbelt
 INSERT INTO `guild_shops` VALUES (529,13194,16896,20803,20,0,5);     	-- warriors_belt
@@ -1606,7 +1606,7 @@ INSERT INTO `guild_shops` VALUES (60429,803,42432,163032,15,0,3);		-- sunstone
 INSERT INTO `guild_shops` VALUES (60429,789,143488,260088,15,0,3);    	-- topaz
 INSERT INTO `guild_shops` VALUES (60429,13468,3350,3350,20,0,15);     	-- tourmaline_ring
 INSERT INTO `guild_shops` VALUES (60429,773,1288,6440,165,33,65);     -- translucent_rock
-INSERT INTO `guild_shops` VALUES (60429,789,56160,56160,165,0,65);       -- turquoise
+INSERT INTO `guild_shops` VALUES (60429,798,56160,56160,165,0,65);       -- turquoise
 INSERT INTO `guild_shops` VALUES (60429,776,1288,6440,165,0,65);      -- white_rock
 INSERT INTO `guild_shops` VALUES (60429,2144,75,75,255,48,100);        -- workshop_anvil
 INSERT INTO `guild_shops` VALUES (60429,771,1288,6440,165,33,65);     -- yellow_rock
