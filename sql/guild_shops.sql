@@ -840,7 +840,7 @@ INSERT INTO `guild_shops` VALUES (5272,806,1396,1434,80,0,32);			-- tourmaline
 INSERT INTO `guild_shops` VALUES (5272,13330,2812,2812,20,0,10);     	-- tml._earring
 INSERT INTO `guild_shops` VALUES (5272,13468,3350,3350,20,0,15);     	-- tourmaline_ring
 INSERT INTO `guild_shops` VALUES (5272,773,1288,6440,165,33,65);     -- translucent_rock
-INSERT INTO `guild_shops` VALUES (5272,789,56160,56160,165,0,65);       -- turquoise
+INSERT INTO `guild_shops` VALUES (5272,798,56160,56160,165,0,65);       -- turquoise
 INSERT INTO `guild_shops` VALUES (5272,776,1288,6440,165,0,65);      -- white_rock
 INSERT INTO `guild_shops` VALUES (5272,2144,75,75,255,48,100);        -- workshop_anvil
 INSERT INTO `guild_shops` VALUES (5272,771,1288,6440,165,33,65);     -- yellow_rock
