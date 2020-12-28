@@ -100,17 +100,26 @@ zones[tpz.zone.SOUTHERN_SAN_DORIA] =
     {
     },
     npc =
+--    {
+--        HALLOWEEN_SKINS =
+--       {
+--            [17719303] = 47, -- Machielle
+--            [17719304] = 50, -- Corua
+--            [17719305] = 48, -- Phamelise
+--            [17719306] = 46, -- Apairemant
+--            [17719493] = 49, -- Pourette
+--        },
+--        LUSIANE  = 17719350,
+--        ARPETION = 17719409,
+--    },
     {
-        HALLOWEEN_SKINS =
-        {
-            [17719303] = 47, -- Machielle
-            [17719304] = 50, -- Corua
-            [17719305] = 48, -- Phamelise
-            [17719306] = 46, -- Apairemant
-            [17719493] = 49, -- Pourette
-        },
-        LUSIANE  = 17719350,
-        ARPETION = 17719409,
+       OMINOUS_CLOUD	=	17719535,
+	   CHEH_RAIHAH		= 	17719427,
+	   MOKOP_SANKOP		=	17719426,
+	   VALERIANO		=	17719424,
+	   NALTA			=	17719428,
+	   DAHJAL			=	17719425,
+	   NOKKHI_JINJAHL	=	17719534,
     },
 }
 
