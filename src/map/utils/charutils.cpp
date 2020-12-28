@@ -3150,9 +3150,9 @@ namespace charutils
     {
         uint32 baseExp = GetRealExp(charlvl, moblvl);
 
-        if (baseExp >= 450) return EMobDifficulty::IncrediblyTough;
-        if (baseExp >= 350) return EMobDifficulty::VeryTough;
-        if (baseExp >= 120) return EMobDifficulty::Tough;
+        if (baseExp >= 200) return EMobDifficulty::IncrediblyTough;
+        if (baseExp >= 135) return EMobDifficulty::VeryTough;
+        if (baseExp >= 101) return EMobDifficulty::Tough;
         if (baseExp >= 100) return EMobDifficulty::EvenMatch;
         if (baseExp >= 50) return EMobDifficulty::DecentChallenge;
         if (baseExp >= 15) return EMobDifficulty::EasyPrey;
