@@ -17,6 +17,25 @@ function onInitialize(zone)
 end
 
 function onZoneIn(player, prevZone)
+	local rank = getNationRank(tpz.nation.WINDURST)
+
+	if (rank ~= 1) then
+		GetNPCByID(ID.npc.OMINOUS_CLOUD):setStatus(tpz.status.DISAPPEAR)
+		GetNPCByID(ID.npc.CHEH_RAIHAH):setStatus(tpz.status.DISAPPEAR)
+		GetNPCByID(ID.npc.MOKOP_SANKOP):setStatus(tpz.status.DISAPPEAR)
+		GetNPCByID(ID.npc.VALERIANO):setStatus(tpz.status.DISAPPEAR)
+		GetNPCByID(ID.npc.NALTA):setStatus(tpz.status.DISAPPEAR)
+		GetNPCByID(ID.npc.DAHJAL):setStatus(tpz.status.DISAPPEAR)
+		GetNPCByID(ID.npc.NOKKHI_JINJAHL):setStatus(tpz.status.DISAPPEAR)		
+	else
+		GetNPCByID(ID.npc.OMINOUS_CLOUD):setStatus(tpz.status.NORMAL)
+		GetNPCByID(ID.npc.CHEH_RAIHAH):setStatus(tpz.status.NORMAL)
+		GetNPCByID(ID.npc.MOKOP_SANKOP):setStatus(tpz.status.NORMAL)
+		GetNPCByID(ID.npc.VALERIANO):setStatus(tpz.status.NORMAL)
+		GetNPCByID(ID.npc.NALTA):setStatus(tpz.status.NORMAL)
+		GetNPCByID(ID.npc.DAHJAL):setStatus(tpz.status.NORMAL)
+		GetNPCByID(ID.npc.NOKKHI_JINJAHL):setStatus(tpz.status.NORMAL)
+	end
     local cs = -1
 
     -- FIRST LOGIN (START CS)

@@ -77,6 +77,13 @@ zones[tpz.zone.PORT_BASTOK] =
     },
     npc =
     {
+       OMINOUS_CLOUD	=	17744022,
+	   CHEH_RAIHAH		= 	17743969,
+	   MOKOP_SANKOP		=	17743968,
+	   VALERIANO		=	17743966,
+	   NALTA			=	17743970,
+	   DAHJAL			=	17743967,
+	   NOKKHI_JINJAHL	=	17744021,
     },
 }
 
