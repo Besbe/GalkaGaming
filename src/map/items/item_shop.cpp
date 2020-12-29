@@ -87,7 +87,7 @@ uint16 CItemShop::getInitialQuantity()
 }
 
 
-
+/*
 uint16 CItemShop::getSellPrice()
 {
 	if (getID() >= 0x2800 && getID() <= 0x6FFF)
@@ -98,7 +98,7 @@ uint16 CItemShop::getSellPrice()
 	{
 		return getBasePrice() / 3;
 	}
-}
+}*/
 
 /*
 uint16 CItemShop::getSellPrice()
@@ -108,7 +108,7 @@ uint16 CItemShop::getSellPrice()
 
     if (getID() >= 0x2800 && getID() <= 0x6FFF)
     {
-        temp_price = (int32)((getMinPrice() + (getQuantity() / getStackSize()) * (getMinPrice() * 0.10f)) / 12);
+        temp_price = (int32)((getMinPrice() + (getQuantity() / getStackSize()) * (getMinPrice() * 0.10f)) / 18);
     }
     else
     {
@@ -124,3 +124,36 @@ uint16 CItemShop::getSellPrice()
     }
     return (uint16)temp_price;
 }*/
+
+uint16 CItemShop::getSellPrice()
+{
+    int32 temp_price = 0;
+    int32 max_sale_price = (int32)getMinPrice() / 2;
+    int32 min_sale_price = (int32)getMinPrice();
+
+    if (getID() >= 0x2800 && getID() <= 0x6FFF)
+    {
+        temp_price = (int32)((getMinPrice() + (getQuantity() / getStackSize()) * (getMinPrice() * 0.10f)) / 18);
+    }
+    else
+    {
+        temp_price = (int32)getBasePrice() / 3;
+    }
+    if (min_sale_price < 5001 && temp_price > 499)
+    {
+       temp_price = 499;
+    }
+    if (min_sale_price > 5001 && temp_price > 999)
+    {
+        temp_price = 999;
+    }
+    if (min_sale_price > 10001 && temp_price > 2999)
+    {
+        temp_price = 2999;
+    }
+    if (min_sale_price > 100000 && temp_price > 4999)
+    {
+        temp_price = 4999;
+    }
+    return (uint16)temp_price;
+}
