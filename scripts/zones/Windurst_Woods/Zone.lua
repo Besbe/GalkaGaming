@@ -14,28 +14,53 @@ require("scripts/globals/zone")
 function onInitialize(zone)
     applyHalloweenNpcCostumes(zone:getID())
     tpz.chocobo.initZone(zone)
+	
+	local rank = getNationRank(tpz.nation.WINDURST)
+	
+	if (rank ~= 1) then
+			GetNPCByID(ID.npc.OMINOUS_CLOUD):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.CHEH_RAIHAH):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.MOKOP_SANKOP):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.VALERIANO):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.NALTA):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.DAHJAL):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.NOKKHI_JINJAHL):setStatus(tpz.status.DISAPPEAR)		
+		else
+			GetNPCByID(ID.npc.OMINOUS_CLOUD):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.CHEH_RAIHAH):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.MOKOP_SANKOP):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.VALERIANO):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.NALTA):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.DAHJAL):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.NOKKHI_JINJAHL):setStatus(tpz.status.NORMAL)
+	end
+end
+
+function onConquestUpdate(zone, updatetype)
+    tpz.conq.onConquestUpdate(zone, updatetype)
+	
+	local rank = getNationRank(tpz.nation.WINDURST)
+	
+	if (rank ~= 1) then
+			GetNPCByID(ID.npc.OMINOUS_CLOUD):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.CHEH_RAIHAH):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.MOKOP_SANKOP):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.VALERIANO):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.NALTA):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.DAHJAL):setStatus(tpz.status.DISAPPEAR)
+			GetNPCByID(ID.npc.NOKKHI_JINJAHL):setStatus(tpz.status.DISAPPEAR)		
+		else
+			GetNPCByID(ID.npc.OMINOUS_CLOUD):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.CHEH_RAIHAH):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.MOKOP_SANKOP):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.VALERIANO):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.NALTA):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.DAHJAL):setStatus(tpz.status.NORMAL)
+			GetNPCByID(ID.npc.NOKKHI_JINJAHL):setStatus(tpz.status.NORMAL)
+	end
 end
 
 function onZoneIn(player, prevZone)
-	local rank = getNationRank(tpz.nation.WINDURST)
-
-	if (rank ~= 1) then
-		GetNPCByID(ID.npc.OMINOUS_CLOUD):setStatus(tpz.status.DISAPPEAR)
-		GetNPCByID(ID.npc.CHEH_RAIHAH):setStatus(tpz.status.DISAPPEAR)
-		GetNPCByID(ID.npc.MOKOP_SANKOP):setStatus(tpz.status.DISAPPEAR)
-		GetNPCByID(ID.npc.VALERIANO):setStatus(tpz.status.DISAPPEAR)
-		GetNPCByID(ID.npc.NALTA):setStatus(tpz.status.DISAPPEAR)
-		GetNPCByID(ID.npc.DAHJAL):setStatus(tpz.status.DISAPPEAR)
-		GetNPCByID(ID.npc.NOKKHI_JINJAHL):setStatus(tpz.status.DISAPPEAR)		
-	else
-		GetNPCByID(ID.npc.OMINOUS_CLOUD):setStatus(tpz.status.NORMAL)
-		GetNPCByID(ID.npc.CHEH_RAIHAH):setStatus(tpz.status.NORMAL)
-		GetNPCByID(ID.npc.MOKOP_SANKOP):setStatus(tpz.status.NORMAL)
-		GetNPCByID(ID.npc.VALERIANO):setStatus(tpz.status.NORMAL)
-		GetNPCByID(ID.npc.NALTA):setStatus(tpz.status.NORMAL)
-		GetNPCByID(ID.npc.DAHJAL):setStatus(tpz.status.NORMAL)
-		GetNPCByID(ID.npc.NOKKHI_JINJAHL):setStatus(tpz.status.NORMAL)
-	end
     local cs = -1
 
     -- FIRST LOGIN (START CS)
@@ -65,10 +90,6 @@ function onZoneIn(player, prevZone)
     end
 
     return cs
-end
-
-function onConquestUpdate(zone, updatetype)
-    tpz.conq.onConquestUpdate(zone, updatetype)
 end
 
 function onRegionEnter(player, region)
