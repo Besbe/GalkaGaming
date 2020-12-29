@@ -25,11 +25,13 @@ end
 
 function onZoneWeatherChange(weather)
     local npc = GetNPCByID(ID.npc.INDESCRIPT_MARKINGS)
-    if (weather == tpz.weather.WIND or weather == tpz.weather.GALES) then
-        npc:setStatus(tpz.status.NORMAL)
-    else
-        npc:setStatus(tpz.status.DISAPPEAR)
-    end
+	if (npc ~= nil) then
+		if (weather == tpz.weather.WIND or weather == tpz.weather.GALES) then
+			npc:setStatus(tpz.status.NORMAL)
+		else
+			npc:setStatus(tpz.status.DISAPPEAR)
+		end
+	end	
 end
 
 function onEventUpdate(player, csid, option)
