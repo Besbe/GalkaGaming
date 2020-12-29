@@ -86,7 +86,7 @@ uint16 CItemShop::getInitialQuantity()
     return m_InitialQuantity;
 }
 
-/*
+
 
 uint16 CItemShop::getSellPrice()
 {
@@ -99,8 +99,8 @@ uint16 CItemShop::getSellPrice()
 		return getBasePrice() / 3;
 	}
 }
-*/
 
+/*
 uint16 CItemShop::getSellPrice()
 {
     int32 temp_price = 0;
@@ -123,4 +123,4 @@ uint16 CItemShop::getSellPrice()
         temp_price = 1;
     }
     return (uint16)temp_price;
-}
+}*/
