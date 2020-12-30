@@ -864,23 +864,14 @@ namespace battleutils
         }
         if (previous_daze != EFFECT_NONE)
         {
-            if (PAttacker->objtype == TYPE_PC && PAttacker->PParty != nullptr)
+            if (PAttacker->PParty != nullptr)
             {
-                for (auto& member : PAttacker->PParty->members)
+                for (uint8 i = 0; i < PAttacker->PParty->members.size(); i++)
                 {
-                    PDefender->StatusEffectContainer->DelStatusEffect(EFFECT_DRAIN_DAZE, member->id);
-                    PDefender->StatusEffectContainer->DelStatusEffect(EFFECT_HASTE_DAZE, member->id);
-                    PDefender->StatusEffectContainer->DelStatusEffect(EFFECT_ASPIR_DAZE, member->id);
+                    PDefender->StatusEffectContainer->DelStatusEffect(EFFECT_DRAIN_DAZE, PAttacker->PParty->members[i]->id);
+                    PDefender->StatusEffectContainer->DelStatusEffect(EFFECT_HASTE_DAZE, PAttacker->PParty->members[i]->id);
+                    PDefender->StatusEffectContainer->DelStatusEffect(EFFECT_ASPIR_DAZE, PAttacker->PParty->members[i]->id);
                 }
-            }
-            else if (PAttacker->objtype == TYPE_TRUST && PAttacker->PMaster)
-            {
-                static_cast<CCharEntity*>(PAttacker->PMaster)->ForPartyWithTrusts([&](CBattleEntity* PMember)
-                {
-                    PDefender->StatusEffectContainer->DelStatusEffect(EFFECT_DRAIN_DAZE, PMember->id);
-                    PDefender->StatusEffectContainer->DelStatusEffect(EFFECT_HASTE_DAZE, PMember->id);
-                    PDefender->StatusEffectContainer->DelStatusEffect(EFFECT_ASPIR_DAZE, PMember->id);
-                });
             }
             else
             {
@@ -888,41 +879,24 @@ namespace battleutils
                 PDefender->StatusEffectContainer->DelStatusEffect(EFFECT_HASTE_DAZE, PAttacker->id);
                 PDefender->StatusEffectContainer->DelStatusEffect(EFFECT_ASPIR_DAZE, PAttacker->id);
             }
-            if (PDefender->objtype == TYPE_PC)
+            if ((PDefender->m_EcoSystem != SYSTEM_UNDEAD) || (previous_daze == EFFECT_HASTE_DAZE))
             {
-                PDefender->StatusEffectContainer->AddStatusEffect(new CStatusEffect(previous_daze, 0, previous_daze_power, 0, 10, PAttacker->id), true);
-            }
-            else
-            {
-                if (previous_daze == EFFECT_DRAIN_DAZE && PDefender->m_EcoSystem != ECOSYSTEM::UNDEAD)
-                {
-                    PDefender->StatusEffectContainer->AddStatusEffect(new CStatusEffect(EFFECT_DRAIN_DAZE, 0, previous_daze_power, 0, 10, PAttacker->id), true);
-                }   
-                else
-                {
-                    PDefender->StatusEffectContainer->AddStatusEffect(new CStatusEffect(previous_daze, 0, previous_daze_power, 0, 10, PAttacker->id), true);
-                }
+                PDefender->StatusEffectContainer->AddStatusEffect(new CStatusEffect(previous_daze,
+                    0, previous_daze_power,
+                    0, 10, PAttacker->id), true);
             }
         }
 
         // Enspell overwrites weapon effects
-        if (PAttacker->getMod(Mod::ENSPELL) > 0 &&
-            (PAttacker->getMod(Mod::ENSPELL_CHANCE) == 0 || PAttacker->getMod(Mod::ENSPELL_CHANCE) > tpzrand::GetRandomNumber(100)))
+        if (PAttacker->getMod(Mod::ENSPELL) > 0 && (PAttacker->getMod(Mod::ENSPELL_CHANCE) == 0 ||
+            PAttacker->getMod(Mod::ENSPELL_CHANCE) > tpzrand::GetRandomNumber(100)))
         {
             static SUBEFFECT enspell_subeffects[8] =
             {
-                SUBEFFECT_FIRE_DAMAGE,
-                SUBEFFECT_ICE_DAMAGE,
-                SUBEFFECT_WIND_DAMAGE,
-                SUBEFFECT_EARTH_DAMAGE,
-                SUBEFFECT_LIGHTNING_DAMAGE,
-                SUBEFFECT_WATER_DAMAGE,
-                SUBEFFECT_LIGHT_DAMAGE,
-                SUBEFFECT_DARKNESS_DAMAGE,
+                SUBEFFECT_FIRE_DAMAGE, SUBEFFECT_ICE_DAMAGE, SUBEFFECT_WIND_DAMAGE, SUBEFFECT_EARTH_DAMAGE,
+                SUBEFFECT_LIGHTNING_DAMAGE, SUBEFFECT_WATER_DAMAGE, SUBEFFECT_LIGHT_DAMAGE, SUBEFFECT_DARKNESS_DAMAGE,
             };
-
-            uint8 enspell = (uint8)PAttacker->getMod(Mod::ENSPELL);
-
+            uint8 enspell = (uint8) PAttacker->getMod(Mod::ENSPELL);
             if (enspell == ENSPELL_BLOOD_WEAPON)
             {
                 Action->additionalEffect = SUBEFFECT_HP_DRAIN;
@@ -930,32 +904,30 @@ namespace battleutils
 
                 Action->addEffectParam = PAttacker->addHP(Action->param);
 
-                if (PChar != nullptr)
-                {
+                if (PChar != nullptr) {
                     PChar->updatemask |= UPDATE_HP;
                 }
             }
-            else if (enspell == ENSPELL_AUSPICE && isFirstSwing)
-            {
+            else if (enspell == ENSPELL_AUSPICE && isFirstSwing) {
                 Action->additionalEffect = SUBEFFECT_LIGHT_DAMAGE;
                 Action->addEffectMessage = 163;
-                Action->addEffectParam   = CalculateEnspellDamage(PAttacker, PDefender, 2, 7);
+                Action->addEffectParam = CalculateEnspellDamage(PAttacker, PDefender, 2, 7);
 
                 if (Action->addEffectParam < 0)
                 {
-                    Action->addEffectParam   = -Action->addEffectParam;
+                    Action->addEffectParam = -Action->addEffectParam;
                     Action->addEffectMessage = 384;
                 }
 
-                PDefender->takeDamage(Action->addEffectParam, PAttacker, ATTACK_TYPE::MAGICAL, GetEnspellDamageType((ENSPELL)enspell));
+                PDefender->takeDamage(Action->addEffectParam, PAttacker, ATTACK_MAGICAL, GetEnspellDamageType((ENSPELL)enspell));
             }
             else if (enspell <= ENSPELL_II_DARK) // Elemental enspells
             {
-                if (enspell > ENSPELL_I_DARK && isFirstSwing) // Tier II elemental enspell
+                if (enspell > ENSPELL_I_DARK && isFirstSwing ) // Tier II elemental enspell
                 {
-                    // Enlight II and Endark II currently not implemented; may vary
+                    //Enlight II and Endark II currently not implemented; may vary
                     Action->additionalEffect = enspell_subeffects[enspell - 9];
-                    Action->addEffectParam   = CalculateEnspellDamage(PAttacker, PDefender, 2, enspell - 8);
+                    Action->addEffectParam = CalculateEnspellDamage(PAttacker, PDefender, 2, enspell - 8);
                 }
                 else if (enspell <= ENSPELL_I_DARK) // Tier I elemental enspell
                 {
@@ -968,13 +940,14 @@ namespace battleutils
                     {
                         Action->addEffectParam = CalculateEnspellDamage(PAttacker, PDefender, 1, enspell);
                     }
+
                 }
 
                 if (Action->additionalEffect)
                 {
                     if (Action->addEffectParam < 0)
                     {
-                        Action->addEffectParam   = -Action->addEffectParam;
+                        Action->addEffectParam = -Action->addEffectParam;
                         Action->addEffectMessage = 384;
                     }
                     else
@@ -982,25 +955,24 @@ namespace battleutils
                         Action->addEffectMessage = 163;
                     }
 
-                    PDefender->takeDamage(Action->addEffectParam, PAttacker, ATTACK_TYPE::MAGICAL, GetEnspellDamageType((ENSPELL)enspell));
+                    PDefender->takeDamage(Action->addEffectParam, PAttacker, ATTACK_MAGICAL, GetEnspellDamageType((ENSPELL)enspell));
                 }
             }
         }
-        // check weapon for additional effects
+        //check weapon for additional effects
         else if (PAttacker->objtype == TYPE_PC && battleutils::GetScaledItemModifier(PAttacker, weapon, Mod::ADDITIONAL_EFFECT) > 0 &&
-                 luautils::OnAdditionalEffect(PAttacker, PDefender, weapon, Action, finaldamage) == 0 && Action->additionalEffect)
+            luautils::OnAdditionalEffect(PAttacker, PDefender, weapon, Action, finaldamage) == 0 && Action->additionalEffect)
         {
             if (Action->addEffectMessage == 163 && Action->addEffectParam < 0)
             {
                 Action->addEffectMessage = 384;
             }
         }
-        // check script for grip if main failed
-        else if (PAttacker->objtype == TYPE_PC && static_cast<CCharEntity*>(PAttacker)->getEquip(SLOT_SUB) && weapon == PAttacker->m_Weapons[SLOT_MAIN] &&
-                 static_cast<CItemWeapon*>(static_cast<CCharEntity*>(PAttacker)->getEquip(SLOT_SUB))->getSkillType() == SKILL_NONE &&
-                 battleutils::GetScaledItemModifier(PAttacker, static_cast<CCharEntity*>(PAttacker)->getEquip(SLOT_SUB), Mod::ADDITIONAL_EFFECT) > 0 &&
-                 luautils::OnAdditionalEffect(PAttacker, PDefender, static_cast<CItemWeapon*>(static_cast<CCharEntity*>(PAttacker)->getEquip(SLOT_SUB)), Action,
-                 finaldamage) == 0 && Action->additionalEffect)
+        //check script for grip if main failed
+        else if (PAttacker->objtype == TYPE_PC && static_cast<CCharEntity*>(PAttacker)->getEquip(SLOT_SUB) &&
+            weapon == PAttacker->m_Weapons[SLOT_MAIN] && static_cast<CItemWeapon*>(static_cast<CCharEntity*>(PAttacker)->getEquip(SLOT_SUB))->getSkillType() == SKILL_NONE &&
+            battleutils::GetScaledItemModifier(PAttacker, static_cast<CCharEntity*>(PAttacker)->getEquip(SLOT_SUB), Mod::ADDITIONAL_EFFECT) > 0 &&
+            luautils::OnAdditionalEffect(PAttacker, PDefender, static_cast<CItemWeapon*>(static_cast<CCharEntity*>(PAttacker)->getEquip(SLOT_SUB)), Action, finaldamage) == 0 && Action->additionalEffect)
         {
             if (Action->addEffectMessage == 163 && Action->addEffectParam < 0)
             {
@@ -1015,42 +987,40 @@ namespace battleutils
                 Action->addEffectMessage = 384;
             }
         }
-        else
+        else if (PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_DRAIN_DAZE) ||
+            PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_HASTE_DAZE) ||
+            PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_ASPIR_DAZE))
         {
-            bool hasDrainDaze = PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_DRAIN_DAZE);
-            bool hasAspirDaze = PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_ASPIR_DAZE);
-            bool hasHasteDaze = PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_HASTE_DAZE);
+            // Generic drain for anyone able to do melee damage to a dazed target
+            // TODO: ignore dazes from dancers outside party
+            int16 delay = PAttacker->GetWeaponDelay(false) / 10;
 
-            if (hasDrainDaze || hasAspirDaze || hasHasteDaze)
+            if (PAttacker->PMaster == nullptr || PAttacker->objtype == TYPE_TRUST)
             {
-                int16 delay = PAttacker->GetWeaponDelay(false) / 10;
-
-                EFFECT daze       = EFFECT_NONE;
-                uint32 attackerID = 0;
-                uint16 power      = 0;
-
-                if (hasDrainDaze)
-                {
-                    daze = EFFECT_DRAIN_DAZE;
-                }   
-                else if (hasAspirDaze)
-                {
-                    daze = EFFECT_ASPIR_DAZE;
-                }
-                else if (hasHasteDaze)
-                {
-                    daze = EFFECT_HASTE_DAZE;
-                }
-
-                attackerID = PDefender->StatusEffectContainer->GetStatusEffect(daze)->GetSubID();
-
+                // TODO: All of this is very ugly, but is fairly fragile, be careful refactoring!
+                EFFECT daze = EFFECT_NONE;
+                uint16 power = 0;
                 if (PAttacker->objtype == TYPE_PC && PAttacker->PParty != nullptr)
                 {
-                    for (auto& member : PAttacker->PParty->members)
+                    for (uint8 i = 0; i < PAttacker->PParty->members.size(); i++)
                     {
-                        if (attackerID == member->id)
+                        if (PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_DRAIN_DAZE, PAttacker->PParty->members[i]->id))
                         {
-                            power = PDefender->StatusEffectContainer->GetStatusEffect(daze)->GetPower();
+                            daze = EFFECT_DRAIN_DAZE;
+                            power = PDefender->StatusEffectContainer->GetStatusEffect(EFFECT_DRAIN_DAZE, PAttacker->PParty->members[i]->id)->GetPower();
+                            break;
+                        }
+                        if (PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_HASTE_DAZE, PAttacker->PParty->members[i]->id))
+                        {
+                            daze = EFFECT_HASTE_DAZE;
+                            power = PDefender->StatusEffectContainer->GetStatusEffect(EFFECT_HASTE_DAZE, PAttacker->PParty->members[i]->id)->GetPower();
+                            break;
+                        }
+                        if (PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_ASPIR_DAZE, PAttacker->PParty->members[i]->id))
+                        {
+                            daze = EFFECT_ASPIR_DAZE;
+                            power = PDefender->StatusEffectContainer->GetStatusEffect(EFFECT_ASPIR_DAZE, PAttacker->PParty->members[i]->id)->GetPower();
+                            break;
                         }
                     }
                 }
@@ -1058,42 +1028,61 @@ namespace battleutils
                 {
                     static_cast<CCharEntity*>(PAttacker->PMaster)->ForPartyWithTrusts([&](CBattleEntity* PMember)
                     {
-                        if (attackerID == PMember->id)
+                        if (daze == EFFECT_NONE && PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_DRAIN_DAZE, PMember->id))
                         {
-                            power = PDefender->StatusEffectContainer->GetStatusEffect(daze)->GetPower();
+                            daze = EFFECT_DRAIN_DAZE;
+                            power = PDefender->StatusEffectContainer->GetStatusEffect(EFFECT_DRAIN_DAZE, PMember->id)->GetPower();
+                        }
+                        if (daze == EFFECT_NONE && PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_DRAIN_DAZE, PMember->id))
+                        {
+                            daze = EFFECT_DRAIN_DAZE;
+                            power = PDefender->StatusEffectContainer->GetStatusEffect(EFFECT_DRAIN_DAZE, PMember->id)->GetPower();
+                        }
+                        if (daze == EFFECT_NONE && PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_ASPIR_DAZE, PMember->id))
+                        {
+                            daze = EFFECT_DRAIN_DAZE;
+                            power = PDefender->StatusEffectContainer->GetStatusEffect(EFFECT_ASPIR_DAZE, PMember->id)->GetPower();
                         }
                     });
                 }
-                else if (PAttacker->PMaster == nullptr)
+                else
                 {
-                    if (attackerID == PAttacker->id)
+                    if (PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_DRAIN_DAZE, PAttacker->id))
                     {
-                        power = PDefender->StatusEffectContainer->GetStatusEffect(daze)->GetPower();
+                        daze = EFFECT_DRAIN_DAZE;
+                        power = PDefender->StatusEffectContainer->GetStatusEffect(EFFECT_DRAIN_DAZE, PAttacker->id)->GetPower();
+                    }
+                    if (PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_HASTE_DAZE, PAttacker->id))
+                    {
+                        daze = EFFECT_HASTE_DAZE;
+                        power = PDefender->StatusEffectContainer->GetStatusEffect(EFFECT_HASTE_DAZE, PAttacker->id)->GetPower();
+                    }
+                    if (PDefender->StatusEffectContainer->HasStatusEffect(EFFECT_ASPIR_DAZE, PAttacker->id))
+                    {
+                        daze = EFFECT_ASPIR_DAZE;
+                        power = PDefender->StatusEffectContainer->GetStatusEffect(EFFECT_ASPIR_DAZE, PAttacker->id)->GetPower();
                     }
                 }
 
-                if (daze == EFFECT_DRAIN_DAZE && power > 0)
+                if (daze == EFFECT_DRAIN_DAZE)
                 {
                     uint16 multiplier = (uint16)(3 + (5.5f * power - 1));
-                    int8   Samba      = tpzrand::GetRandomNumber(1, (delay * multiplier) / 100 + 1);
+                    int8 Samba = tpzrand::GetRandomNumber(1, (delay * multiplier) / 100 + 1);
 
                     // vary damage based on lvl diff
                     int8 lvlDiff = (PDefender->GetMLevel() - PAttacker->GetMLevel()) / 2;
 
-                    if (lvlDiff < -5)
-                    {
+                    if (lvlDiff < -5) {
                         lvlDiff = -5;
                     }
 
                     Samba -= lvlDiff;
 
-                    if (Samba > (finaldamage / 2))
-                    {
+                    if (Samba > (finaldamage / 2)) {
                         Samba = finaldamage / 2;
                     }
 
-                    if (finaldamage <= 2)
-                    {
+                    if (finaldamage <= 2) {
                         Samba = 0;
                     }
 
@@ -1104,34 +1093,23 @@ namespace battleutils
 
                     Action->additionalEffect = SUBEFFECT_HP_DRAIN;
                     Action->addEffectMessage = 161;
-                    Action->addEffectParam   = Samba;
+                    Action->addEffectParam = Samba;
 
-                    PAttacker->addHP(Samba); // does not do any additional drain to targets HP, only a portion of it
-
-                    if (PChar != nullptr)
-                    {
+                    PAttacker->addHP(Samba);    // does not do any additional drain to targets HP, only a portion of it
+                    if (PChar != nullptr) {
                         PChar->updatemask |= UPDATE_HP;
                     }
                 }
-                else if (daze == EFFECT_ASPIR_DAZE && power > 0 && PDefender->GetMaxMP() > 0)
+                else if (daze == EFFECT_ASPIR_DAZE)
                 {
                     uint16 multiplier = 1 + (2 * power - 1);
-                    int8   Samba      = tpzrand::GetRandomNumber(1, (delay * multiplier) / 100 + 1);
+                    int8 Samba = tpzrand::GetRandomNumber(1, (delay * multiplier) / 100 + 1);
 
-                    if (Samba >= finaldamage / 4)
-                    {
-                        Samba = finaldamage / 4;
-                    }
+                    if (Samba >= finaldamage / 4) { Samba = finaldamage / 4; }
 
-                    if (finaldamage <= 2)
-                    {
-                        Samba = 0;
-                    }
+                    if (finaldamage <= 2) { Samba = 0; }
 
-                    if (Samba < 0)
-                    {
-                        Samba = 0;
-                    }
+                    if (Samba < 0) { Samba = 0; }
 
                     Action->additionalEffect = SUBEFFECT_MP_DRAIN;
                     Action->addEffectMessage = 162;
@@ -1141,12 +1119,11 @@ namespace battleutils
                     PAttacker->addMP(mpDrained);
                     Action->addEffectParam = mpDrained;
 
-                    if (PChar != nullptr)
-                    {
+                    if (PChar != nullptr) {
                         PChar->updatemask |= UPDATE_HP;
                     }
                 }
-                else if (daze == EFFECT_HASTE_DAZE && power > 0)
+                else if (daze == EFFECT_HASTE_DAZE)
                 {
                     Action->additionalEffect = SUBEFFECT_HASTE;
                     // Ability haste added in scripts\globals\effects\haste_samba_haste_effect.lua
