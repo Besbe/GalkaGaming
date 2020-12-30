@@ -81,15 +81,14 @@ zones[tpz.zone.WINDURST_WOODS] =
     },
     npc =
     {
- --       HALLOWEEN_SKINS =
-  --      {
-  --          [17764400] = 55, -- Meriri
- --           [17764401] = 54, -- Kuzah Hpirohpon
- --           [17764462] = 58, -- Taraihi-Perunhi
- --           [17764464] = 56, -- Nhobi Zalkia
- --           [17764465] = 57, -- Millerovieunet
- --       },
---		{
+       HALLOWEEN_SKINS =
+      {
+          [17764400] = 55, -- Meriri
+          [17764401] = 54, -- Kuzah Hpirohpon
+          [17764462] = 58, -- Taraihi-Perunhi
+          [17764464] = 56, -- Nhobi Zalkia
+          [17764465] = 57, -- Millerovieunet
+       },
 		OMINOUS_CLOUD	=	17764582,
 		CHEH_RAIHAH		= 	17764528,
 		MOKOP_SANKOP	=	17764527,
@@ -97,7 +96,6 @@ zones[tpz.zone.WINDURST_WOODS] =
 		NALTA			=	17764529,
 		DAHJAL			=	17764526,
 		NOKKHI_JINJAHL	=	17764581,
---		},
     },
 }
 
