@@ -174,3 +174,5 @@ UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17756453"; /*Blank (n
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17768560" AND polutils_name = "Pompi-Rompi";
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17768552" AND polutils_name = "Mhabi Molkot";
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17752345" AND polutils_name = "Khoto Rokkorah";
+UPDATE npc_list SET animation = "6" WHERE npcid = "17760449" AND polutils_name = "Laughing Lizard";
+UPDATE npc_list SET animationsub = "0" WHERE npcid = "17481822" AND polutils_name = "Smoke Breath";
