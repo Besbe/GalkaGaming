@@ -164,3 +164,13 @@ UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17281609" AND polutil
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17224377" AND polutils_name = "Suspicious Hume";
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17224379" AND polutils_name = "Odyssean Passage";
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772788" AND polutils_name = "Artisan Moogle";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17760507" AND polutils_name = "Mimble-Pimble";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17760310" AND polutils_name = "Pattel-Bacchel"; /*Fishing fatigue system, not 100% sure if OOE*/
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17764599" AND polutils_name = "Zahsa Syalmhaia";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17764595" AND polutils_name = "Toppi-Meppi";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17764441" AND polutils_name = "Kiria-Romaria";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17764619" AND polutils_name = "Sevah Kummekihn";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17756453"; /*Blank (no name, right at the entrance of Heavens Tower)*/
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17768560" AND polutils_name = "Pompi-Rompi";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17768552" AND polutils_name = "Mhabi Molkot";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17752345" AND polutils_name = "Khoto Rokkorah";
