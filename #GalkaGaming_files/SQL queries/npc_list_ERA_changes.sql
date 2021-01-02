@@ -178,3 +178,9 @@ UPDATE npc_list SET animation = "6" WHERE npcid = "17760449" AND polutils_name =
 UPDATE npc_list SET animationsub = "0" WHERE npcid = "17481822" AND polutils_name = "Smoke Breath";
 UPDATE npc_list SET animation = "8" WHERE npcid = "16806320" AND name = "_07h"; /*Fixing an issue where Miasmas in Attowha Chasm can get locked in a static state*/
 UPDATE npc_list SET animation = "8" WHERE npcid = "16806322" AND name = "_07j"; /*Fixing an issue where Miasmas in Attowha Chasm can get locked in a static state*/
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17723819" AND polutils_name = "Trisvain";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17731673" AND polutils_name = "Rembard";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17719943" AND polutils_name = "Gondebaud";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17719610" AND polutils_name = "Atelloune";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17719599" AND polutils_name = "Arvilauge";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17719611" AND polutils_name = "Esmallegue";
