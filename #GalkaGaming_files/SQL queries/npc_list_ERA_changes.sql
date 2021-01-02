@@ -184,3 +184,63 @@ UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17719943" AND polutil
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17719610" AND polutils_name = "Atelloune";
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17719599" AND polutils_name = "Arvilauge";
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17719611" AND polutils_name = "Esmallegue";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772598" AND polutils_name = "Macchi Gazlitah";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17203827" AND polutils_name = "Marshal"; -- Brenner/Ballista
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17224305" AND polutils_name = "Marshal"; -- Brenner/Ballista
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17265250" AND polutils_name = "Marshal"; -- Brenner/Ballista
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772658" AND polutils_name = "Marshal"; -- Brenner/Ballista
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17776806" AND polutils_name = "Marshal"; -- Brenner/Ballista
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772771" AND polutils_name = "Ajahkeem"; -- Fellow system
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "16924797" AND polutils_name = "Resume Point";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "16982645" AND polutils_name = "Resume Point";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772813" AND polutils_name = "Resume Point";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17871238" AND polutils_name = "Resume Point";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17883942" AND polutils_name = "Resume Point";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17911928" AND polutils_name = "Resume Point";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17969913" AND polutils_name = "Resume Point";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772781" AND polutils_name = "Splintery Chest"; -- Magian stuff
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772764" AND polutils_name = "Magian Moogle"; -- Magian stuff
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772778" AND polutils_name = "Magian Moogle"; -- Magian stuff
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772782" AND polutils_name = "Magian Moogle"; -- Magian stuff
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772784" AND polutils_name = "Magian Moogle"; -- Magian stuff
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772770" AND polutils_name = ""; -- Magian stuff
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17776877" AND polutils_name = "Inconspicuous Door";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772805" AND polutils_name = "Jamal";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772728" AND polutils_name = "Rendezvous Point";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17772729" AND polutils_name = "";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17776805" AND polutils_name = "Afdeen";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780928" AND polutils_name = "Rakuru-Rakoru"; 
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780959" AND polutils_name = "Darcia";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780982" AND polutils_name = "Nantoto";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780947" AND polutils_name = "Duplidoc";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780949" AND polutils_name = "Duplidoc";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780950" AND polutils_name = "Duplidoc";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780951" AND polutils_name = "Duplidoc";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780952" AND polutils_name = "Duplidoc";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780953" AND polutils_name = "Duplidoc";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780954" AND polutils_name = "Duplidoc";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780955" AND polutils_name = "Duplidoc";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780956" AND polutils_name = "Duplidoc";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780957" AND polutils_name = "Duplidoc";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780943" AND polutils_name = "Chatnachoq";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780946" AND polutils_name = "Goldagrik";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780944" AND polutils_name = "Maze Mongers Shopfront"; -- Burrows
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780931" AND polutils_name = "Zalsuhm"; -- Mythic weapon's weapon skills unlock NPC
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780941" AND polutils_name = "Liki Steligho";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17780981" AND polutils_name = "Domenic";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17784989" AND polutils_name = "Monisette";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17784988" AND polutils_name = "Oboro";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17784987" AND polutils_name = "Shemo";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17764419" AND polutils_name = "Pulonono"; -- Chocobo society
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17735824" AND polutils_name = "Zopago"; -- Chocobo society
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17719570" AND polutils_name = "Hantileon"; -- Chocobo society
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17764441" AND polutils_name = "Kiria-Romaria"; -- Chocobo society
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17735846" AND polutils_name = "Gonija"; -- Chocobo society
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17719599" AND polutils_name = "Arvilauge"; -- Chocobo society
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17776821" AND polutils_name = "Finbarr"; -- Chocobo society
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17207940" AND polutils_name = "Burrow Researcher"; -- Burrows
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17269247" AND polutils_name = "Burrow Researcher"; -- Burrows
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17776876" AND polutils_name = "Burrow Investigator"; -- Burrows
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17269242" AND polutils_name = "Vrednev"; -- Burrows
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17269248" AND polutils_name = "Utrig"; -- Burrows
+
