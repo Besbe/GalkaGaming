@@ -250,7 +250,12 @@ UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Berangere";
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Paparoon"; -- Mythic weapons
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name LIKE "%Veridical Conflux%";
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name LIKE "%Cavernous Maw%";
-
-
-
-
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Pacomart";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Tonasav";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Gorpa-Masorpa"; -- Ambuscade
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Ambuscade Tome"; -- Ambuscade
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Tya Padolih"; -- Scroll seller Mhaura
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Andrause"; -- A Shantoto ascension
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Nolan"; -- Escha
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Owain"; -- Voidwatch
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Jourdenaux";
