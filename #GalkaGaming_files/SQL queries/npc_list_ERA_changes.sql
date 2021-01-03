@@ -239,8 +239,18 @@ UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17735846" AND polutil
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17719599" AND polutils_name = "Arvilauge"; -- Chocobo society
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17776821" AND polutils_name = "Finbarr"; -- Chocobo society
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17207940" AND polutils_name = "Burrow Researcher"; -- Burrows
-UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17269247" AND polutils_name = "Burrow Researcher"; -- Burrows
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17269246"; -- Burrow Researcher (Burrows)
 UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17776876" AND polutils_name = "Burrow Investigator"; -- Burrows
-UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17269242" AND polutils_name = "Vrednev"; -- Burrows
-UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17269248" AND polutils_name = "Utrig"; -- Burrows
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17269241"; -- Vrednev (Burrows)
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE npcid = "17269247"; -- Utrig (Burrows)
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name LIKE "%Ergon Locus%";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Mrohk Sahjuuli"; -- Salvage II
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Kokba Hostel";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Berangere";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name = "Paparoon"; -- Mythic weapons
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name LIKE "%Veridical Conflux%";
+UPDATE npc_list SET content_tag = "ABYSSEA" WHERE polutils_name LIKE "%Cavernous Maw%";
+
+
+
 
