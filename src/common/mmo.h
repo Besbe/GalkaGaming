@@ -158,6 +158,10 @@ struct position_t
     float x;
     float y;                // Entity height, relative to "sea level"
     float z;
+    float px;               // Pos-hack detection from Nasomi: https://forums.dspt.info/viewtopic.php?t=21195
+    float py;               // same as last comment
+    float pz;               // same as last comment
+    int16 zone;             // same as last comment + END
     uint16 moving;          // Somehing like the travel distance, the number of steps required for correct rendering in the client.
 
     // The angle of rotation of the entity relative to its position. A maximum rotation value of

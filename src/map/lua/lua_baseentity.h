@@ -163,6 +163,8 @@ public:
     int32 getZPos(lua_State*);               // Get Entity Z position
     int32 getRotPos(lua_State*);             // Get Entity Rot position
 
+    int32 setZoneFlag(lua_State* L);         // Pos-hack detection from Nasomi: https://forums.dspt.info/viewtopic.php?t=21195
+
     int32 setPos(lua_State*);                // Set Entity position (x,y,z,rot) or (x,y,z,rot,zone)
     int32 warp(lua_State*);                  // Returns Character to home point
     int32 teleport(lua_State*);              // Set Entity position (without entity despawn/spawn packets)

@@ -375,6 +375,7 @@ namespace charutils
         {
             PChar->targid = 0x400;
             PChar->SetName(Sql_GetData(SqlHandle, 0));
+            PChar->loc.p.zone = 1;  //Pos - hack detection from Nasomi : https : // forums.dspt.info/viewtopic.php?t=21195
 
             PChar->loc.destination = (uint16)Sql_GetIntData(SqlHandle, 1);
             PChar->loc.prevzone = (uint16)Sql_GetIntData(SqlHandle, 2);

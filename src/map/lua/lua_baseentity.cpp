@@ -1,4 +1,6 @@
-﻿/*
+﻿#include "lua_baseentity.h"
+#include "lua_baseentity.h"
+/*
 ===========================================================================
 
   Copyright (c) 2010-2015 Darkstar Dev Teams
@@ -2858,6 +2860,17 @@ inline int32 CLuaBaseEntity::getRotPos(lua_State *L)
 }
 
 /************************************************************************
+ *  Function: Pos-hack detection from Nasomi: https://forums.dspt.info/viewtopic.php?t=21195
+ *  Purpose : Function to use with lua scripts to prevent false positives when a script warps players, such as portals
+ *  Example : 
+ ************************************************************************/
+
+inline int32 CLuaBaseEntity::setZoneFlag(lua_State* L)
+{
+    m_PBaseEntity->loc.p.zone = 1;
+}
+
+/************************************************************************
 *  Function: setPos()
 *  Purpose : Sends a PC to a new position
 *  Example : player:setPos(x,y,z,rot,zone) -- zone value is optional
@@ -2868,8 +2881,9 @@ inline int32 CLuaBaseEntity::setPos(lua_State *L)
 {
     TPZ_DEBUG_BREAK_IF(m_PBaseEntity == nullptr);
 
-    if (m_PBaseEntity->objtype == TYPE_PC)
+    if (m_PBaseEntity->objtype == TYPE_PC) // Pos-hack detection from Nasomi: https://forums.dspt.info/viewtopic.php?t=21195
     {
+        m_PBaseEntity->loc.p.zone = 1;
         if (!lua_isnil(L, 5) && lua_isnumber(L, 5) && ((CCharEntity*)m_PBaseEntity)->status == STATUS_DISAPPEAR)
         {
             // do not modify zone/position if the character is already zoning
