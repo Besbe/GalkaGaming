@@ -46,6 +46,7 @@
 #include "packets/party_effects.h"
 #include "packets/party_member_update.h"
 #include "packets/message_basic.h"
+#include "packets/chat_message.h"
 
 //should have brace-or-equal initializers when MSVC supports it
 struct CParty::partyInfo_t
@@ -536,6 +537,7 @@ void CParty::AddMember(CBattleEntity* PEntity)
 					if (PChar->GetMLevel() - m_PSyncTarget->GetMLevel() > SyncGapAllowance)
 						{
 							SetSyncTarget(nullptr, 550);
+							((CCharEntity*)GetLeader())->pushPacket(new CChatMessagePacket((CCharEntity*)GetLeader(), MESSAGE_SYSTEM_3, "Party members cannot be more than 10 level's higher than the sync target."));
 							return;
 						}
             
@@ -1007,7 +1009,7 @@ void CParty::SetSyncTarget(int8* MemberName, uint16 message)
 						{
 							if (member->jobs.job[member->GetMJob()] - PChar->GetMLevel() > SyncGapAllowance)
 							{
-								((CCharEntity*)GetLeader())->pushPacket(new CMessageBasicPacket((CCharEntity*)GetLeader(), (CCharEntity*)GetLeader(), 0, 10, 550));
+								((CCharEntity*)GetLeader())->pushPacket(new CChatMessagePacket((CCharEntity*)GetLeader(), MESSAGE_SYSTEM_3, "Party members cannot be more than 10 level's higher than the sync target."));
 								return;
 							}
 
@@ -1030,7 +1032,8 @@ void CParty::SetSyncTarget(int8* MemberName, uint16 message)
                     {
 						if (member->GetMLevel() - PChar->GetMLevel() > SyncGapAllowance)
 						{
-							SetSyncTarget(nullptr, 554);
+								SetSyncTarget(nullptr, 550);
+								((CCharEntity*)GetLeader())->pushPacket(new CChatMessagePacket((CCharEntity*)GetLeader(), MESSAGE_SYSTEM_3, "Party members cannot be more than 10 level's higher than the sync target."));
 								return;
 						}
 					else
@@ -1193,6 +1196,7 @@ void CParty::RefreshSync()
         if ((member->jobs.job[member->GetMJob()] - syncLevel) > SyncGapAllowance)
         {
             SetSyncTarget(nullptr, 550);
+			((CCharEntity*)GetLeader())->pushPacket(new CChatMessagePacket((CCharEntity*)GetLeader(), MESSAGE_SYSTEM_3, "Party members cannot be more than 10 level's higher than the sync target."));
             return;
         }
         else
@@ -1303,6 +1307,7 @@ void CParty::RefreshFlags(std::vector<partyInfo_t>& info)
 									if (member->jobs.job[member->GetMJob()] - m_PSyncTarget->GetMLevel() > SyncGapAllowance)
 										{
 											SetSyncTarget(nullptr, 550);
+											((CCharEntity*)GetLeader())->pushPacket(new CChatMessagePacket((CCharEntity*)GetLeader(), MESSAGE_SYSTEM_3, "Party members cannot be more than 10 level's higher than the sync target."));
 										
 										}
 																	
