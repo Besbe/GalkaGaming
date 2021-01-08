@@ -1188,17 +1188,27 @@ void CParty::RefreshSync()
         CCharEntity* member = (CCharEntity*)members.at(i);
 
         uint8 NewMLevel = 0;
-
-        if (syncLevel < member->jobs.job[member->GetMJob()] & (member->jobs.job[member->GetMJob()] - syncLevel) <= SyncGapAllowance)
-        {
-            NewMLevel = syncLevel;
-        }
-        if ((member->jobs.job[member->GetMJob()] - syncLevel) > SyncGapAllowance)
+		
+		if ((member->jobs.job[member->GetMJob()] - syncLevel) > SyncGapAllowance)
         {
             SetSyncTarget(nullptr, 550);
 			((CCharEntity*)GetLeader())->pushPacket(new CChatMessagePacket((CCharEntity*)GetLeader(), MESSAGE_SYSTEM_3, "Party members cannot be more than 10 level's higher than the sync target."));
             return;
         }
+		
+		
+        if (syncLevel < member->jobs.job[member->GetMJob()] & (member->jobs.job[member->GetMJob()] - syncLevel) <= SyncGapAllowance)
+        {
+            NewMLevel = syncLevel;
+        }
+        
+		///move earlier? maybe current location causing OOO issues
+//if ((member->jobs.job[member->GetMJob()] - syncLevel) > SyncGapAllowance)
+//{
+//            SetSyncTarget(nullptr, 550);
+//			((CCharEntity*)GetLeader())->pushPacket(new CChatMessagePacket((CCharEntity*)GetLeader(), MESSAGE_SYSTEM_3, "Party members cannot be more than 10 level's higher than the sync target."));
+//            return;
+//        }
         else
         {
           NewMLevel = member->jobs.job[member->GetMJob()];
@@ -1308,7 +1318,7 @@ void CParty::RefreshFlags(std::vector<partyInfo_t>& info)
 										{
 											SetSyncTarget(nullptr, 550);
 											((CCharEntity*)GetLeader())->pushPacket(new CChatMessagePacket((CCharEntity*)GetLeader(), MESSAGE_SYSTEM_3, "Party members cannot be more than 10 level's higher than the sync target."));
-										
+											return;
 										}
 																	
 								}
