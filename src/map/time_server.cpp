@@ -56,7 +56,7 @@ int32 time_server(time_point tick, CTaskMgr::CTask* PTask)
             float py = PChar->loc.p.py;
             float pz = PChar->loc.p.pz;
             float d = sqrt(pow((x - px), 2) + pow((z - pz), 2));
-            if (PChar->loc.p.zone != 1 && d / 2.4 * 10 > 60 && PChar->animation != ANIMATION_CHOCOBO && !PChar->StatusEffectContainer->HasStatusEffect(EFFECT_FLEE))
+            if (PChar->loc.p.zone != 1 && d / 2.4 * 10 > 60 && PChar->animation != ANIMATION_CHOCOBO && !PChar->StatusEffectContainer->HasStatusEffect(EFFECT_FLEE) && !PChar->StatusEffectContainer->HasStatusEffect(EFFECT_BATTLEFIELD))
             {
                 const char* fmtQuery =
                     "INSERT INTO speed values (%u,'%s', %u,'%.3f', concat('%.3f',' ','%.3f',' ','%.3f','|','%.3f',' ','%.3f',' ','%.3f'),now());";
