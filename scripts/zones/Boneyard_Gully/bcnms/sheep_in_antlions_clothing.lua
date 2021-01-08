@@ -6,6 +6,7 @@
 local ID = require("scripts/zones/Boneyard_Gully/IDs")
 require("scripts/globals/battlefield")
 require("scripts/globals/keyitems")
+require("scripts/globals/zone")
 -----------------------------------
 
 function onBattlefieldInitialise(battlefield)
@@ -37,8 +38,11 @@ function onBattlefieldRegister(player, battlefield)
 end
 
 function onBattlefieldEnter(player, battlefield)
-    if player:hasKeyItem(tpz.ki.MIASMA_FILTER) then
-        player:delKeyItem(tpz.ki.MIASMA_FILTER)
+initiatorId, initiatorName = battlefield:getInitiator()
+    if initiatorName == player:getName() then
+		if player:hasKeyItem(tpz.ki.MIASMA_FILTER) then
+		player:delKeyItem(tpz.ki.MIASMA_FILTER)
+		end
     end
 end
 

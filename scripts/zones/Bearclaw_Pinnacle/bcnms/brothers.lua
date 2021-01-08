@@ -19,8 +19,11 @@ function onBattlefieldRegister(player, battlefield)
 end
 
 function onBattlefieldEnter(player, battlefield)
-    if player:hasKeyItem(tpz.ki.ZEPHYR_FAN) then
-        player:delKeyItem(tpz.ki.ZEPHYR_FAN)
+initiatorId, initiatorName = battlefield:getInitiator()
+    if initiatorName == player:getName() then
+		if player:hasKeyItem(tpz.ki.ZEPHYR_FAN) then
+		player:delKeyItem(tpz.ki.ZEPHYR_FAN)
+		end
     end
 end
 
