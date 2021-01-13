@@ -1,0 +1,5 @@
+https://wiki.dspt.info/index.php/Configuring_Your_Client#Step_1_-_Installing_FFXI
+
+- Unzip in your fresh FFXI install
+- Log in PlayOnline with ABCD1234/ABCD1234 as user/pass
+- Click "Check Files" and select "FFXI" then update
