@@ -14,4 +14,5 @@ UPDATE traits SET meritid = "3076" WHERE name = "winning streak";
 UPDATE traits SET meritid = "3078" WHERE name = "loaded deck";
 UPDATE traits SET meritid = "3140" WHERE name = "fine-tuning";
 UPDATE traits SET meritid = "3274" WHERE name = "stormsurge";
-
+UPDATE traits SET meritid = "2052" WHERE name = "savagery";
+UPDATE traits SET meritid = "2054" WHERE name = "aggressive aim";

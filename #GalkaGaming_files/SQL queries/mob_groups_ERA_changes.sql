@@ -1,4 +1,4 @@
--- Adjusting OOE mob levels to ERA values 
+-- Adjusting OOE mob levels to ERA values (also custom non-ERA adjustments)
 
 -- FeiYin
 UPDATE mob_groups g JOIN mob_spawn_points s ON (g.groupid = s.groupid) SET minLevel = "40", maxLevel = "42" WHERE g.zoneid = 204 AND s.mobname = "Balayang";
@@ -137,3 +137,10 @@ UPDATE mob_groups g JOIN mob_spawn_points s ON (g.groupid = s.groupid) SET minLe
 UPDATE mob_groups g JOIN mob_spawn_points s ON (g.groupid = s.groupid) SET minLevel = "41", maxLevel = "43" WHERE g.zoneid = 24 AND s.mobname = "Fomor_Summoner";
 UPDATE mob_groups g JOIN mob_spawn_points s ON (g.groupid = s.groupid) SET minLevel = "34", maxLevel = "36" WHERE g.zoneid = 24 AND s.mobname = "Fomor_s_Elemental";
 UPDATE mob_groups g JOIN mob_spawn_points s ON (g.groupid = s.groupid) SET minLevel = "42", maxLevel = "44" WHERE g.zoneid = 24 AND s.mobname = "Fomor_Warrior";
+
+
+-- CUSTOM NON-ERA ADJUSTMENTS
+
+-- Yuhtunga Jungle
+
+UPDATE mob_groups SET minLevel = "31"  WHERE zoneid = 123 AND name = "Yuhtunga_Mandragora" -- Higher min level for Mandragoras for more steady xp-gains at level 25
