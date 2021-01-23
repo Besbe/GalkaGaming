@@ -6,6 +6,7 @@ UPDATE mob_pools SET familyid = "96" WHERE name = "Qutrub_Extortionist";
 UPDATE mob_pools SET familyid = "96" WHERE name = "Qutrub_Forayer";
 UPDATE mob_pools SET familyid = "96" WHERE name = "Qutrub_Wastrel";
 UPDATE mob_pools SET familyid = "96" WHERE name = "Lamia_Idolater"; 
+UPDATE mob_pools SET familyid = "111" WHERE name = "Goblin_Fisher";
 
 
 

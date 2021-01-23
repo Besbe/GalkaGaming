@@ -255,6 +255,14 @@ UPDATE npc_list SET status = 2 WHERE polutils_name = "Andrause"; -- A Shantoto a
 UPDATE npc_list SET status = 2 WHERE polutils_name = "Nolan"; -- Escha
 UPDATE npc_list SET status = 2 WHERE polutils_name = "Owain"; -- Voidwatch
 UPDATE npc_list SET status = 2 WHERE polutils_name = "Jourdenaux";
+UPDATE npc_list SET status = 2 WHERE polutils_name = "Stampeding Bison"; -- Starlight celebration
+UPDATE npc_list SET status = 2 WHERE polutils_name = "Wandering Cloud"; -- Starlight celebration
+UPDATE npc_list SET status = 2 WHERE polutils_name = "Nickael"; -- Starlight celebration
+UPDATE npc_list SET status = 2 WHERE polutils_name = "Clemaurent"; -- Starlight celebration
+UPDATE npc_list SET status = 2 WHERE polutils_name = "Yvantoine"; -- Starlight celebration
+UPDATE npc_list SET status = 2 WHERE polutils_name = "Acacia"; -- Starlight celebration
+UPDATE npc_list SET status = 2 WHERE polutils_name = "Marlena"; -- Starlight celebration
+UPDATE npc_list SET status = 2 WHERE polutils_name = "Neriss"; -- Starlight celebration
 UPDATE npc_list SET animation = "6" WHERE npcid = "17760449" AND polutils_name = "Laughing Lizard";
 UPDATE npc_list SET animationsub = "0" WHERE npcid = "17481822" AND polutils_name = "Smoke Breath";
 UPDATE npc_list SET animation = "8" WHERE npcid = "16806320" AND name = "_07h"; /*Fixing an issue where Miasmas in Attowha Chasm can get locked in a static state*/
