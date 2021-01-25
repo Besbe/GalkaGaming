@@ -6,18 +6,6 @@ UPDATE npc_list SET status = 2 WHERE npcid = "16798152" AND polutils_name = "Hom
 UPDATE npc_list SET status = 2 WHERE npcid = "16798153" AND polutils_name = "Home Point #3";
 UPDATE npc_list SET status = 2 WHERE npcid = "16798154" AND polutils_name = "Home Point #4";
 UPDATE npc_list SET status = 2 WHERE npcid = "16798155" AND polutils_name = "Home Point #5";
-UPDATE npc_list SET status = 2 WHERE npcid = "16798156" AND polutils_name = "Ethereal Junction";
-UPDATE npc_list SET status = 2 WHERE npcid = "16798157" AND polutils_name = "Ethereal Junction";
-UPDATE npc_list SET status = 2 WHERE npcid = "16798158" AND polutils_name = "Ethereal Junction";
-UPDATE npc_list SET status = 2 WHERE npcid = "16953361" AND polutils_name = "Pursuivant";
-UPDATE npc_list SET status = 2 WHERE npcid = "16953362" AND polutils_name = "Pursuivant";
-UPDATE npc_list SET status = 2 WHERE npcid = "16953363" AND polutils_name = "Pursuivant";
-UPDATE npc_list SET status = 2 WHERE npcid = "16957466" AND polutils_name = "Pursuivant";
-UPDATE npc_list SET status = 2 WHERE npcid = "16957467" AND polutils_name = "Pursuivant";
-UPDATE npc_list SET status = 2 WHERE npcid = "16957468" AND polutils_name = "Pursuivant";
-UPDATE npc_list SET status = 2 WHERE npcid = "16974275" AND polutils_name = "Symphonic Curator";
-UPDATE npc_list SET status = 2 WHERE npcid = "16982053" AND polutils_name = "Symphonic Curator";
-UPDATE npc_list SET status = 2 WHERE npcid = "16982462" AND polutils_name = "Pursuivant";
 UPDATE npc_list SET status = 2 WHERE npcid = "16982639" AND polutils_name = "Wondrix";
 UPDATE npc_list SET status = 2 WHERE npcid = "16982640" AND polutils_name = "Treasure Coffer";
 UPDATE npc_list SET status = 2 WHERE npcid = "16994373" AND polutils_name = "Chichiroon";
@@ -246,6 +234,9 @@ UPDATE npc_list SET status = 2 WHERE polutils_name = "Berangere";
 UPDATE npc_list SET status = 2 WHERE polutils_name = "Paparoon"; -- Mythic weapons
 UPDATE npc_list SET status = 2 WHERE polutils_name LIKE "%Veridical Conflux%";
 UPDATE npc_list SET status = 2 WHERE polutils_name LIKE "%Cavernous Maw%";
+UPDATE npc_list SET status = 2 WHERE polutils_name LIKE "%Ethereal Junction%";
+UPDATE npc_list SET status = 2 WHERE polutils_name LIKE "%Symphonic Curator%";
+UPDATE npc_list SET status = 2 WHERE polutils_name LIKE "%Pursuivant%";
 UPDATE npc_list SET status = 2 WHERE polutils_name = "Pacomart";
 UPDATE npc_list SET status = 2 WHERE polutils_name = "Tonasav";
 UPDATE npc_list SET status = 2 WHERE polutils_name = "Gorpa-Masorpa"; -- Ambuscade
