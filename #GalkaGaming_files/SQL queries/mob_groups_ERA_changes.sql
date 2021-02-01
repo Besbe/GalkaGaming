@@ -1,3 +1,10 @@
+-- Custom MOBS or NPCS added
+
+-- Zeruhn Mines
+
+INSERT INTO `mob_groups` VALUES (8,6870,172,'Giant_Amoeba',0,32,3999,0,0,6,8,0); -- Giant Amoeba NM
+
+
 -- Adjusting OOE mob levels to ERA values (also custom non-ERA adjustments)
 
 -- FeiYin

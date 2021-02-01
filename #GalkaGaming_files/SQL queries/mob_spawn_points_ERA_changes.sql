@@ -1,3 +1,10 @@
+-- Custom MOBS or NPCS added
+
+-- Zeruhn Mines
+
+INSERT INTO `mob_spawn_points` VALUES (17482751,'Giant_Amoeba','Giant Amoeba',8,60.425,8.735,-263.460,181); -- Giant Amoeba NM
+
+
 -- Adjusting OOE NMs
 
 -- East Ronfaure
@@ -5,6 +12,10 @@ UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Ram
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Quagmire Pugil";
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Sunderclaw";
 
+
+-- West Ronfaure
+
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Pyracmon";
 
 ------------ CLEANING UP OVER POPULATION OF MOBS ---------------------
 
@@ -93,4 +104,31 @@ UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 173917
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391730; -- Orcish Champion
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391733; -- Orcish Dreadnought
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391728; -- Orcish Farkiller
+UPDATE mob_spawn_points SET pos_x = -41.9276, pos_y = -0.1078, pos_z = -139.0336 WHERE mobid = 17391705; -- Orcish Champion
+UPDATE mob_spawn_points SET pos_x = -63.2345, pos_y = -0.4325, pos_z = -232.5098 WHERE mobid = 17391670; -- Orcish Dreadnought
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391673; -- Orcish Zerker
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391671; -- Orcish Veteran
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391676; -- Orcish Predator
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391664; -- Orcish Warchief
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391657; -- Orcish Veteran
+UPDATE mob_spawn_points SET pos_x = -57.2369, pos_y = -0.3426, pos_z = -262.1214 WHERE mobid = 17391658; -- Orcish Dreadnought
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391648; -- Orcish Warchief
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391647; -- Orcish Zerker
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391641; -- Orcish Veteran
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391655; -- Orcish
+UPDATE mob_spawn_points SET pos_x = 55.5556, pos_y = -0.4180, pos_z = -259.9413 WHERE mobid = 17391682; -- Orcish Warchief
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391747; -- Orcish Dragoon
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391759; -- Orcish Dragoon
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391746; -- Orcish Champion
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391740; -- Orcish Farkiller
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391752; -- Orcish Farkiller
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391753; -- Orcish Dreadnought
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391748; -- Orcish Farkiller
+UPDATE mob_spawn_points SET pos_x = 218.0535, pos_y = -0.5788, pos_z = -148.6448 WHERE mobid = 17391757; -- Orcish Warchief
+UPDATE mob_spawn_points SET pos_x = 216.7683, pos_y = -9.1406, pos_z = -238.7831 WHERE mobid = 17391750; -- Orcish Warchief
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391799; -- Orcish Footsoldier
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391798; -- Orcish Bowshooter
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391790; -- Orcish Gladiator
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391792; -- Orcish Predator
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391785; -- Orcish Footsoldier
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = xxxxxx; -- xxxx

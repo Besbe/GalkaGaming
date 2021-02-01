@@ -1,3 +1,13 @@
+-- Custom MOBS or NPCS added
+
+-- Zeruhn Mines
+
+INSERT INTO `mob_droplist` VALUES (3999,0,0,1000,637,140); -- Giant_Amoeba
+INSERT INTO `mob_droplist` VALUES (3999,0,0,1000,560,1000); -- Giant_Amoeba
+
+
+-- Removing all OOE drops
+
 DELETE from mob_droplist where itemId = "18856"; -- deae_gratia
 DELETE from mob_droplist where itemId = "3085"; -- bewitching_tusk
 DELETE from mob_droplist where itemId = "19034"; -- ice_grip
