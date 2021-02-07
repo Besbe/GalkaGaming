@@ -258,3 +258,12 @@ UPDATE npc_list SET animation = "6" WHERE npcid = "17760449" AND polutils_name =
 UPDATE npc_list SET animationsub = "0" WHERE npcid = "17481822" AND polutils_name = "Smoke Breath";
 UPDATE npc_list SET animation = "8" WHERE npcid = "16806320" AND name = "_07h"; /*Fixing an issue where Miasmas in Attowha Chasm can get locked in a static state*/
 UPDATE npc_list SET animation = "8" WHERE npcid = "16806322" AND name = "_07j"; /*Fixing an issue where Miasmas in Attowha Chasm can get locked in a static state*/
+UPDATE npc_list SET status = 2 WHERE npcid = "17584481" AND name = "qm10"; -- Question marks for easy LB1
+UPDATE npc_list SET status = 2 WHERE npcid = "17584482" AND name = "qm11"; -- Question marks for easy LB1
+UPDATE npc_list SET status = 2 WHERE npcid = "17584483" AND name = "qm12"; -- Question marks for easy LB1
+UPDATE npc_list SET status = 2 WHERE npcid = "17596841" AND name = "qm18"; -- Question marks for easy LB1
+UPDATE npc_list SET status = 2 WHERE npcid = "17596842" AND name = "qm19"; -- Question marks for easy LB1
+UPDATE npc_list SET status = 2 WHERE npcid = "17596843" AND name = "qm20"; -- Question marks for easy LB1
+UPDATE npc_list SET status = 2 WHERE npcid = "17576428" AND name = "qm7"; -- Question marks for easy LB1
+UPDATE npc_list SET status = 2 WHERE npcid = "17576427" AND name = "qm8"; -- Question marks for easy LB1
+UPDATE npc_list SET status = 2 WHERE npcid = "17576426" AND name = "qm9"; -- Question marks for easy LB1

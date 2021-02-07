@@ -150,4 +150,7 @@ UPDATE mob_groups g JOIN mob_spawn_points s ON (g.groupid = s.groupid) SET minLe
 
 -- Yuhtunga Jungle
 
-UPDATE mob_groups SET minLevel = "31"  WHERE zoneid = 123 AND name = "Yuhtunga_Mandragora" -- Higher min level for Mandragoras for more steady xp-gains at level 25
+UPDATE mob_groups SET minLevel = "31"  WHERE zoneid = 123 AND name = "Yuhtunga_Mandragora"; -- Higher min level for Mandragoras for more steady xp-gains at level 25
+UPDATE mob_groups SET HP = "2000"  WHERE zoneid = 121 AND name = "Guardian_Treant"; -- Boosting SAM quest NMs
+UPDATE mob_groups SET HP = "1600", minLevel = "36", maxLevel = "36" WHERE zoneid = 108 AND name = "Forger"; -- Boosting SAM quest NMs
+UPDATE mob_groups SET HP = "1000", minLevel = "33", maxLevel = "33" WHERE zoneid = 173 AND name = "Korroloka_Leech"; -- Boosting NIN quest NMs
