@@ -16,3 +16,10 @@ UPDATE traits SET meritid = "3140" WHERE name = "fine-tuning";
 UPDATE traits SET meritid = "3274" WHERE name = "stormsurge";
 UPDATE traits SET meritid = "2052" WHERE name = "savagery";
 UPDATE traits SET meritid = "2054" WHERE name = "aggressive aim";
+
+
+-- WARRIOR adjustments (TOAU)
+
+UPDATE traits SET level = "15" WHERE name = "resist virus" AND rank = "1" AND job = "1";
+
+

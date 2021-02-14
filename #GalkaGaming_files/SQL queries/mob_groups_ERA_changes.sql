@@ -154,3 +154,4 @@ UPDATE mob_groups SET minLevel = "31"  WHERE zoneid = 123 AND name = "Yuhtunga_M
 UPDATE mob_groups SET HP = "2000"  WHERE zoneid = 121 AND name = "Guardian_Treant"; -- Boosting SAM quest NMs
 UPDATE mob_groups SET HP = "1600", minLevel = "36", maxLevel = "36" WHERE zoneid = 108 AND name = "Forger"; -- Boosting SAM quest NMs
 UPDATE mob_groups SET HP = "1000", minLevel = "33", maxLevel = "33" WHERE zoneid = 173 AND name = "Korroloka_Leech"; -- Boosting NIN quest NMs
+UPDATE mob_groups SET HP = "2000", minLevel = "42", maxLevel = "42" WHERE zoneid = 140 AND name = "Cyranuce_M_Cutauleon"; -- Boosting DRG BCNM fight

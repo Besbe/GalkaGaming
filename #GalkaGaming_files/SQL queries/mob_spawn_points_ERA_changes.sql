@@ -1,5 +1,14 @@
 -- Custom MOBS or NPCS added
 
+-- Moa Constrictors BCNM
+
+UPDATE mob_spawn_points SET pos_x = -140.667, pos_y = 55.587, pos_z = -215.541 WHERE mobid = "17375443";
+UPDATE mob_spawn_points SET pos_x = -144.130, pos_y = 55.662, pos_z = -216.312 WHERE mobid = "17375444";
+UPDATE mob_spawn_points SET pos_x = 18.489, pos_y = -3.855, pos_z = -20.360 WHERE mobid = "17375446";
+UPDATE mob_spawn_points SET pos_x = 16.118, pos_y = -4.307, pos_z = -19.686 WHERE mobid = "17375447";
+UPDATE mob_spawn_points SET pos_x = 0.000, pos_y = 0.000, pos_z = 0.000 WHERE mobid = "17375449";
+UPDATE mob_spawn_points SET pos_x = 0.000, pos_y = 0.000, pos_z = 0.000 WHERE mobid = "17375450";
+
 -- Zeruhn Mines
 
 INSERT INTO `mob_spawn_points` VALUES (17482751,'Giant_Amoeba','Giant Amoeba',8,60.425,8.735,-263.460,181); -- Giant Amoeba NM
@@ -17,7 +26,7 @@ UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Sun
 
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Pyracmon";
 
------------- CLEANING UP OVER POPULATION OF MOBS ---------------------
+-- CLEANING UP OVER POPULATION OF MOBS
 
 -- Maze of Shakhrami
 
@@ -74,6 +83,11 @@ UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 175885
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588470; -- Ghoul
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588302; -- Goblin Butcher
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588300; -- Goblin Ambusher
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588308; -- Goblin Leecher
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588312; -- Goblin Gambler
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588307; -- Goblin Mugger
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588587; -- Protozoan
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588544; -- Wight
 
 -- Monastic Cavern
 
