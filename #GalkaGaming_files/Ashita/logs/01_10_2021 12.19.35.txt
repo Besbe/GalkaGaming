@@ -1,0 +1,105 @@
+01/10/2021 12:19:35.698	[D] AshitaCore::Initialize                            Begin
+01/10/2021 12:19:35.698	[D] ConfigurationManager::Initialize                  Begin
+01/10/2021 12:19:35.698	[D] ConfigurationManager::Initialize                  End
+01/10/2021 12:19:35.699	[D] InputManager::Initialize                          Begin
+01/10/2021 12:19:35.699	[D] InputManager::Initialize                          End
+01/10/2021 12:19:35.699	[D] PointerManager::Initialize                        Begin
+01/10/2021 12:19:35.699	[D] PointerManager::Initialize                        End
+01/10/2021 12:19:35.699	[D] DataManager::Initialize                           Begin
+01/10/2021 12:19:35.699	[D] DataManager::Initialize                           End
+01/10/2021 12:19:35.699	[D] ChatManager::Initialize                           Begin
+01/10/2021 12:19:35.699	[D] CommandTaskPool::Initialize                       Begin
+01/10/2021 12:19:35.701	[D] CommandTaskPool::Initialize                       End
+01/10/2021 12:19:35.701	[D] ChatManager::Initialize                           End
+01/10/2021 12:19:35.701	[D] PacketManager::Initialize                         Begin
+01/10/2021 12:19:35.701	[D] PacketManager::Initialize                         End
+01/10/2021 12:19:35.701	[D] PluginManager::Initialize                         Begin
+01/10/2021 12:19:35.701	[D] PluginManager::Initialize                         End
+01/10/2021 12:19:35.701	[D] AshitaCore::Initialize                            End
+01/10/2021 12:19:42.056	[D] Mine_Direct3DCreate8                              Wrapping and returning a new IDirect3D8 interface.
+01/10/2021 12:19:44.092	[D] newIDirect3D::CreateDevice                        Windowed mode enabled; overriding window settings.
+01/10/2021 12:19:44.136	[D] newIDirect3D::CreateDevice                        Direct3D device created and wrapped!
+01/10/2021 12:19:44.136	[D] AshitaCore::GameLoaded                            GameLoaded begin.
+01/10/2021 12:19:44.136	[D] ResourceManager::Release                          Begin
+01/10/2021 12:19:44.136	[D] ResourceManager::Release                          End
+01/10/2021 12:19:44.136	[D] ResourceManager::Initialize                       Begin
+01/10/2021 12:19:44.136	[D] ResourceManager::Release                          Begin
+01/10/2021 12:19:44.136	[D] ResourceManager::Release                          End
+01/10/2021 12:19:44.137	[D] ResourceManager::Initialize                       End
+01/10/2021 12:19:44.137	[D] ResourceManager::Update                           Begin
+01/10/2021 12:19:44.284	[D] ResourceManager::Update                           Parsed resources; returning: 1 - Time: 0:0:0.146
+01/10/2021 12:19:44.284	[D] ResourceManager::Update                           End (Parse returning: 1)
+01/10/2021 12:19:44.284	[D] InputManager::Update                              Begin
+01/10/2021 12:19:44.284	[D] InputManager::Update                              End
+01/10/2021 12:19:44.284	[D] ConfigurationManager::Update                      Begin
+01/10/2021 12:19:44.284	[D] ConfigurationManager::Update                      End
+01/10/2021 12:19:44.284	[D] PointerManager::Initialize                        Begin
+01/10/2021 12:19:44.284	[D] PointerManager::Initialize                        End
+01/10/2021 12:19:44.284	[D] PointerManager::Update                            Begin
+01/10/2021 12:19:44.288	[D] PointerManager::Update                            Valid Pointer Found: abilityinfo (000E2FE4)
+01/10/2021 12:19:44.289	[D] PointerManager::Update                            Valid Pointer Found: addtochat (00123CC0)
+01/10/2021 12:19:44.291	[D] PointerManager::Update                            Valid Pointer Found: autotranslate (001B3C50)
+01/10/2021 12:19:44.291	[D] PointerManager::Update                            Valid Pointer Found: autotranslatethis (00123D9F)
+01/10/2021 12:19:44.291	[D] PointerManager::Update                            Valid Pointer Found: decryptbuffer (000DA9F0)
+01/10/2021 12:19:44.291	[D] PointerManager::Update                            Valid Pointer Found: encryptbuffer (000DCAF0)
+01/10/2021 12:19:44.291	[D] PointerManager::Update                            Valid Pointer Found: entitymap (000037E0)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: hasspell (00221DB0)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: inputthis (0023ACBF)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: inventory (000E82D2)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: keyitems (00096624)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: logfile (00011342)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: menu (001590E2)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: parsecommand (0007F6D0)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: party (001F986B)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: petmp (00085ECF)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: pettp (0009B61D)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: player (00141B2A)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            Valid Pointer Found: target (000874D3)
+01/10/2021 12:19:44.293	[D] PointerManager::Update                            End
+01/10/2021 12:19:44.293	[D] FontManager::Initialize                           Begin
+01/10/2021 12:19:44.293	[D] FontManager::Initialize                           End
+01/10/2021 12:19:44.293	[D] GuiManager::Initialize                            Begin
+01/10/2021 12:19:44.295	[D] GuiManager::Initialize                            End
+01/10/2021 12:19:44.295	[D] GuiManager::Update                                Begin
+01/10/2021 12:19:44.295	[D] GuiManager::Update                                End
+01/10/2021 12:19:44.295	[D] DataManager::Initialize                           Begin
+01/10/2021 12:19:44.295	[D] DataManager::Initialize                           End
+01/10/2021 12:19:44.295	[D] DataManager::Update                               Begin
+01/10/2021 12:19:44.295	[D] Entity::Update                                    Begin
+01/10/2021 12:19:44.295	[D] Entity::Update                                    End
+01/10/2021 12:19:44.295	[D] Inventory::Update                                 Begin
+01/10/2021 12:19:44.295	[D] Inventory::Update                                 End
+01/10/2021 12:19:44.295	[D] Party::Update                                     Begin
+01/10/2021 12:19:44.295	[D] Party::Update                                     End
+01/10/2021 12:19:44.295	[D] Player::Update                                    Begin
+01/10/2021 12:19:44.295	[D] Player::Update                                    End
+01/10/2021 12:19:44.295	[D] Target::Update                                    Begin
+01/10/2021 12:19:44.295	[D] Target::Update                                    End
+01/10/2021 12:19:44.295	[D] DataManager::Update                               End
+01/10/2021 12:19:44.295	[D] ChatManager::Initialize                           Begin
+01/10/2021 12:19:44.295	[D] CommandTaskPool::Release                          Begin
+01/10/2021 12:19:44.295	[D] CommandTaskPool::Release                          End
+01/10/2021 12:19:44.295	[D] CommandTaskPool::Initialize                       Begin
+01/10/2021 12:19:44.298	[D] CommandTaskPool::Initialize                       End
+01/10/2021 12:19:44.298	[D] ChatManager::Initialize                           End
+01/10/2021 12:19:44.298	[D] ChatManager::Update                               Begin
+01/10/2021 12:19:44.298	[D] ChatManager::Update                               Hooked function: AddToChatlog
+01/10/2021 12:19:44.298	[D] ChatManager::Update                               Hooked function: AutoTranslate
+01/10/2021 12:19:44.298	[D] ChatManager::Update                               Hooked function: ParseCommand
+01/10/2021 12:19:44.298	[D] CommandTaskPool::Release                          Begin
+01/10/2021 12:19:44.298	[D] CommandTaskPool::Release                          End
+01/10/2021 12:19:44.298	[D] CommandTaskPool::Initialize                       Begin
+01/10/2021 12:19:44.299	[D] CommandTaskPool::Initialize                       End
+01/10/2021 12:19:44.299	[D] ChatManager::Update                               End
+01/10/2021 12:19:44.299	[D] PacketManager::Initialize                         Begin
+01/10/2021 12:19:44.299	[D] PacketManager::Initialize                         End
+01/10/2021 12:19:44.299	[D] PacketManager::Update                             Begin
+01/10/2021 12:19:44.299	[D] PacketManager::Update                             Hooked function: DecryptBuffer
+01/10/2021 12:19:44.299	[D] PacketManager::Update                             Hooked function: EncryptBuffer
+01/10/2021 12:19:44.299	[D] PacketManager::Update                             End
+01/10/2021 12:19:44.299	[D] PluginManager::Update                             Begin
+01/10/2021 12:19:44.299	[D] PluginManager::Release                            Begin
+01/10/2021 12:19:44.299	[D] PluginManager::Release                            End
+01/10/2021 12:19:44.299	[D] PluginManager::Update                             End
+01/10/2021 12:19:44.299	[D] AshitaCore::GameLoaded                            GameLoaded end.
+01/10/2021 12:19:44.332	[D] Mine_DirectInput8Create                           Wrapping and returning a new IDirectInput8 interface.

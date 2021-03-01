@@ -1,0 +1,11 @@
+{
+    "font": {
+        "color": 4294967295,
+        "family": "Arial",
+        "position": [ -180, 20 ],
+        "size": 16
+    },
+    "show_id": false,
+    "show_id_hex": false,
+    "show_name": false
+}

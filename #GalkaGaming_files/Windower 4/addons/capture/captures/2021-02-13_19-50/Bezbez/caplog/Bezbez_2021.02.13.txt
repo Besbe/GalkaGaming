@@ -1,0 +1,311 @@
+[19:50:50] [Capture] (AView v007) (PV v001) (Info v004) 
+[19:50:50] [Capture] (NPCL v001) (GL v003) (EView v010) 
+[19:50:50] [Capture] (CapLog v002) (HPT v003) 
+[19:50:51] [PV] Logging started: //capture pv l file both
+[19:50:51] [NPCL] Always auto-widescanning! (Persists across zones; packets sent when normally impossible!)
+[19:50:52] [Capture] Capture started!
+[19:50:56] [EView] INCOMING < CS Event (0x032): NPC: 17780924 (Faursel), Event: 10064
+
+[19:50:57] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[19:51:02] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[19:51:02] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[19:51:02] Faursel : Ah, sorry abou' that.
+[19:51:03] I'm not picking on you, so don't get your feathers in a ruffle.
+[19:51:03] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[19:51:04] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[19:51:08] Faursel : You're not going t' regret this later, are you?
+[19:51:11] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[19:51:12] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[19:51:12] Faursel : Blimey! You've only got 0 gil?
+[19:51:14] Come back when your pockets are a little heavier!
+[19:51:14] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[19:52:23] Faursel : It's going t' take you some work if you want to go to Aht Urhgan, but you cannot get there through anyone but us.
+[19:52:25] Faursel : Heh heh heh...
+[19:52:26] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[19:52:33] [EView] INCOMING < CS Event (0x032): NPC: 17780924 (Faursel), Event: 10064
+
+[19:52:34] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[19:52:46] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[19:52:47] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[19:52:47] Faursel : Ah, sorry abou' that.
+[19:52:48] I'm not picking on you, so don't get your feathers in a ruffle.
+[19:52:48] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[19:52:49] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[19:52:52] Faursel : You're not going t' regret this later, are you?
+[19:52:55] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[19:52:56] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[19:52:56] Faursel : Blimey! You've only got 0 gil?
+[19:52:58] Come back when your pockets are a little heavier!
+[19:56:58] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[19:57:02] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[19:57:02] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[19:57:02] Faursel : Ah, sorry abou' that.
+[19:57:03] I'm not picking on you, so don't get your feathers in a ruffle.
+[19:57:04] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[19:57:05] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[19:57:07] Faursel : You're not going t' regret this later, are you?
+[19:57:11] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[19:57:11] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[19:57:11] Faursel : Blimey! You've only got 0 gil?
+[19:57:13] Come back when your pockets are a little heavier!
+[19:57:14] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[19:57:29] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[19:57:29] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[19:57:29] Faursel : Ah, sorry abou' that.
+[19:57:30] I'm not picking on you, so don't get your feathers in a ruffle.
+[19:57:31] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[19:57:32] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[19:57:34] Faursel : You're not going t' regret this later, are you?
+[19:57:37] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[19:57:38] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[19:57:38] Faursel : Blimey! You've only got 0 gil?
+[19:57:40] Come back when your pockets are a little heavier!
+[19:57:41] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[19:57:53] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[19:57:53] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[19:57:53] Faursel : Ah, sorry abou' that.
+[19:57:54] I'm not picking on you, so don't get your feathers in a ruffle.
+[19:57:55] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[19:57:55] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[19:57:58] Faursel : You're not going t' regret this later, are you?
+[19:58:01] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[19:58:02] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[19:58:02] Faursel : Blimey! You've only got 0 gil?
+[19:58:04] Come back when your pockets are a little heavier!
+[20:00:13] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:00:18] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:00:18] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:00:18] Faursel : Ah, sorry abou' that.
+[20:00:18] [EView] INCOMING < NPC Chat (0x036): NPC: 3 (Bezbez), Message: 6574
+[20:00:18] [EView] INCOMING < NPC Chat (0x036): NPC: 3 (Bezbez), Message: 6579
+[20:00:18] Conquest update:This region is currently neutral.
+[20:00:18] All three nations are at a deadlock.
+[20:00:19] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:00:33] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:00:34] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:00:37] Faursel : You're not going t' regret this later, are you?
+[20:00:41] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:00:42] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:00:42] Faursel : Blimey! You've only got 0 gil?
+[20:00:44] Come back when your pockets are a little heavier!
+[20:00:47] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:00:57] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:00:57] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:00:57] Faursel : Ah, sorry abou' that.
+[20:00:58] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:00:59] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:00:59] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:01:02] Faursel : You're not going t' regret this later, are you?
+[20:01:05] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:01:06] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:01:06] Faursel : Blimey! You've only got 0 gil?
+[20:01:08] Come back when your pockets are a little heavier!
+[20:01:09] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:03:23] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:05:57] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:05:57] Faursel : Ah, sorry abou' that.
+[20:05:58] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:05:59] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:05:59] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:06:02] Faursel : You're not going t' regret this later, are you?
+[20:06:05] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:06:06] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:06:06] Faursel : Blimey! You've only got 0 gil?
+[20:06:08] Come back when your pockets are a little heavier!
+[20:06:08] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:18:57] Faursel : You say you want t' go to Aht Urhgan, but you're too big o' a coward to face a challenge, eh? That attitude will get you nowhere in the Empire, I tell you. Ah well, it's all the same t' me, as long as I make a profit.
+[20:18:58] Faursel : This will be more like running errands, but there are a lot o' things for you to collect on this list.
+[20:18:58] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 10
+[20:18:58] [EView] INCOMING < Event Update (0x05C): Params: 537, 538, 539, 540, 541, 542, 0, 0
+[20:18:58] Faursel : There are a lot o' curious items here. I need you to bring me a damselfly worm, a magicked skull, and a crab apron.
+[20:19:00] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 11
+[20:19:00] Faursel : Wait, there's more. I also require a bloody robe and a cup of dhalmel saliva....Oh, and one last thing--a wild rabbit tail. Hand me these six items at one time, and I will be satisfied.
+[20:19:04] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:19:05] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:19:05] Faursel : Ah, sorry abou' that.
+[20:19:06] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:19:06] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:19:06] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:19:09] Faursel : You're not going t' regret this later, are you?
+[20:19:12] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:19:13] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:19:13] Faursel : Blimey! You've only got 0 gil?
+[20:19:15] Come back when your pockets are a little heavier!
+[20:19:16] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:22:25] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:22:25] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:22:25] Faursel : Ah, sorry abou' that.
+[20:22:26] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:22:26] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:22:27] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:22:30] Faursel : You're not going t' regret this later, are you?
+[20:22:32] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:22:33] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:22:33] Faursel : Blimey! You've only got 0 gil?
+[20:22:35] Come back when your pockets are a little heavier!
+[20:22:36] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:23:23] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:23:23] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:23:23] Faursel : Ah, sorry abou' that.
+[20:23:24] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:23:24] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:23:24] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:23:26] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:23:29] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:23:30] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:23:30] Faursel : Ah, sorry abou' that.
+[20:23:31] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:23:31] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:23:32] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:23:35] Faursel : You're not going t' regret this later, are you?
+[20:23:37] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:23:38] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:23:38] Faursel : Blimey! You've only got 0 gil?
+[20:23:40] Come back when your pockets are a little heavier!
+[20:23:41] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:27:56] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:27:56] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:27:56] Faursel : Ah, sorry abou' that.
+[20:27:57] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:27:58] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:27:58] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:28:00] Faursel : You're not going t' regret this later, are you?
+[20:28:03] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:28:04] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:28:04] Faursel : Blimey! You've only got 0 gil?
+[20:28:06] Come back when your pockets are a little heavier!
+[20:28:06] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:28:48] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:28:48] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:28:48] Faursel : Ah, sorry abou' that.
+[20:28:49] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:28:49] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:28:49] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:28:52] Faursel : You're not going t' regret this later, are you?
+[20:28:54] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:28:55] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:28:55] Faursel : Blimey! You've only got 0 gil?
+[20:28:57] Come back when your pockets are a little heavier!
+[20:28:57] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:31:07] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:31:07] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:31:07] Faursel : Ah, sorry abou' that.
+[20:31:08] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:31:08] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:31:09] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:31:11] Faursel : You're not going t' regret this later, are you?
+[20:31:14] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:31:15] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:31:15] Faursel : Blimey! You've only got 0 gil?
+[20:31:17] Come back when your pockets are a little heavier!
+[20:31:18] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:41:41] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:41:42] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:41:42] Faursel : Ah, sorry abou' that.
+[20:41:43] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:41:43] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:41:43] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:41:46] Faursel : You're not going t' regret this later, are you?
+[20:41:49] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:41:49] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:41:49] Faursel : Blimey! You've only got 0 gil?
+[20:41:51] Come back when your pockets are a little heavier!
+[20:41:52] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:48:08] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 0
+[20:48:22] Besbe wishes to trade with you.
+[20:48:32] Trade complete.
+[20:49:46] [EView] INCOMING < CS Event (0x032): NPC: 17780924 (Faursel), Event: 10064
+
+[20:49:47] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:49:50] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 0
+[20:52:47] [EView] INCOMING < CS Event (0x032): NPC: 17780924 (Faursel), Event: 10064
+
+[20:52:48] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:52:51] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:52:51] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:52:51] Faursel : Ah, sorry abou' that.
+[20:52:52] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:52:53] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:52:53] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:52:56] Faursel : You're not going t' regret this later, are you?
+[20:52:59] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:52:59] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:52:59] Faursel : Blimey! You've only got 0 gil?
+[20:53:01] Come back when your pockets are a little heavier!
+[20:53:02] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:53:04] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 0
+[20:53:49] [EView] INCOMING < CS Event (0x032): NPC: 17780924 (Faursel), Event: 10064
+
+[20:53:49] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:53:53] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:53:53] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:53:53] Faursel : Ah, sorry abou' that.
+[20:53:54] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:53:55] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:53:55] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:53:58] Faursel : You're not going t' regret this later, are you?
+[20:54:00] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:54:01] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:54:01] Faursel : Blimey! You've only got 0 gil?
+[20:54:03] Come back when your pockets are a little heavier!
+[20:54:03] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:54:08] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 0
+[20:55:16] Besbe wishes to trade with you.
+[20:55:28] Trade complete.
+[20:55:34] [EView] INCOMING < CS Event (0x032): NPC: 17780924 (Faursel), Event: 10064
+
+[20:55:34] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:55:37] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:55:38] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:55:38] Faursel : Ah, sorry abou' that.
+[20:55:39] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:55:39] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:55:39] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:55:43] Faursel : You're not going t' regret this later, are you?
+[20:57:20] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:57:22] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 0
+[20:57:25] You offer to trade with Besbe.
+[20:57:37] Trade complete.
+[20:57:43] [EView] INCOMING < CS Event (0x032): NPC: 17780924 (Faursel), Event: 10064
+
+[20:57:43] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:57:49] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:57:50] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:57:50] Faursel : Ah, sorry abou' that.
+[20:57:51] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:57:51] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:57:52] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:58:02] Faursel : You're not going t' regret this later, are you?
+[20:58:06] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:58:07] Faursel : Blimey! You've only got 0 gil?Come back when your pockets are a little heavier!
+[20:58:07] Faursel : Blimey! You've only got 0 gil?
+[20:58:09] Come back when your pockets are a little heavier!
+[20:58:09] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:58:11] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 0
+[20:58:23] You offer to trade with Besbe.
+[20:58:34] Trade complete.
+[20:58:38] [EView] INCOMING < CS Event (0x032): NPC: 17780924 (Faursel), Event: 10064
+
+[20:58:39] Faursel : So what'll it be?I'll read the list now, so decide which set is in your budget and make a note o' what you need.
+[20:58:43] Faursel : Hoho!So this high and mighty adventurer refuses t' be reduced to running errands!
+[20:58:43] Faursel : Ah, sorry abou' that.I'm not picking on you, so don't get your feathers in a ruffle.
+[20:58:43] Faursel : Ah, sorry abou' that.
+[20:58:44] I'm not picking on you, so don't get your feathers in a ruffle.
+[20:58:44] Faursel : So you are going t' pay me 500000 gil. Is that correct?
+[20:58:45] Faursel : You won't receive the permit immediately, you know. Are you okay with that?
+[20:58:48] Faursel : You're not going t' regret this later, are you?
+[20:58:50] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 14
+[20:58:51] [EView] INCOMING < Event Update (0x05C): Params: 1, 1, 1, 1, 1, 1, 1, 1
+[20:58:51] Faursel : Congratulations, sir, we have a deal!Come back tomorrow and I will give you the boarding permit.
+[20:59:02] Faursel : And don't you worry, because the Tenshodo is true t' its word!
+[20:59:18] [EView] OUTGOING > Event Option (0x05B): NPC: 17780924 (Faursel), Event: 10064, Option: 3
+[21:00:21] [EView] INCOMING < NPC Chat (0x036): NPC: 3 (Bezbez), Message: 6574
+[21:00:21] [EView] INCOMING < NPC Chat (0x036): NPC: 3 (Bezbez), Message: 6579
+[21:00:21] Conquest update:This region is currently neutral.
+[21:00:21] All three nations are at a deadlock.
+[21:11:48] Executing shutdown in 30 seconds.Cancel healing to remain logged in.
+[21:11:51] Executing shutdown in 25 seconds.Cancel healing to remain logged in.
+[21:11:54] Executing shutdown in 20 seconds.Cancel healing to remain logged in.
+[21:12:00] Executing shutdown in 15 seconds.Cancel healing to remain logged in.
+[21:12:06] Executing shutdown in 10 seconds.Cancel healing to remain logged in.
+[21:12:09] Executing shutdown in 5 seconds.Cancel healing to remain logged in.

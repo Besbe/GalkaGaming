@@ -1,0 +1,255 @@
+﻿<!--
+ * Ashita (c) atom0s / EliteMMO Network, 2011 - 2017
+ *
+ * This unpublished material is proprietary to EliteMMO Network.
+ * All rights reserved.
+ *
+ * The methods and techniques described herein are considered trade secrets
+ * and/or confidential. Reproduction or distribution, in whole or in part,
+ * is forbidden except by express written permission of EliteMMO Network.
+-->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Theme Version -->
+    <system:Double x:Key="ThemeVersion">3</system:Double>
+
+    <!-- Application Settings -->
+    <FontFamily x:Key="ApplicationFontFamily">Segoe UI</FontFamily>
+    <system:Double x:Key="ApplicationFontSize">12</system:Double>
+    <system:Double x:Key="ApplicationWindowWidth">450</system:Double>
+    <system:Double x:Key="ApplicationWindowHeight">600</system:Double>
+    <system:Double x:Key="VersionInformationFontSize">10</system:Double>
+
+    <!-- Theme Colors -->
+    <Color x:Key="Color.Background.Dark.1">#FF313541</Color>
+    <Color x:Key="Color.Background.Dark.2">#FF282C37</Color>
+    <Color x:Key="Color.Background.Dark.3">#F0000000</Color>
+    <Color x:Key="Color.Background.Light.1">#FFFFFFFF</Color>
+    <Color x:Key="Color.Background.Light.2">#FFF4F7FA</Color>
+    <Color x:Key="Color.Background.Selected">#FFEA5A5A</Color>
+    <Color x:Key="Color.Border.Dark.1">#FF232730</Color>
+    <Color x:Key="Color.Border.Dark.2">#4F000000</Color>
+    <Color x:Key="Color.Border.Dark.3">#2F000000</Color>
+    <Color x:Key="Color.Border.Dark.4">#FF383D4B</Color>
+    <Color x:Key="Color.Border.Light.1">#FFE2E7EC</Color>
+    <Color x:Key="Color.Divider.Dark1.1">#FF1F222D</Color>
+    <Color x:Key="Color.Foreground.1">#FFD35547</Color>
+    <Color x:Key="Color.Foreground.2">#FFFFFFFF</Color>
+    <Color x:Key="Color.Foreground.3">#FF5A6779</Color>
+    <Color x:Key="Color.Foreground.4">#FF4C5561</Color>
+    <Color x:Key="Color.Foreground.5">#FF74808F</Color>
+    <Color x:Key="Color.Foreground.6">#FF6A7583</Color>
+    <Color x:Key="Color.Foreground.7">#FFF7FAFC</Color>
+
+    <!-- Main Application Colors -->
+    <SolidColorBrush x:Key="Application.Background.Brush" Color="{StaticResource Color.Background.Dark.2}" />
+    <SolidColorBrush x:Key="Application.Border.Brush" Color="{StaticResource Color.Border.Dark.2}" />
+    <SolidColorBrush x:Key="Application.Title.Foreground.Brush" Color="{StaticResource Color.Foreground.2}" />
+    <SolidColorBrush x:Key="Application.Title.Links.Foreground.Brush" Color="{StaticResource Color.Foreground.7}" />
+    <SolidColorBrush x:Key="Application.Title.Links.Border.Brush" Color="{StaticResource Color.Foreground.3}" />
+    <SolidColorBrush x:Key="Application.Content.Background.Brush" Color="{StaticResource Color.Background.Dark.2}" />
+
+    <!-- Splash Page Settings -->
+    <SolidColorBrush x:Key="Splash.Background.Dark.Brush" Color="{StaticResource Color.Background.Dark.2}" />
+    <SolidColorBrush x:Key="Splash.Background.Color.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="Splash.Border.Color.Brush" Color="{StaticResource Color.Border.Dark.3}" />
+    <SolidColorBrush x:Key="Splash.ApplicationName.Foreground" Color="{StaticResource Color.Foreground.7}" />
+    <SolidColorBrush x:Key="Splash.Versions.Foreground" Color="{StaticResource Color.Foreground.5}" />
+    <SolidColorBrush x:Key="Splash.ProgressBar.Foreground" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="Splash.StatusText.Foreground" Color="{StaticResource Color.Foreground.7}" />
+
+    <!-- Main Window Settings -->
+    <SolidColorBrush x:Key="MainWindow.Error.Background.Brush" Color="{StaticResource Color.Background.Dark.3}" />
+    <SolidColorBrush x:Key="MainWindow.Error.Title.Foreground.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="MainWindow.Error.Title.Border.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="MainWindow.Error.Header.Foreground.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="MainWindow.Error.Message.Foreground.Brush" Color="{StaticResource Color.Foreground.7}" />
+
+    <!-- Main View Settings -->
+    <SolidColorBrush x:Key="MainView.Content.Background.Brush" Color="{StaticResource Color.Background.Dark.2}" />
+    <SolidColorBrush x:Key="MainView.Content.Border.Brush" Color="{StaticResource Color.Border.Dark.1}" />
+
+    <!-- Sidebar Settings -->
+    <GridLength x:Key="Sidebar.Width">50</GridLength>
+    <system:Double x:Key="Sidebar.Button.FontSize">10</system:Double>
+    <SolidColorBrush x:Key="Sidebar.Border.Brush" Color="{DynamicResource Color.Border.Dark.4}" />
+    <SolidColorBrush x:Key="Sidebar.Background.Brush" Color="{StaticResource Color.Background.Dark.1}" />
+    <SolidColorBrush x:Key="Sidebar.Background.Selected.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="Sidebar.Foreground.Brush" Color="{StaticResource Color.Foreground.6}" />
+    <SolidColorBrush x:Key="Sidebar.Foreground.Selected.Brush" Color="{StaticResource Color.Foreground.7}" />
+
+    <!-- Configuration List Settings -->
+    <system:Double x:Key="Configurations.LargeText.FontSize">20</system:Double>
+    <system:Double x:Key="Configurations.SmallText.FontSize">10</system:Double>
+    <SolidColorBrush x:Key="Configurations.Background.Brush" Color="#FF282C37" />
+    <SolidColorBrush x:Key="Configurations.OuterBorder.Brush" Color="#1F000000" />
+    <SolidColorBrush x:Key="Configurations.InnerBorder.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="Configurations.Title.Foreground.Brush" Color="#FFCFCFCF" />
+    <SolidColorBrush x:Key="Configurations.Description.Border.Foreground.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="Configurations.Description.Foreground.Brush" Color="{StaticResource Color.Foreground.5}" />
+    <SolidColorBrush x:Key="Configurations.Hovered.Border.Brush" Color="{StaticResource Color.Background.Selected}" />
+    <SolidColorBrush x:Key="Configurations.Selected.Border.Brush" Color="{StaticResource Color.Background.Selected}" />
+    <SolidColorBrush x:Key="Configurations.DotNetWarn.Foreground.Brush" Color="#FFEA5A5A" />
+    <SolidColorBrush x:Key="Configurations.DotNetWarn.Download.Foreground.Brush" Color="#FF1BA8ED" />
+    <SolidColorBrush x:Key="Configurations.NavigationLinks.Brush" Color="#FFFFFFFF" />
+
+    <!-- Addons and Plugins List Settings -->
+    <system:Double x:Key="AddonsPlugins.LargeText.FontSize">20</system:Double>
+    <system:Double x:Key="AddonsPlugins.SmallText.FontSize">10</system:Double>
+    <system:Double x:Key="AddonsPlugins.LinksText.FontSize">10</system:Double>
+    <SolidColorBrush x:Key="AddonsPlugins.Background.Brush" Color="#FF282C37" />
+    <SolidColorBrush x:Key="AddonsPlugins.Border.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="AddonsPlugins.Title.Foreground.Brush" Color="#FFCFCFCF" />
+    <SolidColorBrush x:Key="AddonsPlugins.Description.Border.Foreground.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="AddonsPlugins.Description.Foreground.Brush" Color="{StaticResource Color.Foreground.5}" />
+    <SolidColorBrush x:Key="AddonsPlugins.Hovered.Border.Brush" Color="{StaticResource Color.Background.Selected}" />
+    <SolidColorBrush x:Key="AddonsPlugins.Selected.Border.Brush" Color="{StaticResource Color.Background.Selected}" />
+    <SolidColorBrush x:Key="AddonsPlugins.DotNetWarn.Foreground.Brush" Color="#FFEA5A5A" />
+    <SolidColorBrush x:Key="AddonsPlugins.NavigationLinks.Brush" Color="#FF1BA8ED" />
+    <SolidColorBrush x:Key="AddonsPlugins.NavigationLinks.Underline.Brush" Color="{StaticResource Color.Foreground.4}" />
+    <SolidColorBrush x:Key="AddonsPlugins.DownloadButton.Foreground.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="AddonsPlugins.NoAvailable.Foreground.Brush" Color="{StaticResource Color.Foreground.7}" />
+    <SolidColorBrush x:Key="AddonsPlugins.NoAvailable.Warning.Foreground.Brush" Color="{StaticResource Color.Foreground.1}" />
+
+    <!-- About View Settings -->
+    <SolidColorBrush x:Key="About.Foreground.Brush" Color="{StaticResource Color.Foreground.7}" />
+    <SolidColorBrush x:Key="About.Header.Foreground.Brush" Color="#FF1BA8ED" />
+
+    <!-- Download Buttons Colors and Brushes -->
+    <SolidColorBrush x:Key="DownloadButton.Foreground.Brush" Color="{StaticResource Color.Foreground.1}" />
+
+    <!-- Configuration Editor Settings -->
+    <system:Double x:Key="ConfigurationEditor.Settings.FontSize">12</system:Double>
+    <SolidColorBrush x:Key="ConfigurationEditor.Settings.Foreground.Brush" Color="{StaticResource Color.Foreground.7}" />
+    <system:Double x:Key="ConfigurationEditor.HelpHeader.FontSize">12</system:Double>
+    <system:Double x:Key="ConfigurationEditor.HelpInfo.FontSize">10</system:Double>
+    <SolidColorBrush x:Key="ConfigurationEditor.HelpCategory.Foreground.Brush" Color="#FF1BA8ED" />
+    <SolidColorBrush x:Key="ConfigurationEditor.HelpHeader.Foreground.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="ConfigurationEditor.HelpInfo.Foreground.Brush" Color="{StaticResource Color.Foreground.5}" />
+
+    <!-- Bubble Slider Colors and Brushes -->
+    <SolidColorBrush x:Key="BubbleSlider.Background.Brush" Color="{StaticResource Color.Background.Dark.1}" />
+    <SolidColorBrush x:Key="BubbleSlider.Border.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="BubbleSlider.Accent.Brush" Color="#FFD35547" />
+
+    <!-- Buttons Colors and Brushes -->
+    <SolidColorBrush x:Key="Button.Background.Brush" Color="#FFD35547" />
+    <SolidColorBrush x:Key="Button.Background.Hover.Brush" Color="#FFEA5A5A" />
+    <SolidColorBrush x:Key="Button.Background.Disabled.Brush" Color="#FF354052" />
+    <SolidColorBrush x:Key="Button.Border.Brush" Color="#FFB53F26" />
+    <SolidColorBrush x:Key="Button.Border.Disabled.Brush" Color="#FF354052" />
+    <SolidColorBrush x:Key="Button.Foreground.Brush" Color="#FFFFFFFF" />
+
+    <!-- CheckBox Colors and Brushes -->
+    <SolidColorBrush x:Key="CheckBox.Static.Background.Brush" Color="#414E61" />
+    <SolidColorBrush x:Key="CheckBox.Static.Border.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="CheckBox.MouseOver.Background.Brush" Color="#354052" />
+    <SolidColorBrush x:Key="CheckBox.MouseOver.Border.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="CheckBox.MouseOver.Glyph.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="CheckBox.Disabled.Background.Brush" Color="#AAAAAA" />
+    <SolidColorBrush x:Key="CheckBox.Disabled.Border.Brush" Color="#9F9F9F" />
+    <SolidColorBrush x:Key="CheckBox.Disabled.Glyph.Brush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="CheckBox.Pressed.Background.Brush" Color="#354052" />
+    <SolidColorBrush x:Key="CheckBox.Pressed.Border.Brush" Color="#5F8FBF" />
+    <SolidColorBrush x:Key="CheckBox.Pressed.Glyph.Brush" Color="#5F8FBF" />
+    <SolidColorBrush x:Key="CheckBox.Static.Glyph.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="CheckBox.Foreground.Brush" Color="#B3B5B7" />
+
+    <!-- ComboBox Colors and Brushes -->
+    <SolidColorBrush x:Key="ComboBox.Background.Brush" Color="{StaticResource Color.Background.Dark.1}" />
+    <SolidColorBrush x:Key="ComboBox.Border.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="ComboBox.Foreground.Brush" Color="#FFB3B5B7" />
+    <SolidColorBrush x:Key="ComboBox.Glyph.Brush" Color="#FFB3B5B7"/>
+    <SolidColorBrush x:Key="ComboBox.MouseOver.Background.Brush" Color="{StaticResource Color.Background.Dark.1}" />
+    <SolidColorBrush x:Key="ComboBox.MouseOver.Border.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="ComboBox.MouseOver.Glyph.Brush" Color="#FFB3B5B7"/>
+    <SolidColorBrush x:Key="ComboBox.Pressed.Background.Brush" Color="{StaticResource Color.Background.Dark.1}" />
+    <SolidColorBrush x:Key="ComboBox.Pressed.Border.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="ComboBox.Pressed.Glyph.Brush" Color="#FFB3B5B7"/>
+    <SolidColorBrush x:Key="ComboBox.Disabled.Background.Brush" Color="{StaticResource Color.Background.Dark.1}"/>
+    <SolidColorBrush x:Key="ComboBox.Disabled.Border.Brush" Color="#FF1F222D"/>
+    <SolidColorBrush x:Key="ComboBox.Disabled.Foreground.Brush" Color="#FF5E6870" />
+    <SolidColorBrush x:Key="ComboBox.Disabled.Glyph.Brush" Color="#FF5E6870"/>
+    <SolidColorBrush x:Key="ComboBox.Dropdown.Border.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="ComboBox.Dropdown.Background.Brush" Color="{StaticResource Color.Background.Dark.1}" />
+    <SolidColorBrush x:Key="ComboBox.Dropdown.Foreground.Brush" Color="#FFB3B5B7" />
+    <SolidColorBrush x:Key="ComboBox.Item.MouseOver.Background.Brush" Color="#4FD35547" />
+    <SolidColorBrush x:Key="ComboBox.Item.Selected.Background.Brush" Color="#F0D35547" />
+
+    <!-- ContextMenu Colors and Brushes -->
+    <SolidColorBrush x:Key="ContextMenu.Background.Brush" Color="#FF313541" />
+    <SolidColorBrush x:Key="ContextMenu.Border.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="ContextMenu.Foreground.Brush" Color="#FFB3B5B7" />
+    <SolidColorBrush x:Key="ContextMenu.Highlighted.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="ContextMenu.Disabled.Foreground.Brush" Color="#FF4C5561" />
+    <SolidColorBrush x:Key="ContextMenu.Disabled.Glyph.Brush" Color="#FF4C5561" />
+    <SolidColorBrush x:Key="ContextMenu.ScrollButton.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="ContextMenu.ScrollButton.Foreground.Brush" Color="#FFB3B5B7" />
+    <SolidColorBrush x:Key="ContextMenu.Separator.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="ContextMenu.TopLevelItem.Highlighted.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="ContextMenu.TopLevelItem.Disabled.Foreground.Brush" Color="#FF4C5561" />
+    <SolidColorBrush x:Key="ContextMenu.TopLevelItem.Disabled.Glyph.Brush" Color="#FF4C5561" />
+    <SolidColorBrush x:Key="ContextMenu.TopLevelItem.Background.Brush" Color="#FF313541" />
+    <SolidColorBrush x:Key="ContextMenu.TopLevelItem.Border.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="ContextMenu.TopLevelItem.Foreground.Brush" Color="#FFB3B5B7" />
+    <SolidColorBrush x:Key="ContextMenu.TopLevelItem.SubMenuOpened.Brush" Color="#FF313541" />
+    <SolidColorBrush x:Key="ContextMenu.MenuItem.Background.Brush" Color="Transparent" />
+    <SolidColorBrush x:Key="ContextMenu.MenuItem.Foreground.Brush" Color="#FFB3B5B7" />
+    <SolidColorBrush x:Key="ContextMenu.SubmenuHeader.Background.Brush" Color="#FF313541" />
+    <SolidColorBrush x:Key="ContextMenu.SubmenuHeader.Border.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="ContextMenu.SubmenuHeader.Foreground.Brush" Color="#FFB3B5B7" />
+    <SolidColorBrush x:Key="ContextMenu.SubmenuHeader.Highlighted.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="ContextMenu.SubmenuHeader.Disabled.Foreground.Brush" Color="#FF4C5561" />
+    <SolidColorBrush x:Key="ContextMenu.SubmenuHeader.Disabled.Glyph.Brush" Color="#FF4C5561" />
+    <SolidColorBrush x:Key="ContextMenu.SubmenuItem.Background.Brush" Color="#FF313541" />
+    <SolidColorBrush x:Key="ContextMenu.SubmenuItem.Foreground.Brush" Color="#FFB3B5B7" />
+    <SolidColorBrush x:Key="ContextMenu.SubmenuItem.Highlighted.Brush" Color="#FF1F222D" />
+    <SolidColorBrush x:Key="ContextMenu.SubmenuItem.Disabled.Foreground.Brush" Color="#FF4C5561" />
+    <SolidColorBrush x:Key="ContextMenu.SubmenuItem.Disabled.Glyph.Brush" Color="#FF4C5561" />
+
+    <!-- GroupBox Colors and Brushes -->
+    <SolidColorBrush x:Key="GroupBox.Header.Background.Brush" Color="{StaticResource Color.Foreground.1}" />
+    <SolidColorBrush x:Key="GroupBox.Header.Foreground.Brush" Color="#FFFFFFFF" />
+    <SolidColorBrush x:Key="GroupBox.Container.Background.Brush" Color="#FF282C37" />
+    <SolidColorBrush x:Key="GroupBox.Container.Border.Brush" Color="#FF1F222D" />
+
+    <!-- Label Colors and Brushes -->
+    <SolidColorBrush x:Key="Label.Background.Brush" Color="Transparent" />
+    <SolidColorBrush x:Key="Label.Foreground.Brush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="Label.Disabled.Foreground.Brush" Color="#FF7F7F7F" />
+
+    <!-- ListBox Colors and Brushes -->
+    <SolidColorBrush x:Key="ListBox.Background.Brush" Color="#FF2A2F34"/>
+    <SolidColorBrush x:Key="ListBox.Border.Brush" Color="#FF272B30"/>
+    <SolidColorBrush x:Key="ListBox.Foreground.Brush" Color="#FF88939C"/>
+    <SolidColorBrush x:Key="ListBox.Disabled.Background.Brush" Color="#FF272B30"/>
+    <SolidColorBrush x:Key="ListBox.Disabled.Border.Brush" Color="#FFED4949"/>
+    <SolidColorBrush x:Key="ListBox.Hovered.Border.Brush" Color="#FF40474F"/>
+
+    <!-- ProgressBar Colors and Brushes -->
+    <SolidColorBrush x:Key="ProgressBar.Track.Brush" Color="#D4E2EF" />
+    <SolidColorBrush x:Key="ProgressBar.Foreground.Brush" Color="#FF1C8ED7" />
+
+    <!-- ScrollBar Colors and Brushes -->
+    <SolidColorBrush x:Key="ScrollBar.Background.Brush" Color="Transparent" />
+    <SolidColorBrush x:Key="ScrollBar.Foreground.Brush" Color="{StaticResource Color.Foreground.1}" />
+
+    <!-- TextBox Colors and Brushes -->
+    <SolidColorBrush x:Key="TextBox.Background.Brush" Color="{StaticResource Color.Background.Dark.1}" />
+    <SolidColorBrush x:Key="TextBox.Foreground.Brush" Color="#FFB3B5B7" />
+    <SolidColorBrush x:Key="TextBox.Border.Brush" Color="#FF1F222D"/>
+    <SolidColorBrush x:Key="TextBox.MouseOver.Border.Brush" Color="{StaticResource Color.Foreground.1}"/>
+    <SolidColorBrush x:Key="TextBox.Focus.Border.Brush" Color="#FF40474F"/>
+    <SolidColorBrush x:Key="TextBox.Selection.Brush" Color="{StaticResource Color.Foreground.1}" />
+
+    <!-- ToolTip Colors and Brushes -->
+    <SolidColorBrush x:Key="ToolTip.Background.Brush" Color="#FF272B30" />
+    <SolidColorBrush x:Key="ToolTip.Border.Brush" Color="#FF353C42" />
+    <SolidColorBrush x:Key="ToolTip.Foreground.Brush" Color="#FFFFFFFF" />
+
+    <!-- Misc Brushes -->
+    <SolidColorBrush x:Key="TransparentWhiteBrush" Color="#00FFFFFF"/>
+    <SolidColorBrush x:Key="YellowHighlightColorBrush" Color="#FFF0AD4E" />
+</ResourceDictionary>

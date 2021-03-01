@@ -149,9 +149,31 @@ UPDATE mob_groups g JOIN mob_spawn_points s ON (g.groupid = s.groupid) SET minLe
 -- CUSTOM NON-ERA ADJUSTMENTS
 
 -- Yuhtunga Jungle
-
 UPDATE mob_groups SET minLevel = "31"  WHERE zoneid = 123 AND name = "Yuhtunga_Mandragora"; -- Higher min level for Mandragoras for more steady xp-gains at level 25
+-- The Sanctuary of ZiTah
 UPDATE mob_groups SET HP = "2000"  WHERE zoneid = 121 AND name = "Guardian_Treant"; -- Boosting SAM quest NMs
+-- Konschtat Highlands
 UPDATE mob_groups SET HP = "1600", minLevel = "36", maxLevel = "36" WHERE zoneid = 108 AND name = "Forger"; -- Boosting SAM quest NMs
+-- Korroloka Tunnel
 UPDATE mob_groups SET HP = "1000", minLevel = "33", maxLevel = "33" WHERE zoneid = 173 AND name = "Korroloka_Leech"; -- Boosting NIN quest NMs
+-- DRG BCNM Fight
 UPDATE mob_groups SET HP = "2000", minLevel = "42", maxLevel = "42" WHERE zoneid = 140 AND name = "Cyranuce_M_Cutauleon"; -- Boosting DRG BCNM fight
+-- Phanauet Channel
+UPDATE mob_groups SET HP = "4000" WHERE zoneid = 1 AND name = "Vodyanoi"; -- Adding proper total HPs (https://www.youtube.com/watch?v=QrlYY1Fzt7g)
+-- Bibiki Bay
+UPDATE mob_groups SET HP = "4400" WHERE zoneid = 4 AND name = "Serra"; -- Adding proper total HPs (https://www.youtube.com/watch?v=YY19p_Ll0C0)
+UPDATE mob_groups SET HP = "2500" WHERE zoneid = 4 AND name = "Intulo"; -- Very rough guess on its total HP... https://ffxi.allakhazam.com/db/bestiary.html?fmob=2901&p=1#comments
+-- Uleguerand Range
+UPDATE mob_groups SET HP = "12000" WHERE zoneid = 5 AND name = "Snow_Maiden"; -- Adding proper total HPs (https://www.youtube.com/watch?v=o5rSVbEncFs)
+UPDATE mob_groups SET HP = "15000", dropid = "3998" WHERE zoneid = 5 AND name = "Father_Frost"; -- Not really proper source for this, but giving him more HP than its PH (Snow Maiden). Also adding custom droplist so we can set different drop rate for Purgatory Collar.
+UPDATE mob_groups SET HP = "20000" WHERE zoneid = 5 AND name = "Mountain_Worm_NM"; -- Adding proper total HPs (https://www.youtube.com/watch?v=TKkd7HBE8fk)
+UPDATE mob_groups SET HP = "9000" WHERE zoneid = 5 AND name = "Bonnacon"; -- Adding proper total HPs (https://www.youtube.com/watch?v=5ssAuE-bFMs)
+UPDATE mob_groups SET HP = "8000" WHERE zoneid = 5 AND name = "White_Coney"; -- Adding proper total HPs (https://www.youtube.com/watch?v=9I8SfbyPduM)
+UPDATE mob_groups SET HP = "8000" WHERE zoneid = 5 AND name = "Black_Coney"; -- Adding proper total HPs (https://www.youtube.com/watch?v=tXUrBewXA8A)
+
+
+-- Kuftal Tunnel
+UPDATE mob_groups SET HP = "9000" WHERE zoneid = 174 AND name = "Phantom_Worm"; -- Adding proper total HPs (https://www.youtube.com/watch?v=n0IwgZc7Nx8)
+
+
+

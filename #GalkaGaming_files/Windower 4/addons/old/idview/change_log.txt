@@ -1,0 +1,74 @@
+ID View Changelog
+
+v004 (2019/11/06)
+----------------------------------------------------------------------------------
+- Requires library v003.
+
+- Updated ID View to leverage newer capture library for working with text boxes,
+  and some other internal code improvements
+
+- Fixed bug where Event+Param (0x034) packets had NPC ID listed as the first param,
+  with the actual params shifted one spot backward, and param 8 being dropped
+
+- Fixed a bug where the default box background settings weren't being set properly.
+  To fix settings made by older versions, you can either delete your settings.xml and
+  ID View will regenerate a new one on next load, or you can (with ID View unloaded)
+  manually edit settings.xml to move the <bg></bg> content inside the <box></box> tag
+
+- Singularized references to colors. Users with older settings.xml will need to edit
+  them and change the <colors></colors> tags to read <color></color>. (Or delete and 
+  generate a new one with defaults)
+
+- Fixed a bug where Event (0x032) packets were being listed with params despite not
+  actually having any
+
+
+v003 (2019/10/26)
+----------------------------------------------------------------------------------
+- Fixed a bug where mob special spawn packets were being confused for event option packets
+
+v002 (2019/10/23)
+----------------------------------------------------------------------------------
+- Requires library v002.
+
+- ID View will now check against the loaded library at start and warn the user
+  if there is a version mismatch.
+
+- Added command //idview box_test.
+  Input it to display a test box you can drag and move to become a new "base location"
+  for boxes displayed by ID View. When the box is in the desired position, input the
+  command again the save this new starting location.
+
+- Added a small 0.2 wait to the auto-hide time, in attempts of mitigating the box
+  disappearing during events due to event option->updates when time is set to 0.
+
+v001 (2019/10/21)
+----------------------------------------------------------------------------------
+- Essentially rewrites ID View from the ground up as a "real release"
+
+- Started to move all my capture addons over to use a unified library. At the
+  moment, ID View is the first/only to use this new library system.
+
+- A new Windower text box will display on triggered packets. This box will stay
+  displayed on the screen while an event plays, so you can see/ponder params
+  while characters are talking and potentially pushing the "chatlog only"
+  printing out of the visible chat log. Boxes can be set to not display.
+  Settings XML (see below): show_box true|false
+
+- New settings file will be created on first load, and loaded from afterwards.
+  This file has settings for colors, whether the new text box displays, where,
+  whether it auto hides after an event, how many boxes to display at once, 
+  and how long of a timer after an event for it to auto hide each update type
+
+- By request, ID View can now be set to a certain mode via the //idview mode NAME command:
+  OFF:     ID View stops taking action on packet triggers
+  INFO:    ID View will display event information, but not write them to file
+  PASSIVE: ID View will write to file, but not actively display event information ("stealth")
+  ACTIVE:  ID View will both display event information, and write it to file (classic behavior)
+
+- New commands added:
+  mode: Sets the mode for ID View (see above). Usage: //idview mode passive
+  color_test: Displays the colorized integers that ID View uses to colorize information with.
+              You can look at the colors, then put the code into your settings XML's tags.
+  ver: Spits out the current ID View version, and the date "released".
+       Also spits out the current capture library version, and the version that ID View "expects".

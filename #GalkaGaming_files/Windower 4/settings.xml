@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <profile name="LimitBreak 1600x900">
+    <consolekey>Insert</consolekey>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <args>--server 66.42.104.67 --hairpin</args>
+  </profile>
+  <profile name="LimitBreak 2560x1440">
+    <consolekey>Insert</consolekey>
+    <width>2560</width>
+    <height>1440</height>
+    <uiscale>1</uiscale>
+    <args>--server 66.42.104.67 --hairpin</args>
+  </profile>
+  <profile name="LimitBreak 1024x768">
+    <consolekey>Insert</consolekey>
+    <width>1024</width>
+    <height>768</height>
+    <uiscale>1</uiscale>
+    <args>--server 66.42.104.67 --hairpin</args>
+  </profile>
+  <profile name="LimitBreak 800x600">
+    <consolekey>Insert</consolekey>
+    <width>800</width>
+    <height>600</height>
+    <uiscale>1</uiscale>
+    <args>--server 66.42.104.67 --hairpin</args>
+  </profile>
+  <profile name="INTERNAL">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1900</width>
+    <height>1080</height>
+    <uiscale>1</uiscale>
+    <args>--server 127.0.0.1</args>
+  </profile>
+</settings>

@@ -1,0 +1,6 @@
+{
+    "close_bracket": "]",
+    "color": 200,
+    "format": "%H:%M:%S",
+    "open_bracket": "["
+}

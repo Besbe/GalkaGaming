@@ -1,35 +1,48 @@
 -- Custom MOBS or NPCS added
 
 -- Moa Constrictors BCNM
-
 UPDATE mob_spawn_points SET pos_x = -140.667, pos_y = 55.587, pos_z = -215.541 WHERE mobid = "17375443";
 UPDATE mob_spawn_points SET pos_x = -144.130, pos_y = 55.662, pos_z = -216.312 WHERE mobid = "17375444";
 UPDATE mob_spawn_points SET pos_x = 18.489, pos_y = -3.855, pos_z = -20.360 WHERE mobid = "17375446";
 UPDATE mob_spawn_points SET pos_x = 16.118, pos_y = -4.307, pos_z = -19.686 WHERE mobid = "17375447";
 UPDATE mob_spawn_points SET pos_x = 0.000, pos_y = 0.000, pos_z = 0.000 WHERE mobid = "17375449";
 UPDATE mob_spawn_points SET pos_x = 0.000, pos_y = 0.000, pos_z = 0.000 WHERE mobid = "17375450";
-
 -- Zeruhn Mines
-
 INSERT INTO `mob_spawn_points` VALUES (17482751,'Giant_Amoeba','Giant Amoeba',8,60.425,8.735,-263.460,181); -- Giant Amoeba NM
 
+-- RANDOM FIXES
+-- Uleguerand Range
+UPDATE mob_spawn_points SET mobname = "Mountain_Worm_NM" WHERE mobid = "16798031"; -- This NM needs a unique name as it shares his with regular worms in Ule. Otherwise it can't be scripted.
 
--- Adjusting OOE NMs
-
+-- REMOVING OOE Mobs
 -- East Ronfaure
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Rambukk";
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Quagmire Pugil";
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Sunderclaw";
-
-
 -- West Ronfaure
-
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Pyracmon";
+-- Carpenters_Landing
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Tempest Tigon";
+-- Bibiki Bay
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Shankha";
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Splacknuck";
+-- Uleguerand Range
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Skvader";
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Magnotaur";
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Frost_Flambeau";
+
+
+
+
+
+
+
+
+
+
 
 -- CLEANING UP OVER POPULATION OF MOBS
-
 -- Maze of Shakhrami
-
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588449; -- Poison Leech
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588690; -- Poison Leech
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588693; -- Poison Leech
@@ -88,9 +101,7 @@ UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 175883
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588307; -- Goblin Mugger
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588587; -- Protozoan
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588544; -- Wight
-
 -- Monastic Cavern
-
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391621; -- Orcish Warchief
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391639; -- Orcish Zerker
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391640; -- Orcish Warchief

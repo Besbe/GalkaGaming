@@ -1,11 +1,7 @@
 -- Custom NPC flagging towards TOAU era accuracy
 
 UPDATE npc_list SET pos_x = "-22.3693", pos_y = "2.0000", pos_z = "-15.6613" WHERE npcid = "17719425";
-UPDATE npc_list SET status = 2 WHERE npcid = "16798151" AND polutils_name = "Home Point #1";
-UPDATE npc_list SET status = 2 WHERE npcid = "16798152" AND polutils_name = "Home Point #2";
-UPDATE npc_list SET status = 2 WHERE npcid = "16798153" AND polutils_name = "Home Point #3";
-UPDATE npc_list SET status = 2 WHERE npcid = "16798154" AND polutils_name = "Home Point #4";
-UPDATE npc_list SET status = 2 WHERE npcid = "16798155" AND polutils_name = "Home Point #5";
+
 UPDATE npc_list SET status = 2 WHERE npcid = "16982639" AND polutils_name = "Wondrix";
 UPDATE npc_list SET status = 2 WHERE npcid = "16982640" AND polutils_name = "Treasure Coffer";
 UPDATE npc_list SET status = 2 WHERE npcid = "16994373" AND polutils_name = "Chichiroon";
@@ -267,3 +263,153 @@ UPDATE npc_list SET status = 2 WHERE npcid = "17596843" AND name = "qm20"; -- Qu
 UPDATE npc_list SET status = 2 WHERE npcid = "17576428" AND name = "qm7"; -- Question marks for easy LB1
 UPDATE npc_list SET status = 2 WHERE npcid = "17576427" AND name = "qm8"; -- Question marks for easy LB1
 UPDATE npc_list SET status = 2 WHERE npcid = "17576426" AND name = "qm9"; -- Question marks for easy LB1
+UPDATE npc_list SET status = 2 WHERE name = "Planar_Rift"; -- Voidwatch
+UPDATE npc_list SET status = 2 WHERE name = "Ethereal_Junction"; -- Unity Concord
+
+-- REMOVING HOMEPOINTS OUT OF CITIES
+
+-- Uleguerand Range
+UPDATE npc_list SET status = 2 WHERE npcid = "16798151" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "16798152" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "16798153" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "16798154" AND polutils_name = "Home Point #4";
+UPDATE npc_list SET status = 2 WHERE npcid = "16798155" AND polutils_name = "Home Point #5";
+-- Attohwa Chasm
+UPDATE npc_list SET status = 2 WHERE npcid = "16806383" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "16806384" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "16806385" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "16806386" AND polutils_name = "Home Point #4";
+UPDATE npc_list SET status = 2 WHERE npcid = "16806387" AND polutils_name = "Home Point #5";
+-- Pso'Xja
+UPDATE npc_list SET status = 2 WHERE npcid = "16814567" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "16814568" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "16814569" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "16814570" AND polutils_name = "Home Point #4";
+UPDATE npc_list SET status = 2 WHERE npcid = "16814571" AND polutils_name = "Home Point #5";
+-- Newton Movalpolos (Zone 12)
+UPDATE npc_list SET status = 2 WHERE npcid = "16826628" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "16826629" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "16826630" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "16826631" AND polutils_name = "Home Point #4";
+UPDATE npc_list SET status = 2 WHERE npcid = "16826632" AND polutils_name = "Home Point #5";
+-- Misareaux Coast (Zone 25)
+UPDATE npc_list SET status = 2 WHERE npcid = "16880010" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "16880011" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "16880012" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "16880013" AND polutils_name = "Home Point #4";
+UPDATE npc_list SET status = 2 WHERE npcid = "16880014" AND polutils_name = "Home Point #5";
+-- Tavnazian Safehold (Zone 26)
+UPDATE npc_list SET status = 2 WHERE npcid = "x" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "x" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "x" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "x" AND polutils_name = "Home Point #4";
+UPDATE npc_list SET status = 2 WHERE npcid = "x" AND polutils_name = "Home Point #5";
+-- Riverne - Site #B01 (Zone 29)
+UPDATE npc_list SET status = 2 WHERE npcid = "16896250" AND polutils_name = "Home Point #1";
+-- Riverne - Site #A01 (Zone 30)
+UPDATE npc_list SET status = 2 WHERE npcid = "16900399" AND polutils_name = "Home Point #1";
+-- Al'Taieu (Zone 33)
+UPDATE npc_list SET status = 2 WHERE npcid = "16912996" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "16912997" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "16912998" AND polutils_name = "Home Point #3";
+-- Grand Palace of Hu'Xzoi (Zone 34)
+UPDATE npc_list SET status = 2 WHERE npcid = "16916940" AND polutils_name = "Home Point #1";
+-- The Garden of Ru'Hmet (Zone 35)
+UPDATE npc_list SET status = 2 WHERE npcid = "16921138" AND polutils_name = "Home Point #1";
+-- Bhaflau Thickets (Zone 52)
+UPDATE npc_list SET status = 2 WHERE npcid = "16990618" AND polutils_name = "Home Point #1";
+-- Mount Zhayolm (Zone 61)
+UPDATE npc_list SET status = 2 WHERE npcid = "17027625" AND polutils_name = "Home Point #1";
+-- Caedarva Mire (Zone 79)
+UPDATE npc_list SET status = 2 WHERE npcid = "17101351" AND polutils_name = "Home Point #1";
+-- Cape Teriggan (Zone 113)
+UPDATE npc_list SET status = 2 WHERE npcid = "17240529" AND polutils_name = "Home Point #1";
+-- Qufim Island (Zone 126)
+UPDATE npc_list SET status = 2 WHERE npcid = "17293826" AND polutils_name = "Home Point #1";
+-- Ru'Aun Gardens (Zone 130)
+UPDATE npc_list SET status = 2 WHERE npcid = "17310117" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "17310118" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17310119" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "17310120" AND polutils_name = "Home Point #4";
+UPDATE npc_list SET status = 2 WHERE npcid = "17310121" AND polutils_name = "Home Point #5";
+-- Palborough Mines (Zone 143)
+UPDATE npc_list SET status = 2 WHERE npcid = "17363377" AND polutils_name = "Home Point #1";
+-- Giddeus (Zone 145)
+UPDATE npc_list SET status = 2 WHERE npcid = "17371619" AND polutils_name = "Home Point #1";
+-- The Boyahda Tree (Zone 153)
+UPDATE npc_list SET status = 2 WHERE npcid = "17404416" AND polutils_name = "Home Point #1";
+-- Den of Rancor (Zone 160)
+UPDATE npc_list SET status = 2 WHERE npcid = "17433096" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "17433097" AND polutils_name = "Home Point #2";
+-- Castle Zvahl Keep (Zone 162)
+UPDATE npc_list SET status = 2 WHERE npcid = "17441102" AND polutils_name = "Home Point #1";
+-- Toraimarai Canal (Zone 169)
+UPDATE npc_list SET status = 2 WHERE npcid = "17469856" AND polutils_name = "Home Point #1";
+-- The Shrine of Ru'Avitau (Zone 178)
+UPDATE npc_list SET status = 2 WHERE npcid = "17506833" AND polutils_name = "Home Point #1";
+-- Fei'Yin (Zone 204)
+UPDATE npc_list SET status = 2 WHERE npcid = "17613277" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "17613278" AND polutils_name = "Home Point #2";
+-- Ifrit's Cauldron (Zone 205)
+UPDATE npc_list SET status = 2 WHERE npcid = "17617275" AND polutils_name = "Home Point #1";
+-- Quicksand Caves (Zone 208)
+UPDATE npc_list SET status = 2 WHERE npcid = "17629777" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "17629778" AND polutils_name = "Home Point #2";
+-- Bastok Markets
+UPDATE npc_list SET pos_x = "-293.7912", pos_y = "-10.0000", pos_z = "-102.5386" WHERE npcid = "17739860";
+UPDATE npc_list SET status = 2 WHERE npcid = "17739861" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17739862" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "17739863" AND polutils_name = "Home Point #4";
+-- Metalworks (Zone 237)
+UPDATE npc_list SET status = 2 WHERE npcid = "17748181" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "17748182" AND polutils_name = "Home Point #2";
+-- Bastok Mines (Zone 234)
+UPDATE npc_list SET status = 2 WHERE npcid = "17735749" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17735750" AND polutils_name = "Home Point #3";
+-- Port Bastok (Zone 236)
+UPDATE npc_list SET pos_x = "53.6451", pos_y = "7.5000", pos_z = "-28.6819" WHERE npcid = "17743944";
+UPDATE npc_list SET status = 2 WHERE npcid = "17743945" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17743946" AND polutils_name = "Home Point #3";
+-- Northern San d'Oria (Zone 231)
+UPDATE npc_list SET status = 2 WHERE npcid = "17723505" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17723506" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "17723507" AND polutils_name = "Home Point #4";
+-- Southern San d'Oria (Zone 230)
+UPDATE npc_list SET status = 2 WHERE npcid = "17719432" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17719433" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "17719434" AND polutils_name = "Home Point #4";
+-- Port San d'Oria (Zone 232)
+UPDATE npc_list SET pos_x = "-66.0769", pos_y = "4.0000", pos_z = "-104.9475" WHERE npcid = "17727574";
+UPDATE npc_list SET status = 2 WHERE npcid = "17727575" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17727576" AND polutils_name = "Home Point #3";
+-- Windurst Waters (Zone 238)
+UPDATE npc_list SET status = 2 WHERE npcid = "17752217" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17752218" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "17752219" AND polutils_name = "Home Point #4";
+-- Windurst Woods (Zone 241)
+UPDATE npc_list SET status = 2 WHERE npcid = "17764537" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17764538" AND polutils_name = "Home Point #3";
+UPDATE npc_list SET status = 2 WHERE npcid = "17764539" AND polutils_name = "Home Point #4";
+UPDATE npc_list SET status = 2 WHERE npcid = "17764540" AND polutils_name = "Home Point #5";
+-- Port Windurst (Zone 240)
+UPDATE npc_list SET pos_x = "-67.9796", pos_y = "-4.0000", pos_z = "110.6745" WHERE npcid = "17760396";
+UPDATE npc_list SET status = 2 WHERE npcid = "17760397" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17760398" AND polutils_name = "Home Point #3";
+-- Ru'Lude Gardens (Zone 243)
+UPDATE npc_list SET status = 2 WHERE npcid = "17772800" AND polutils_name = "Home Point #1";
+UPDATE npc_list SET status = 2 WHERE npcid = "17772801" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17772802" AND polutils_name = "Home Point #3";
+-- Upper Jeuno (Zone 244)
+UPDATE npc_list SET status = 2 WHERE npcid = "17776728" AND polutils_name = "Home Point #2";
+UPDATE npc_list SET status = 2 WHERE npcid = "17776729" AND polutils_name = "Home Point #3";
+-- Lower Jeuno (Zone 245)
+UPDATE npc_list SET status = 2 WHERE npcid = "17780874" AND polutils_name = "Home Point #2";
+-- Port Jeuno (Zone 246)
+UPDATE npc_list SET status = 2 WHERE npcid = "17784890" AND polutils_name = "Home Point #2";
+-- Mhaura (Zone 249)
+UPDATE npc_list SET status = 2 WHERE npcid = "17797161" AND polutils_name = "Home Point #1";
+-- Norg (Zone 252)
+UPDATE npc_list SET status = 2 WHERE npcid = "17809461" AND polutils_name = "Home Point #2";
+-- Rabao (Zone 247)
+UPDATE npc_list SET status = 2 WHERE npcid = "17788956" AND polutils_name = "Home Point #2";
+-- Kazham (Zone 250)

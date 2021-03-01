@@ -9,6 +9,15 @@ UPDATE mob_pools SET familyid = "96" WHERE name = "Lamia_Idolater";
 UPDATE mob_pools SET familyid = "111" WHERE name = "Goblin_Fisher";
 
 
+-- Uleguerand Range
+UPDATE mob_pools SET spellList = "436", cmbDelay = "260", immunity = "8" WHERE name = "Geush_Urvan"; -- Immune to Stun
+UPDATE mob_pools SET skill_list_id = "1199" WHERE name = "Black_Coney";
+
+
+-- Bibiki Bay
+UPDATE mob_pools SET immunity = "1040", entityflags = "7" WHERE name = "Shen"; -- Immune to Silence and Requiem and also increased its size
+UPDATE mob_pools SET immunity = "12" WHERE name = "Shens_Filtrate"; -- Immune to Bind, Stun
+
 -- Custom MOBS or NPCS added
 
 -- Zeruhn Mines
