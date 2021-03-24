@@ -31,9 +31,10 @@ UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Skv
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Magnotaur";
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Frost_Flambeau";
 
-
-
-
+-- Korroloka Tunnel
+UPDATE mob_spawn_points SET pos_x = -212.056, pos_y = -10.185, pos_z = 178.804 WHERE mobname = "Korroloka_Leech" and mobid = 17486187;
+UPDATE mob_spawn_points SET pos_x = -206.117, pos_y = -11.701, pos_z = 179.106 WHERE mobname = "Korroloka_Leech" and mobid = 17486188;
+UPDATE mob_spawn_points SET pos_x = -204.902, pos_y = -11.361, pos_z = 173.605 WHERE mobname = "Korroloka_Leech" and mobid = 17486189;
 
 
 
@@ -43,6 +44,12 @@ UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobname = "Fro
 
 -- CLEANING UP OVER POPULATION OF MOBS
 -- Maze of Shakhrami
+
+
+
+/*  COMMENTING THIS OUT FOR WINGS AS DOESN'T SEEMS TO BE NEEDED (mob population in Maze looks fine)
+
+
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588449; -- Poison Leech
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588690; -- Poison Leech
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588693; -- Poison Leech
@@ -100,7 +107,9 @@ UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 175883
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588312; -- Goblin Gambler
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588307; -- Goblin Mugger
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588587; -- Protozoan
-UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588544; -- Wight
+UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17588544; -- Wight 
+*/
+
 -- Monastic Cavern
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391621; -- Orcish Warchief
 UPDATE mob_spawn_points SET pos_x = 0, pos_y = 0, pos_z = 0 WHERE mobid = 17391639; -- Orcish Zerker

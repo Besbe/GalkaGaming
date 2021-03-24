@@ -592,6 +592,36 @@ DELETE FROM guild_shops WHERE itemid = 1167 AND guildid = 60431;
 DELETE FROM guild_shops WHERE itemid = 1170 AND guildid = 60431;
 DELETE FROM guild_shops WHERE itemid = 1173 AND guildid = 60431;
 DELETE FROM guild_shops WHERE itemid = 1176 AND guildid = 60431;
+DELETE FROM guild_shops WHERE itemid = 650 AND guildid = 5272; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 737 AND guildid = 5272; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 2144 AND guildid = 5272; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 650 AND guildid = 528; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 737 AND guildid = 528; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 644 AND guildid = 528; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 642 AND guildid = 528; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 644 AND guildid = 531; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 4148 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 1109 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 922 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 912 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 929 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 928 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 932 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 931 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 4166 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 947 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 925 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 4154 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 943 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 4164 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 4162 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 4165 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 637 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 4171 AND guildid = 60425; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 672 AND guildid = 60427; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 650 AND guildid = 60429; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 737 AND guildid = 60429; -- Needed for WINGS DB
+DELETE FROM guild_shops WHERE itemid = 642 AND guildid = 60429; -- Needed for WINGS DB
 INSERT INTO guild_shops VALUES (514,17299,2419,2419,198,0,99);
 INSERT INTO guild_shops VALUES (514,16406,14428,35251,20,0,10);
 INSERT INTO guild_shops VALUES (514,17257,19859,39568,20,0,7);
@@ -940,8 +970,8 @@ INSERT INTO guild_shops VALUES (528,648,571,571,55,0,22);
 INSERT INTO guild_shops VALUES (528,640,9,18,255,33,100);
 INSERT INTO guild_shops VALUES (528,745,9450,66150,55,0,22);
 INSERT INTO guild_shops VALUES (528,737,1890,13230,255,0,100);
-INSERT INTO guild_shops VALUES (528,752,9291,65037,20,0,15);
 INSERT INTO guild_shops VALUES (528,772,1288,6440,165,33,65);
+INSERT INTO guild_shops VALUES (528,752,9291,65037,20,0,15);
 INSERT INTO guild_shops VALUES (528,681,10500,55440,30,6,12);
 INSERT INTO guild_shops VALUES (528,653,19900,36400,55,0,22);
 INSERT INTO guild_shops VALUES (528,644,1500,8400,165,33,65);

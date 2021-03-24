@@ -1,12 +1,12 @@
 -- Doubling HP of Idolaters/Qutrubs
 -- IMPORTANT: Run mob_family_system script first!!!
 
-UPDATE mob_pools SET familyid = "96" WHERE name = "Qutrub";
-UPDATE mob_pools SET familyid = "96" WHERE name = "Qutrub_Extortionist";
-UPDATE mob_pools SET familyid = "96" WHERE name = "Qutrub_Forayer";
-UPDATE mob_pools SET familyid = "96" WHERE name = "Qutrub_Wastrel";
-UPDATE mob_pools SET familyid = "96" WHERE name = "Lamia_Idolater"; 
-UPDATE mob_pools SET familyid = "111" WHERE name = "Goblin_Fisher";
+-- UPDATE mob_pools SET familyid = "96" WHERE name = "Qutrub"; --WONT IMPLEMENT FOR NOW, NEEDS REVISION
+-- UPDATE mob_pools SET familyid = "96" WHERE name = "Qutrub_Extortionist"; --WONT IMPLEMENT FOR NOW, NEEDS REVISION
+-- UPDATE mob_pools SET familyid = "96" WHERE name = "Qutrub_Forayer"; --WONT IMPLEMENT FOR NOW, NEEDS REVISION
+-- UPDATE mob_pools SET familyid = "96" WHERE name = "Qutrub_Wastrel"; --WONT IMPLEMENT FOR NOW, NEEDS REVISION
+-- UPDATE mob_pools SET familyid = "96" WHERE name = "Lamia_Idolater"; --WONT IMPLEMENT FOR NOW, NEEDS REVISION
+-- UPDATE mob_pools SET familyid = "111" WHERE name = "Goblin_Fisher";  --NOT NEEDED FOR WINGS, ACTUALLY THIS NEEDS UPDATE FOR TOPAZ AS SHOULD AFFECT MANY MORE GOBLINS (all armored types)
 
 
 -- Uleguerand Range
