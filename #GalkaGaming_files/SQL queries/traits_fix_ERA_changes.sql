@@ -40,3 +40,6 @@ UPDATE traits SET modifier 253 WHERE name = "resist_amnesia";
 UPDATE traits SET level = "15" WHERE name = "resist virus" AND rank = "1" AND job = "1";
 
 
+-- MONK adjustments (TOAU)
+
+UPDATE traits SET value = "10" WHERE name = "counter" AND rank = "1" AND job = "2"; -- Not sure as for ERA, but counter should be a 10% increase in retail

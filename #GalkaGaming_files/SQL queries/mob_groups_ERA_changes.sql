@@ -157,7 +157,7 @@ UPDATE mob_groups SET HP = "1600", minLevel = "36", maxLevel = "36" WHERE zoneid
 -- Korroloka Tunnel
 UPDATE mob_groups SET HP = "1000", minLevel = "33", maxLevel = "33" WHERE zoneid = 173 AND name = "Korroloka_Leech"; -- Boosting NIN quest NMs
 -- DRG BCNM Fight
-UPDATE mob_groups SET HP = "2000", minLevel = "42", maxLevel = "42" WHERE zoneid = 140 AND name = "Cyranuce_M_Cutauleon"; -- Boosting DRG BCNM fight
+UPDATE mob_groups SET HP = "2000", minLevel = "42", maxLevel = "42" WHERE zoneid = 140 AND name = "Cyranuce_M_Cutauleon"; -- Boosting DRG BCNM fight (https://www.youtube.com/watch?v=DR8MG-hftXY)
 -- Phanauet Channel
 UPDATE mob_groups SET HP = "4000" WHERE zoneid = 1 AND name = "Vodyanoi"; -- Adding proper total HPs (https://www.youtube.com/watch?v=QrlYY1Fzt7g)
 -- Bibiki Bay

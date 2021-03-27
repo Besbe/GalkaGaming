@@ -22,4 +22,7 @@ UPDATE abilities SET recastTime = "7200" WHERE name = "overdrive";
 -- Warrior
 UPDATE abilities SET recastTime = "900" WHERE name = "warriors_charge"; -- ERA coldown was 15 min
 
+-- Monk
+UPDATE abilities SET VE = "600" WHERE name = "boost"; -- Should add a third of Provoke's aggro, which is 1800
+
 
