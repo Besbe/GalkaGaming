@@ -184,7 +184,7 @@ UPDATE mob_groups SET HP = "9000" WHERE zoneid = 174 AND name = "Phantom_Worm"; 
 
 
 -- Palborough Mines
-Update mob_groups SET HP = "850" spawntype "128" where zoneid = 143 AND name = "No_Mho_Crimsonarmor"; -- Based on this video he should have around 850 HP (https://www.youtube.com/watch?v=z3g1b2BuJuU). His spawn should also be scripted.
+Update mob_groups SET HP = "850", spawntype = "128" where zoneid = 143 AND name = "No_Mho_Crimsonarmor"; -- Based on this video he should have around 850 HP (https://www.youtube.com/watch?v=z3g1b2BuJuU). His spawn should also be scripted.
 Update mob_groups SET HP = "5500" where zoneid = 143 AND name = "Ni_Ghu_Nestfender"; -- Based on this video he should have around 850 HP (https://www.youtube.com/watch?v=j8XKcQWmsYU)
 
 
