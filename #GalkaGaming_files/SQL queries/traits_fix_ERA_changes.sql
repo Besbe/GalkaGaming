@@ -17,23 +17,6 @@ UPDATE traits SET meritid = "3274" WHERE name = "stormsurge";
 UPDATE traits SET meritid = "2052" WHERE name = "savagery";
 UPDATE traits SET meritid = "2054" WHERE name = "aggressive aim";
 
--- All resist virus effects have wrond IDs in WINGS
-
-UPDATE traits SET modifier 240 WHERE name = "resist_sleep";
-UPDATE traits SET modifier 241 WHERE name = "resist_poison";
-UPDATE traits SET modifier 242 WHERE name = "resist_paralyze";
-UPDATE traits SET modifier 243 WHERE name = "resist_bind";
-UPDATE traits SET modifier 244 WHERE name = "resist_silence";
-UPDATE traits SET modifier 245 WHERE name = "resist_virus";
-UPDATE traits SET modifier 246 WHERE name = "resist_petrify";
-UPDATE traits SET modifier 247 WHERE name = "resist_bind";
-UPDATE traits SET modifier 248 WHERE name = "resist_curse";
-UPDATE traits SET modifier 249 WHERE name = "resist_gravity";
-UPDATE traits SET modifier 250 WHERE name = "resist_slow";
-UPDATE traits SET modifier 251 WHERE name = "resist_stun";
-UPDATE traits SET modifier 252 WHERE name = "resist_charm";
-UPDATE traits SET modifier 253 WHERE name = "resist_amnesia";
-
 
 -- WARRIOR adjustments (TOAU)
 
