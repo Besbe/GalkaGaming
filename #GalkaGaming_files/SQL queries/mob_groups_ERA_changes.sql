@@ -172,8 +172,20 @@ UPDATE mob_groups SET HP = "8000" WHERE zoneid = 5 AND name = "White_Coney"; -- 
 UPDATE mob_groups SET HP = "8000" WHERE zoneid = 5 AND name = "Black_Coney"; -- Adding proper total HPs (https://www.youtube.com/watch?v=tXUrBewXA8A)
 
 
+-- Behemoth's Dominion
+UPDATE mob_groups SET HP = "4000" WHERE zoneid = 127 AND name = "Picklix_Longindex"; -- Adding proper total HPs (https://www.youtube.com/watch?v=QbxXkacJ7X0)
+UPDATE mob_groups SET HP = "4000" WHERE zoneid = 127 AND name = "Moxnix_Nightgoggle"; -- Adding proper total HPs (https://www.youtube.com/watch?v=QbxXkacJ7X0)
+UPDATE mob_groups SET HP = "4000" WHERE zoneid = 127 AND name = "Doglix_Muttsnout"; -- Adding proper total HPs (https://www.youtube.com/watch?v=QbxXkacJ7X0)
+
+
+
 -- Kuftal Tunnel
 UPDATE mob_groups SET HP = "9000" WHERE zoneid = 174 AND name = "Phantom_Worm"; -- Adding proper total HPs (https://www.youtube.com/watch?v=n0IwgZc7Nx8)
+
+
+-- Palborough Mines
+Update mob_groups SET HP = "850" spawntype "128" where zoneid = 143 AND name = "No_Mho_Crimsonarmor"; -- Based on this video he should have around 850 HP (https://www.youtube.com/watch?v=z3g1b2BuJuU). His spawn should also be scripted.
+Update mob_groups SET HP = "5500" where zoneid = 143 AND name = "Ni_Ghu_Nestfender"; -- Based on this video he should have around 850 HP (https://www.youtube.com/watch?v=j8XKcQWmsYU)
 
 
 

@@ -22,3 +22,8 @@ UPDATE mob_pools SET immunity = "12" WHERE name = "Shens_Filtrate"; -- Immune to
 
 -- Zeruhn Mines
 INSERT INTO `mob_pools` VALUES (6031,'Giant_Amoeba','Giant_Amoeba',229,0x0000240100000000000000000000000000000000,1,1,7,240,100,0,1,0,0,16,0,0,245,131,0,0,0,0,0,229);
+
+
+-- Palborough Mines
+Update mob_pools SET hasSpellScript = "1", entityflags = "4", cmbDmgMult = "200"  where name = "Ni_Ghu_Nestfender"; -- His casts are scripted via LUA. His dmg needs to be higher. He should have a bigger size
+Update mob_pools SET modelid = "0000990200000000000000000000000000000000", entityflags = "4"  where name = "No_Mho_Crimsonarmor";
