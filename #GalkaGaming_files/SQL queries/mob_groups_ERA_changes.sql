@@ -171,6 +171,9 @@ UPDATE mob_groups SET HP = "9000" WHERE zoneid = 5 AND name = "Bonnacon"; -- Add
 UPDATE mob_groups SET HP = "8000" WHERE zoneid = 5 AND name = "White_Coney"; -- Adding proper total HPs (https://www.youtube.com/watch?v=9I8SfbyPduM)
 UPDATE mob_groups SET HP = "8000" WHERE zoneid = 5 AND name = "Black_Coney"; -- Adding proper total HPs (https://www.youtube.com/watch?v=tXUrBewXA8A)
 
+-- Davoi
+UPDATE mob_groups SET HP = "4000" WHERE zoneid = 149 AND name = "Barakbok"; -- Adding proper total HPs (https://www.youtube.com/watch?v=yoo5J1oWQFk)
+UPDATE mob_groups SET HP = "6800" WHERE zoneid = 149 AND name = "Gavotvut"; -- Adding proper total HPs (https://www.youtube.com/watch?v=yoo5J1oWQFk)
 
 -- Behemoth's Dominion
 UPDATE mob_groups SET HP = "4000" WHERE zoneid = 127 AND name = "Picklix_Longindex"; -- Adding proper total HPs (https://www.youtube.com/watch?v=QbxXkacJ7X0)
