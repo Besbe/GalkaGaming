@@ -9,10 +9,7 @@ UPDATE mob_spawn_points SET pos_x = 0.000, pos_y = 0.000, pos_z = 0.000 WHERE mo
 UPDATE mob_spawn_points SET pos_x = 0.000, pos_y = 0.000, pos_z = 0.000 WHERE mobid = "17375450";
 -- Zeruhn Mines
 INSERT INTO `mob_spawn_points` VALUES (17482751,'Giant_Amoeba','Giant Amoeba',8,60.425,8.735,-263.460,181); -- Giant Amoeba NM
--- Korroloka Tunnel
-UPDATE mob_spawn_points SET pos_x = -209.800, pos_y = -9.624, pos_z = 172.406 WHERE mobid = "17486189"; -- Korroloka Leech
-UPDATE mob_spawn_points SET pos_x = -207.402, pos_y = -10.150, pos_z = 177.771 WHERE mobid = "17486188"; -- Korroloka Leech
-UPDATE mob_spawn_points SET pos_x = -211.649, pos_y = -10.037, pos_z = 178.314 WHERE mobid = "17486187"; -- Korroloka Leech
+
 
 -- RANDOM FIXES
 -- Uleguerand Range
