@@ -1,19 +1,58 @@
--- Custom MOBS or NPCS added
-
--- Zeruhn Mines
-INSERT INTO `mob_droplist` VALUES (3999,0,0,1000,637,140); -- Giant_Amoeba
-INSERT INTO `mob_droplist` VALUES (3999,0,0,1000,560,1000); -- Giant_Amoeba
-
--- CUSTOM Drop lists or item drop rates
--- Bibiki Bay
-UPDATE mob_droplist SET itemRate = 200 WHERE itemId = 15347; -- Volans Greaves (https://ffxiclopedia.fandom.com/wiki/Serra)
--- Uleguerand Range
-INSERT INTO mob_droplist VALUES (3998,0,0,1000,15507,350); -- Father Frost
-INSERT INTO mob_droplist VALUES (3998,0,0,1000,17306,200); -- Father Frost
-UPDATE mob_droplist SET itemRate = 150 WHERE itemId = 15507 AND dropID = 820; -- Purgatory Collar (https://ffxiclopedia.fandom.com/wiki/Snow_Maiden)
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+-- These queries will be used to make any updates needed to the database.                          --
+-- Please ANNOTATE WELL for a clear understanding of what your query is changing/adding/removing.  --
+-- Overly detaling your query function is NOT needed.                                              --
+-- DO NOT RUN QUERIES ON THE LIVE SERVER BEFORE TESTING IN A ISOLATED DEV ENVIRONMENT.             --
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 
 
--- Removing all OOE drops
+--------------------------------------------------
+-- ADDING MISSING DROPS OR ADJUSTING DROP RATES --
+--------------------------------------------------
+
+------------------
+-- Zeruhn Mines --
+------------------
+
+INSERT INTO `mob_droplist` VALUES (3999,0,0,1000,637,140); -- Giant_Amoeba -- Slime Oil -- Creating loot table (new NM)
+INSERT INTO `mob_droplist` VALUES (3999,0,0,1000,560,1000); -- Giant_Amoeba -- Zeruhn Soot -- Creating loot table (new NM)
+
+----------------
+-- Bibiki Bay --
+----------------
+
+UPDATE mob_droplist SET itemRate = 200 WHERE itemId = 15347; -- Serra -- Volans Greaves -- Adjusted drop rate
+
+----------------------
+-- Uleguerand Range --
+----------------------
+
+INSERT INTO mob_droplist VALUES (3998,0,0,1000,15507,350); -- Father Frost -- Purgatory Collar -- Creating loot table (new NM)
+INSERT INTO mob_droplist VALUES (3998,0,0,1000,17306,200); -- Father Frost -- Snoll Arm -- Creating loot table (new NM)
+UPDATE mob_droplist SET itemRate = 150 WHERE itemId = 15507 AND dropID = 820; -- Snow Maiden -- Purgatory Collar -- Adjusting drop rate
+
+
+---------------------
+-- Quicksand Caves --
+---------------------
+
+INSERT INTO mob_droplist VALUES (2144,0,0,1000,644,656); -- Sagittarius X-XIII -- Mythril Ore -- Drop was missing
+INSERT INTO mob_droplist VALUES (2144,0,0,1000,644,656); -- Sagittarius X-XIII -- Mythril Ore -- Drop was missing
+INSERT INTO mob_droplist VALUES (2144,0,0,1000,643,1000); -- Sagittarius X-XIII -- Iron Ore -- Drop was missing
+INSERT INTO mob_droplist VALUES (2144,0,0,1000,643,1000); -- Sagittarius X-XIII -- Iron Ore -- Drop was missing
+INSERT INTO mob_droplist VALUES (2144,0,0,1000,645,290); -- Sagittarius X-XIII -- Darksteel Ore -- Drop was missing
+INSERT INTO mob_droplist VALUES (2144,0,0,1000,645,290); -- Sagittarius X-XIII -- Darksteel Ore -- Drop was missing
+INSERT INTO mob_droplist VALUES (2144,0,0,1000,646,190); -- Sagittarius X-XIII -- Adaman Ore -- Drop was missing
+INSERT INTO mob_droplist VALUES (2144,0,0,1000,646,190); -- Sagittarius X-XIII -- Adaman Ore -- Drop was missing
+
+
+
+------------------------
+-- REMOVING OOE DROPS --
+------------------------
+
 DELETE from mob_droplist where itemId = "18856"; -- deae_gratia
 DELETE from mob_droplist where itemId = "3085"; -- bewitching_tusk
 DELETE from mob_droplist where itemId = "19034"; -- ice_grip
@@ -489,4 +528,3 @@ DELETE from mob_droplist where itemId = "19738"; -- aifes_bow
 DELETE from mob_droplist where itemId = "2826"; -- mandragora_scale
 DELETE from mob_droplist where itemId = "16031"; -- affinity_earring
 DELETE from mob_droplist where itemId = "2740"; -- seedspall_lux
-
